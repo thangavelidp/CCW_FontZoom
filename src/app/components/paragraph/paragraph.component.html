@@ -1,0 +1,66 @@
+<div class="container-fluid mtb85i">
+    <div class="bg-ctn">
+        <div class="container" *ngIf="pageTitle">
+            <div class="two-col-head_ctn">
+                <div class="lft_flt_hd">
+                    <h2>{{pageTitle}}</h2>
+                    <span class="br_line_mid"></span>
+                </div>
+            </div>
+        </div>
+        <div class="dot-ctn">
+            <div class="bg-dot">
+                <div  class="bg-rgt-dot-img"></div>
+            </div>
+            <div class="cont-overlap-ctn">
+                <ng-container *ngIf="articleAuthorProfile">
+                    <app-author [authorDetails]="articleAuthorProfile"></app-author>
+                </ng-container>
+                <div class="overlap-cont">
+                    <!-- class="grey-bg pad-ctn" -->
+                    <div class="grey-bg">
+                        <div class="img_txt_lft-banner_ctn">
+                            <div class="card-cont-ctn" *ngIf="paragraphContent">
+                                <ng-container *ngFor="let content of paragraphContent; let i = index">
+
+                                     <div *ngIf="content.title"  class="crd_hed " [class.text-success]="content.isOpen" (click)="showAccordion ? showContent(content): null"> 
+
+                                        <div class="bk-hed" >
+                                            <span class="br_frt_line_mid"></span>
+                                            <h4 id="{{content.titleId}}">{{content?.title}}</h4>
+                                            <span class="gry-dwn-arw"></span>
+                                        </div>
+                                    </div>
+                                    <div class="crd_cont" [hidden]="showAccordion ? !content.isOpen : null">
+                                        <ng-container *ngIf="(content.image | json) != '{}'" hide="!content.isActive">
+                                            <img *ngIf="content?.image!=null" [src]="content?.image?.imageUrl + '?fit=fill&w=800&h=500' + isWebpImage " />
+                                        </ng-container>
+                                        <div [innerHtml]="content.content"></div>
+                                        <ng-container *ngIf="content.tableArray">
+                                           
+                                        <div  *ngFor="let table of tableContent;let first = first"  [class.first-item]="first">
+                                            <div class="table-container">
+                                            <div *ngFor="let content of table" >
+                                               
+                                               <div class="table-title" [innerHtml]="content"></div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </ng-container>
+                                    </div>
+                                     
+                                   
+
+                                  
+                                    
+                                </ng-container>
+                            </div>
+                        
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

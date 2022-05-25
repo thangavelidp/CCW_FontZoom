@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.56" x2="1" y2="0.56" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e11937"/>
+      <stop offset="1" stop-color="#ff8300"/>
+    </linearGradient>
+  </defs>
+  <g id="In_progress" data-name="In progress" transform="translate(-903 -37.5)">
+    <circle id="Ellipse_80" data-name="Ellipse 80" cx="12" cy="12" r="12" transform="translate(903 37.5)" fill="url(#linear-gradient)"/>
+    <path id="time" d="M8,.25a7.709,7.709,0,0,1,5.658,2.342A7.687,7.687,0,0,1,16,8.231a7.687,7.687,0,0,1-2.342,5.64A7.709,7.709,0,0,1,8,16.213a7.709,7.709,0,0,1-5.658-2.342A7.689,7.689,0,0,1,0,8.231a7.685,7.685,0,0,1,2.342-5.64A7.71,7.71,0,0,1,8,.25ZM8,14.639a6.154,6.154,0,0,0,4.515-1.874,6.176,6.176,0,0,0,1.874-4.534A6.176,6.176,0,0,0,12.516,3.7,6.154,6.154,0,0,0,8,1.824,6.154,6.154,0,0,0,3.485,3.7,6.176,6.176,0,0,0,1.611,8.231a6.176,6.176,0,0,0,1.874,4.534A6.154,6.154,0,0,0,8,14.639ZM8.394,4.222v4.2l3.6,2.136-.6,1.012-4.2-2.548v-4.8h1.2Z" transform="translate(907 41.269)" fill="#fff"/>
+  </g>
+</svg>

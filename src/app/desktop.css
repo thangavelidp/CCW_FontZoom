@@ -1,0 +1,30 @@
+@media only screen and (max-width:1024px) {
+    body.keeping-accountable app-topic-image-card .add_On .tp-box__back .br_frt_line_mid{display: none;}  
+    .owl-nav{display:none;}
+    .container{width:100%;}
+ }
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+    .container{width:100%;padding:0 20px}
+}
+
+@media only screen and (min-width: 1025px){ 
+    .card_wrpr:hover{transform: translateY(-10px)!important;box-shadow: 0 0 8px 2px rgba(0,0,0,.03),0 16px 24px 0 rgba(0,0,0,.1)!important;}
+    .what-we-do app-people-card .wht-Do .ht-ft1{height: 900px !important;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(2) .tp-box .tp-box__front .card-cont-ctn {padding-top: 20px;}
+    .what-it-means-to-work-at-idp div#divToScroll .owl-theme .owl-dots,.what-it-means-to-work-at-idp div#divToScroll .owl-theme .owl-nav {display: none;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(1) .tp-box__front .card-cont-ctn{width: 350px;border-top-left-radius: 10px;border-top-right-radius: 10px;height: 110px;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(3) .tp-box__front .card-cont-ctn{width:350px;border-top-left-radius: 10px;border-top-right-radius: 10px;height: 110px;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(3) .tp-box__side.tp-box__front .card-cont-ctn{padding: 0px;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(1) .tp-box__back .card-cont-ctn{position: absolute;left: 0;bottom: 43px;height: 370px;width: 100%;border-top-left-radius: 10px; border-top-right-radius: 10px;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(2) .tp-box{height: 480px;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(1) {width: 632px !important;height:300px !important;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(2) {width: 320px !important;height:570px !important;margin-left: 20px !important;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(3) {width: 632px !important;height: 300px !important;margin-top: 0px;margin-top: -200px;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(4) {width: 320px !important;height: 570px !important;margin-left: 20px !important;margin-top: -100px;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(5) {width: 300px !important;height:480px ;margin-left: 0px;margin-top: -300px;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(6) {width: 310px !important ;height: 580px ;margin-left: 20px !important;margin-top: -300px;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(7) {width: 320px !important ;height: 480px ;margin-left: 20px !important;margin-top: -60px;}
+    app-leaders .owl-carousel .owl-stage{width: 1000px !important;}
+    app-leaders .owl-theme .owl-nav {display: none;}
+    }

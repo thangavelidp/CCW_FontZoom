@@ -1,0 +1,114 @@
+<div id="divToScroll">
+    <ng-container *ngIf="mobileBod">
+        <div class="container-fluid" *ngFor="let director of directors; odd as isOdd; even as isEven;let i =index">
+            <div class="bg-ctn" [ngClass]="{'bg-wht-dot-img': isOdd, 'bg-gry-dot-img': isEven}">
+                <div class="dot-ctn">
+                    <div class="bg-dot">
+                        <div [ngClass]="{'bg-lft-dot-img': isOdd, 'bg-rgt-dot-img': isEven}"></div>
+                    </div>
+                    <div class="cont-overlap-ctn">
+                        <div class="overlap-cont">
+                            <!-- class="grey-bg pad-ctn" -->
+                            <div [ngClass]="{'wht-bg': isOdd, 'grey-bg': isEven}">
+                                <div class="img_txt_lft-banner_ctn">
+                                    <div id="main">
+                                        <div class="main-ctn">
+                                            <div id="ssholder"></div>
+                                            <div id="left">
+                                                <h3>{{director.title}}</h3>
+                                                <h5>{{director.subTitle}}</h5>
+                                                <!-- <p >{{director.longDescription}}</p> -->
+                                                <p *ngIf="director?.longDescription" [innerHtml]="director?.longDescription | safeHtml"></p>
+                                                <a class="rd_mor" (click)="detectindex(i+1)">
+                                                    Read more
+                                                    <span class="view_rht_arw"></span>
+
+                                                </a>
+                                            </div>
+
+                                            <div id="sshow">
+                                                <img [defaultImage]="defaultImage"
+                                                    [lazyLoad]="director?.image?.image?.imageUrl +'?fit=fill&w=330&h=390' + isWebpImage" [alt]="director?.image?.image?.imageAltText">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+
+
+    <div class="container-fluid #container mtb85i mtbt85i carou-bod" *ngIf="slideBod">
+        <div class="bg-ctn">
+            <!-- <div class="container">
+                <div class="two-col-head_ctn">
+                    <div class="lft_flt_hd">
+                        <h2><a href="">{{directors.title}}</a></h2>
+                        <span class="br_line_mid"></span>
+                    </div>
+
+
+                </div>
+            </div> -->
+            <div class="dot-ctn">
+                <div class="bg-dot">
+                    <div class="bg-grn-lft-dot-img"></div>
+                </div>
+                <div class="cont-overlap-ctn">
+                    <div class="overlap-cont">
+                        <div class="container">
+                            <div class="art-crd-ctn">
+                                <div class="art-crd-blk">
+
+                                    <ng-container>
+                                        <owl-carousel-o [options]="CarouCardOptions">
+                                            <ng-container
+                                                *ngFor="let director of directors; odd as isOdd; even as isEven;let i =index">
+                                                <ng-template carouselSlide>
+                                                    <div class="slide">
+                                                        <a class="crd-ctn">
+                                                            <div [ngClass]="{'wht-bg': isOdd, 'grey-bg': isEven}">
+                                                           
+                                                                <div class="img_txt_lft-banner_ctn">
+                                                                    <div id="main">
+                                                                        <div class="main-ctn">
+                                                                            <div id="ssholder"></div>
+                                                                            <div id="left">
+                                                                                <h3>{{director.title}} </h3>
+                                                                                <h5>{{director.subTitle}}</h5>
+                                                                                <div [innerHtml]="director.longDescription | safeHtml"></div>
+                                                                                <a class="rd_mor">Read more
+                                                                                    <span class="view_rht_arw"></span>
+                                                                                </a>
+                                                                            </div>
+
+                                                                            <div id="sshow">
+                                                                                <img [defaultImage]="defaultImage"
+                                                                                    [lazyLoad]="director?.image?.image?.imageUrl +'?fit=fill&w=200&h=300' + isWebpImage" [alt]="director?.image?.image?.imageAltText"
+                                                                                    >
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </ng-template>
+                                            </ng-container>
+
+                                        </owl-carousel-o>
+                                    </ng-container>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

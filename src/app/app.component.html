@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <div class="wide-container">
+        <ng-container *ngIf="appMain?.header.length > 0">           
+        <app-header [headerMenu]='appMain?.header' [logo]="appMain?.logo" [socialMenu]='appMain?.social'></app-header>
+        </ng-container>
+        <div class="main_con">
+		
+        <router-outlet></router-outlet>
+       </div>
+        <ng-container *ngIf="appMain?.footer.length>0">
+        <app-footer [footerMenu]='appMain?.footer'></app-footer></ng-container>
+    </div>
+</div>

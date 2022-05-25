@@ -1,0 +1,148 @@
+<ng-container *ngIf="(topicDetails?.topicBanner | json) != '{}'">
+    <app-herobanner [banner]="topicDetails.topicBanner" [pageName]="pageName"></app-herobanner>
+</ng-container>
+
+
+<ng-container *ngIf="topicDetails?.topicBreadCrumbs.length > 0">
+    <app-breadcrumb [topicType]="imageCardType" [breadCrumb]="topicDetails?.topicBreadCrumbs"></app-breadcrumb>
+</ng-container>
+
+
+<div class="container-fluid pdt85i pdb30i " *ngIf="pageSectionTitle?.title">
+    <div class="bg-ctn">
+        <div class="container">
+            <div class="two-col-head_ctn">
+                <div class="lft_flt_hd">
+                    <h2>{{pageSectionTitle.title}}</h2>
+                    <span class="br_line_mid"></span>
+                </div>
+                <div class="rht_flt_li" *ngIf="pageSectionTitle.ctaLabel">
+                    <a [href]="pageSectionTitle.ctaUrl" [target]="pageSectionTitle.ctaTarget"
+                        class="view_anc">{{pageSectionTitle.ctaLabel}}
+                        <span class="view_rht_arw"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-container *ngIf="pageLongDescription">
+    <div class="bg-ctn" class="topic_paragraph">
+        <div class="container">
+            <p *ngIf="pageLongDescription" [innerHtml]="pageLongDescription"></p>
+        </div>
+    </div>
+</ng-container>
+<ng-container *ngIf="topicDetails?.topicOverview.length>0">
+    <app-overview [overviewPod]="topicDetails?.topicOverview"></app-overview>
+</ng-container>
+<!-- {{topicDetails?.topicAdditionalParagraph | json}} -->
+
+
+<ng-container *ngIf="topicDetails?.topicUsp.length > 0">
+    <app-usp [sectionTitle]="topicDetails?.topicUspSectionTitle" [uspDetails]="topicDetails?.topicUsp"></app-usp>
+</ng-container>
+<ng-container *ngIf="topicDetails?.topicFeaturette.length>0">
+    <app-join-our-team [sectionTitle]="topicDetails?.topicFeaturetteSectionTitle"
+        [featurette]="topicDetails?.topicFeaturette" [pageName]="pageName"></app-join-our-team>
+</ng-container>
+
+<ng-container *ngIf="showComp">
+    <ng-container *ngIf="topicDetails?.topicImageContainer.length > 0">
+        <app-leaders [sectionTitle]="topicDetails?.topicImgContainerTitle"
+            [ourLeaders]="topicDetails?.topicImageContainer" [topicType]="mobilePodType"
+            (topic_param)="getURLParam($event)"></app-leaders>
+    </ng-container>
+</ng-container>
+<ng-container *ngIf="topicDetails?.topicOverlayPod.length>0 && hideNav">
+    <app-navigation [overlayPod]="topicDetails?.topicOverlayPod"></app-navigation>
+</ng-container>
+<ng-container
+    *ngIf="topicDetails?.topicImageContainer.length > 0 && (imageCardType == 'Our people' || imageCardType=='Our Commitment')">
+    <app-our-people [sectionTitle]="topicDetails?.topicImgContainerTitle"
+        [peopleCard]="topicDetails?.topicImageContainer"></app-our-people>
+</ng-container>
+
+<ng-container *ngIf="topicDetails?.topicImageContainer.length > 0 && hideImgCard">
+    <app-topic-image-card [sectionTitle]="topicDetails?.topicImgContainerTitle"
+        [peopleCard]="topicDetails?.topicImageContainer"></app-topic-image-card>
+</ng-container>
+
+
+
+<ng-container *ngIf="topicDetails?.topicImageContainer.length > 0 && peopleCard">
+    <app-people-card [imageCardType]="imageCardType" [sectionTitle]="topicDetails?.topicImgContainerTitle"
+        [peopleCard]="topicDetails?.topicImageContainer"></app-people-card>
+</ng-container>
+
+
+<ng-container *ngIf="topicDetails?.topicrelatedImages.length > 0">
+    <app-img-banner [relatedImagesTitle]='topicDetails?.topicRelatedImageTitle'
+        [relatedImages]="topicDetails?.topicrelatedImages"></app-img-banner>
+</ng-container>
+
+<div class="container-fluid pdt85i pdb30i" *ngIf="additionalSectionTitle?.title">
+    <div class="bg-ctn">
+        <div class="container">
+            <div class="two-col-head_ctn">
+                <div class="lft_flt_hd">
+                    <h2>{{additionalSectionTitle.title}}</h2>
+                    <span class="br_line_mid"></span>
+
+
+                </div>
+                <div class="rht_flt_li" *ngIf="additionalSectionTitle.ctaLabel">
+                    <a [href]="additionalSectionTitle.ctaUrl" [target]="additionalSectionTitle.ctaTarget"
+                        class="view_anc">{{additionalSectionTitle.ctaLabel}}
+                        <span class="view_rht_arw"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<ng-container *ngIf="(topicDetails?.topicOurStorySoFar | json) != '{}'">
+    <app-our-story [ourStroy]='topicDetails?.topicOurStorySoFar'></app-our-story>
+</ng-container>
+
+
+
+<ng-container *ngIf="topicDetails?.topicAdditionalParagraph.length > 0">
+    <app-paragraph [articleType]="paragraphType" [paragraphContent]="topicDetails.topicAdditionalParagraph">
+    </app-paragraph>
+</ng-container>
+<ng-container *ngIf="imageCardType=='Our Board of Directors'">
+    <ng-container *ngIf="topicDetails?.topicOverlayPod.length>0">
+        <app-directors [directors]="topicDetails?.topicOverlayPod" [topicType]="mobilePodType"
+            (topic_param)="getURLParam($event)"></app-directors>
+    </ng-container>
+</ng-container>
+
+<ng-container *ngIf="(topicDetails?.topicStaticMap | json) != '{}'">
+    <app-static-map [staticMap]='topicDetails?.topicStaticMap'></app-static-map>
+</ng-container>
+<ng-container *ngIf="topicDetails?.DynamicArticle.length > 0 && imageCardType=='Our people'">
+    <div id="articleLanding">
+        <app-news [newsArticleList]="topicDetails?.DynamicArticle" [displayCount]="articleLimit"
+            [totalRecords]="totalRecords" (pageNumber)="getPageNumber($event)"></app-news>
+    </div>
+</ng-container>
+<ng-container *ngIf="topicDetails?.topicRelatedPages.length > 0">
+    <app-related-pages [relatedPagesTitle]="topicDetails?.topicRelatedPagesTitle"
+        [relatedPages]="topicDetails?.topicRelatedPages"></app-related-pages>
+</ng-container>
+
+<!-- <ng-container *ngIf="topicDetails?.topicTestimonials.length > 0">
+    <app-testimonial [testimonialsTitle]="topicDetails?.topicTestimonialSectionTitle"
+        [testimonials]="topicDetails?.topicTestimonials"></app-testimonial>
+</ng-container> -->
+
+
+<!-- <app-wht-we-do></app-wht-we-do> -->
+<!-- <ng-container *ngIf="(peopleCard | json) != '{}'">
+    <app-article-landing [peopleCard]="peopleCard"></app-article-landing>
+</ng-container> -->
+<ng-container *ngIf="pageNotFound">
+    <app-page-not-found></app-page-not-found>
+</ng-container>

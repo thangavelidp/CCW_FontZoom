@@ -1,0 +1,1005 @@
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    body.who-we-are app-img-banner .two-col-head_ctn{margin-bottom: 0px;}
+    body.news-centre app-people-card .two-col-head_ctn{margin-bottom: 0px;}
+    body.news-centre app-carousel .two-col-head_ctn{margin-bottom: 0px;}
+    .news-centre app-carousel .dot-ctn.ad_ht {height: 600px;}
+    body.news-centre app-carousel .two-col-head_ctn .lft_flt_hd{width:60%;}
+    body.diversity-and-inclusion app-usp ul li:last-child p{border-bottom: none;}
+    body.our-commitment .bg-dot.adj + .cont-overlap-ctn .overlap-cont {padding-bottom: 0px;}
+    body.diversity-and-inclusion app-join-our-team .container .two-col-head_ctn .lft_flt_hd h2{font-size: 19px !important;}
+    body.diversity-and-inclusion app-join-our-team .container .two-col-head_ctn{height: 50px;padding-right: 20px;}
+    body.our-commitment .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+    body.join-our-team app-testimonial .two-col-head_ctn{margin-bottom: 0px;}
+    body.join-our-team .container-fluid.mtb85i.mtbt85i.wht-Do .two-col-head_ctn {margin-bottom: 0px;}
+
+    body.our-commitment app-related-pages .container-fluid .bg-ctn{padding-bottom: 15px;}
+    body.our-commitment app-paragraph .crd_cont br{display: none;}
+    body.our-commitment app-paragraph .crd_cont .ng-star-inserted .table-container .ng-star-inserted:nth-child(4) .table-title{text-align: left;}
+    body.creating-a-greener-future app-navigation .container-fluid:first-child .txt-banner_lft{z-index: 1;}
+    body.our-commitment app-overview .container-fluid.mtb85i{margin-top: -45px !important;}
+    body.our-commitment .wht-Do .owl-carousel .owl-item{height: 340px;}
+    body.our-commitment app-our-people .art-crd-blk{overflow: hidden;width: 100%;margin-top: 110px;}
+    body.our-commitment app-our-people .lft_flt_hd p{margin-top: 45px;}
+    
+    body.error-page p{width: 100%;padding: 10px 20px 20px 20px;}
+    body.error-page .br_line_mid {width: 112px;}
+
+    body.creating-a-greener-future .img-banner_rht{margin-bottom: -50px;z-index: 0;}
+    body.creating-a-greener-future app-navigation .container-fluid:first-child{margin-top: 40px;}
+    body.our-values app-topic-image-card .tp-box{box-shadow: none !important;}
+    body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(5) .card-blk img {margin-top: 0px;}
+ body.our-commitment app-navigation .container-fluid.mtb85i.nv-2{margin-top: 0px;margin-bottom: 0px;}
+    .our-commitment app-paragraph .bg-ctn {width: 100%;}
+    app-navigation .banner_text_pod h2 {font-size: 19px !important;padding-bottom: 10px;line-height: 30px;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(1){width: 100% !important;height: 950px !important;margin-left: 0px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(2){width: 100% !important;height: 950px !important;margin-left: 0px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(3){width: 100% !important;height: 950px !important;margin-left: 0px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(4){width: 100% !important;height: 950px !important;margin-left: 0px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(5){width: 100% !important;height: 950px !important;margin-left: 0px !important;margin-top: 0px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(6){width: 100% !important;height: 950px !important;margin-left: 0px !important;margin-top: 0px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(7){width: 100% !important;height: 950px !important;margin-left: 0px !important;margin-top: 0px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(8){width: 100% !important;height: 950px !important;margin-left: 0px !important;margin-top: 0px !important;}
+    body.keeping-accountable app-topic-image-card .tp-box {box-shadow: none !important;}
+    body.keeping-accountable app-topic-image-card .add_On .tp-box__side.tp-box__back .crd_hed p{font-size: 18px !important;}
+    body.keeping-accountable app-topic-image-card .add_On .tp-box__side .crd_hed h4{font-size: 19px !important;}
+    body.keeping-accountable app-topic-image-card .add_On .tp-box__side.tp-box__front .card-cont-ctn{display: none;}
+    body.keeping-accountable app-topic-image-card .add_On .owl-stage .owl-item:nth-child(1) .card-blk{height: auto !important;}
+    .hero_bann_full_ctn {height: 540px;}
+    body.keeping-accountable app-related-pages .bg-ctn {background-color: #f5f5f5;padding: 40px 0px;}
+    body.our-offices app-overview .container-fluid.mtb85i {margin-top: -44px;}
+    body.our-values app-topic-image-card .owl-stage .owl-item .tp-box__back .card-cont-ctn{background-color: #f5f5f5;}
+    .topic_paragraph p{padding:0 20px;}
+    .home .container-fluid.mtb85i.nv-1{margin-top: 40px;}
+    app-paragraph .img_txt_lft-banner_ctn p{padding-bottom: 20px;}
+    /* app-paragraph .hero-content {bottom: -35px;height: auto;}
+    app-paragraph .hero_bann_ctn{min-height: 445px;} */
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(1) .card-blk img{height: 440px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(3){margin-top: 0px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(4){margin-top: 0px !important;}
+    body.keeping-accountable app-topic-image-card .wht-Do .ht-ft{height: auto !important;}
+    
+    body.keeping-accountable app-topic-image-card .tp-box__back {position: absolute;top: 400px;margin: 0 20px;height: 540px;transform: none;width: 89% !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item .tp-box__back .card-cont-ctn {position: absolute;left: 0;bottom: 43px;height: 540px !important;width: 100% !important;border-top-left-radius: 10px;border-top-right-radius: 10px;padding: 40px 20px 45px 20px;}
+    body.keeping-accountable app-topic-image-card .tp-box {height: 950px !important;}
+  
+    body.keeping-accountable app-topic-image-card .wht-Do .owl-carousel .owl-stage .slide:hover{transition: none !important;box-shadow: none !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item .card-blk img {height: 440px !important;width: 100% !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item .tp-box__back .card-cont-ctn{background-color: #f5f5f5;}
+    body.keeping-accountable app-topic-image-card .tp-box__back {position: absolute;top: 400px !important;margin: 0 20px;height: 440px !important;transform: none;width: 89% !important;}
+    body.keeping-accountable app-topic-image-card .tp-box__front {position: relative;}
+
+/* ### */
+    app-paragraph .img_txt_lft-banner_ctn .crd_hed .bk-hed .br_frt_line_mid{margin-top: 13px;}
+    body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(1) .card-blk img{height: 440px !important;}
+    body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(3){margin-top: 0px !important;}
+    body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(4){margin-top: 0px !important;}
+    body.our-values app-topic-image-card .wht-Do .ht-ft{height: auto;}
+    body.our-values app-topic-image-card .tp-box__back {position: absolute;top: 400px;margin: 0 20px;height: 440px;transform: none;width: 89% !important;}
+    body.our-values app-topic-image-card .owl-stage .owl-item .tp-box__back .card-cont-ctn {position: absolute;left: 0;bottom: 43px;height: 440px !important;width: 100% !important;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+    body.our-values app-topic-image-card .tp-box {height: 860px !important;}
+    body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(1),body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(2),body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(3),body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(4),body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(5){width: 100% !important;height: 860px !important;margin-left: 0px;}
+    body.our-values app-topic-image-card .wht-Do .owl-carousel .owl-stage .slide:hover{transition: none !important;}
+    body.our-values app-topic-image-card .owl-stage .owl-item .card-blk img {height: 440px !important;width: 100% !important;}
+
+    app-paragraph .bk-hed{padding-bottom: 20px;display: inline-flex;}
+    app-paragraph .br_line_mid {width: 75px;margin-top: 10px;}
+    .our-story-so-far app-navigation .container-fluid.mtb85i.nv-6 .bg-ctn{padding-bottom: 40px !important;}
+    .our-story-so-far app-navigation .container-fluid.mtb85i.nv-4{margin-bottom: 0px;margin-top: 0px;}
+    .our-story-so-far app-navigation .container-fluid.mtb85i.nv-2{margin-top: 0px;}
+    .bg-ctn{width: 100%;}
+    .join-our-team app-people-card .wht-Do .owl-carousel .owl-item:nth-child(3){margin-right: 0px !important;}
+    .join-our-team app-people-card .wht-Do .owl-carousel .owl-item:nth-child(1){margin-right: 0px !important;}
+    .join-our-team app-people-card .wht-Do .owl-carousel .owl-item:nth-child(2){margin-right: 0px !important;}
+.join-our-team app-people-card .wht-Do .owl-carousel .owl-item:nth-child(5){margin-left: 0px !important;}
+.join-our-team app-people-card .wht-Do .owl-carousel .owl-item:nth-child(4){margin-left: 0px !important;}
+.join-our-team app-people-card .wht-Do .owl-carousel .owl-item:nth-child(5){margin-left: 0px !important;}
+    .prf-crd:nth-child(even) {margin-right: 0;}
+    .card-hld button{font-size: 14px;margin-right: 4px;}
+    .prf-crd{margin-right: 0px;width: 155px;}
+    .prf-crd img{width: 155px;height: 200px;}
+    .card-hld{margin-top: 40px;width: 100%;}
+    .cdk-overlay-pane{width: fit-content;}
+    .meMyTeam_ctn{width: 100%;margin: 0 auto;text-align: center;padding-top: 25px;margin-top: 20px;}
+    .cdk-overlay-connected-position-bounding-box{width: 100% !important;}
+    .meMyTeam{float: unset;padding: 15px 30px;}
+
+
+
+    .what-it-means-to-work-at-idp.directors div#divToScroll {margin-top: -40px;}
+    .blog app-carousel .owl-theme .owl-nav.disabled+.owl-dots{margin-top: -25px;}
+    .blog app-carousel .ad_ht{height: 685px;}
+    .home #articleLanding {margin-top: 0px;}
+    
+    app-news .carou-card-ctn {min-height: auto;display: flex;flex-wrap: wrap;flex-direction: column;align-items: center;}
+    app-news pagination-template {width: 100%;display: flex;justify-content: center;}
+    app-news .carou-card-ctn .slide{margin-bottom: 20px !important;}
+    app-news .ad_ht{margin-top: -10px;}
+    app-news .dot-ctn.ad_ht{width: 100% !important}
+    .our-people app-news .carou-ctn{height: auto;}
+    app-news .pg_no{width: 100%;}
+    .sustainable-futures app-navigation .container-fluid.mtb85i.nv-3{margin-bottom: 40px;}
+    .what-it-means-to-work-at-idp app-leaders #left p{padding-left: 0;height: 268px;}
+    .what-it-means-to-work-at-idp .bg-ctn p {padding: 0 20px;}
+    body.our-leaders.directors{min-height: auto;}
+    .our-leaders.directors #ssholder {margin-bottom: -70px;    width: 100%;margin-right: 0;height: 390px;}
+    .our-leaders.directors .carou-bod {display: block !important;margin: 0;}
+    .our-leaders.directors #main {display: flex;flex-direction: column;-moz-columns: revert;columns: revert;height: auto;}
+    .our-leaders.directors .main-ctn {height: auto;overflow: unset;display: flex;flex-direction: column;}
+    .our-leaders.directors app-topic app-leaders .container-fluid .two-col-head_ctn{display: block !important;}
+    .our-leaders.directors app-topic .container-fluid .two-col-head_ctn{display: none;}
+    .our-leaders.directors app-topic app-overview{display: none;}
+    .our-leaders.directors app-topic app-navigation{display: none;}
+    .our-leaders.directors #left {width: 89%;margin: 0 20px;background-color: #F5F5F5;z-index: 2;border-radius: 10px;padding: 30px 20px;height: auto;}
+    .our-leaders.directors div#sshow {height: 390px;top: 0;left: 0;width: 100%;position: absolute;}
+    .our-leaders.directors #sshow img {width: 100%;height: 100%;display: block;border-radius: 10px;-o-object-fit: cover;object-fit: cover;}
+    .our-leaders.directors #left h3{padding: 5px 20px 0px 0px;color: #212121;font-size: 22px;font-weight: 600;padding-bottom: 10px;font-family: 'BuenosAires-Regular';}
+    .our-leaders.directors #left h5 {padding: 5px 20px 0px 0px;color: #424242;font-size: 14px;font-weight: 500;padding-bottom: 20px;font-family: 'BuenosAires-Regular';}
+    .our-leaders.directors .carou-bod #left p{height: auto;overflow: unset;}
+    .our-leaders.directors .carou-bod #left a {display: none;}
+
+    body.what-it-means-to-work-at-idp.directors{min-height: auto;}
+    .what-it-means-to-work-at-idp.directors #ssholder {margin-bottom: -70px;    width: 100%;margin-right: 0;height: 390px;}
+    .what-it-means-to-work-at-idp.directors .carou-bod {display: block !important;margin: 0;}
+    .what-it-means-to-work-at-idp.directors #main {display: flex;flex-direction: column;-moz-columns: revert;columns: revert;height: auto;}
+    .what-it-means-to-work-at-idp.directors .main-ctn {height: auto;overflow: unset;display: flex;flex-direction: column;}
+    .what-it-means-to-work-at-idp.directors app-topic app-leaders .container-fluid .two-col-head_ctn{display: none !important;}
+    .what-it-means-to-work-at-idp.directors app-topic app-overview{display: none;}
+    .what-it-means-to-work-at-idp.directors app-topic app-navigation{display: none;}
+    .what-it-means-to-work-at-idp.directors div#divToScroll .br_line_mid {display: none;}
+    .what-it-means-to-work-at-idp.directors #left {width: 89%;margin: 0 20px;background-color: #F5F5F5;z-index: 2;border-radius: 10px;padding: 30px 20px;height: auto;}
+    .what-it-means-to-work-at-idp.directors div#sshow {height: 390px;top: 0;left: 0;width: 100%;position: absolute;}
+    .what-it-means-to-work-at-idp.directors #sshow img {width: 100%;height: 100%;display: block;border-radius: 10px;-o-object-fit: cover;object-fit: cover;}
+    .what-it-means-to-work-at-idp.directors #left h3{padding: 5px 20px 0px 0px;color: #212121;font-size: 22px;font-weight: 600;padding-bottom: 10px;font-family: 'BuenosAires-Regular';}
+    .what-it-means-to-work-at-idp.directors #left h5 {padding: 5px 20px 0px 0px;color: #424242;font-size: 14px;font-weight: 500;padding-bottom: 20px;font-family: 'BuenosAires-Regular';}
+    .what-it-means-to-work-at-idp.directors .carou-bod #left p{height: auto;overflow: unset;}
+    .what-it-means-to-work-at-idp.directors .carou-bod #left a {display: none;}
+
+
+    .join-our-team .hero-content-ctn .hero-content a {background: #2630A8;margin: 0 auto;}
+.mtbt85i{margin-bottom: 40px;}
+ .our-story-so-far app-navigation .container-fluid:nth-child(2) .banner_text_pod{background-color: #F5F5F5 !important;border-radius: 10px;height: auto;padding-left: 20px !important;}
+ .our-story-so-far app-navigation .container-fluid:nth-child(4) .banner_text_pod{background-color: #F5F5F5 !important;border-radius: 10px;height: auto;padding-left: 20px !important;}
+ .our-story-so-far app-navigation .container-fluid:nth-child(5) .banner_text_pod{background-color: #F5F5F5 !important;border-radius: 10px;height: auto;padding-left: 20px !important;}
+ .our-story-so-far app-navigation .container-fluid:nth-child(1) .banner_text_pod{background-color: #F5F5F5 !important;border-radius: 10px;height: auto;padding-left: 20px !important;}
+ .our-story-so-far app-navigation .container-fluid:nth-child(3) .banner_text_pod{background-color: #F5F5F5 !important;border-radius: 10px;height: auto;padding-left: 20px !important;}
+ .our-story-so-far app-navigation .container-fluid:nth-child(6) .banner_text_pod{background-color: #FFFFFF !important;border-radius: 10px;height: auto;padding-left: 20px !important;}
+ .our-story-so-far app-navigation .container-fluid:nth-child(7) .banner_text_pod{background-color: #F5F5F5 !important;border-radius: 10px;height: auto;padding: 20px !important;}
+ .our-story-so-far app-navigation .container-fluid:nth-child(3) .bg-ctn,  .our-story-so-far app-navigation .container-fluid:nth-child(1) .bg-ctn{background-color: transparent !important;padding-bottom: 40px !important;}
+ /* .our-story-so-far app-navigation .container-fluid:nth-child(1) .img-banner_rht, .our-story-so-far app-navigation .container-fluid:nth-child(2),  .our-story-so-far app-navigation .container-fluid:nth-child(3),  .our-story-so-far app-navigation .container-fluid:nth-child(4){margin-bottom: 115px !important;} */
+ app-navigation .container-fluid:nth-of-type(even) .bg-ctn{padding-bottom: 40px;;}
+
+ .our-story-so-far app-navigation .txt-banner_lft{width: 100% !important;height: auto !important;}
+    app-topic-image-card .tp-box__front{transform: none !important;}
+    app-navigation .container-fluid:nth-of-type(odd) .bg-ctn{padding: 40px 0px;}
+.head_ctn h2{font-size: 19px;font-family: 'BuenosAires-Bold';font-weight: 800;}
+    .br_line_mid{width: 89px;margin: 10px 0px 30px 0px;}    
+    .who-we-are app-people-card .txt-banner_rht.mv_zidx{z-index: 4 !important;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    body.our-values app-related-pages .container-fluid .bg-ctn{padding-bottom: 20px;}
+body.our-leaders app-leaders .two-col-head_ctn{margin-bottom:0px;}
+    body.our-people app-related-pages .vid-txt-blk .blk-arrw {margin-left: 5px;}
+    body.what-it-means-to-work-at-idp .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+    body.who-we-are app-our-story .two-col-head_ctn{margin-bottom: 0px;}
+    body.our-people .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+    body.join-our-team app-testimonial .two-col-head_ctn{background-color: #f5f5f5;margin-bottom: 10px;padding-top: 40px;}
+    body.join-our-team app-testimonial .bg-ctn{background-color: #f5f5f5;}
+    body.blog app-paragraph .two-col-head_ctn{margin-bottom: 0px;}
+    body.blog app-carousel .two-col-head_ctn{margin-bottom: -40px;margin-top: 40px;}
+    body.our-story-so-far .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+    body.article-landing .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+    body.what-it-means-to-work-at-idp app-related-pages .video-ctn .vd-pod.mr-20i:nth-of-type(even) .vid-txt-blk {padding: 5px 20px;}
+    body.what-it-means-to-work-at-idp app-related-pages .video-ctn .vd-pod.mr-20i:nth-of-type(even) .vid-txt-blk h2{line-height: 19px;}
+    body.what-we-do app-related-video .video-ctn .vid-txt-blk{border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}
+    body.our-values app-herobanner .hero-ctn img{margin-top: 0px;}
+body.what-it-means-to-work-at-idp app-herobanner .hero-ctn img{margin-top: 0px;}
+    .our-leaders app-navigation .container-fluid .banner_text_pod {padding: 20px 20px;}
+    app-overview .banner_text_pod h2{font-size: 19px !important;padding-bottom: 10px;}
+    body.our-leaders app-related-pages .container-fluid .bg-ctn{    padding: 40px 0px 20px 0;}
+    .our-offices app-navigation .container-fluid.mtb85i.nv-1{margin-top: 0px;}}
+
+    /* iphone 11  */
+
+    @media only screen 
+and (device-width: 414px) 
+and (device-height: 896px) 
+and (-webkit-device-pixel-ratio: 3) { 
+    .what-we-do app-people-card .wht-Do .ht-ft1 {height: 2730px !important;}
+    .join-our-team .wht-Do .ht-ft {height: 2500px !important;}
+    .join-our-team app-testimonial .cont-overlap-ctn {padding: 20px 20px 15px 20px !important;}
+}
+
+ /* iphone 5s  */
+ @media screen and (device-aspect-ratio: 40/71) {
+    body.keeping-accountable app-topic-image-card .add_On .tp-box__side.tp-box__back .card-cont-ctn{    padding: 40px 15px 45px 14px;}
+    body.keeping-accountable app-topic-image-card .add_On .tp-box__side.tp-box__back .crd_hed p{font-size: 16px !important;}
+    body.keeping-accountable app-topic-image-card .tp-box__back{width: 85.5%;}
+    .two-col-head_ctn .lft_flt_hd {width: 60%;}
+    .news-centre app-people-card .wht-Do .owl-carousel .owl-item{width: 270px !important;}
+    .news-centre app-people-card .art-crd-blk{width: 282px;margin: 0 auto;}
+    .news-centre #articleLanding .lft_flt_hd{width: 75%;}
+    .news-centre #articleLanding app-carousel .cont-overlap-ctn{margin-top: 48px;}
+    .news-centre app-carousel .dot-ctn.ad_ht{height: 740px;}
+    .legal-article #articleLanding .two-col-head_ctn {height: 80px;}
+    .legal-article .br_cr{padding: 0 20px;}
+    app-news .tp-box{width: 100% !important;}
+    app-news .carou-card-ctn .slide{width: 100%;}
+    app-news .card-blk img{width: 100%;}
+    app-news .tp-box__front .card-cont-ctn{width: 100%;}
+    app-carousel .ad_ht {height: 700px;}
+    app-carousel .two-col-head_ctn > p{bottom: -90px !important;}
+    .our-people .pic_ctnr .owl-dots{bottom: 25px !important;}
+    .our-leaders .lft_flt_hd h2{font-size: 18px;}
+    .our-values app-related-pages .video-ctn{height: auto;}
+    .our-board-of-directors app-related-pages .video-ctn{margin: 0 !important;height: 564px;}
+    .our-board-of-directors #left{width: 86%;}
+    .news-centre app-people-card .card-blk img{width: 100% !important;}
+    .news-centre app-people-card .card-cont-ctn{width: 100% !important;}
+    .vid-txt-blk h2{font-size: 17px !important;}
+    app-related-pages .vid-txt-blk .blk-arrw{margin-left: 3px;width: 24px;height: 24px;}
+    .who-we-are app-people-card .prf-crd:nth-child(4){margin-right: 15px !important;}
+    .wht-crd.wht-Do .slide:last-child .prd-ctn{margin-right: 0px !important;}
+    .who-we-are app-people-card .prf-crd{margin-right: 15px !important;}
+    .menu_btn_a{bottom: 85px;}
+    .txt-banner_lft{position: unset;}
+    .img-banner_rht{margin-bottom: -35px;position: unset;}
+    .img-banner_rht .tab_video{height: auto;overflow-y: unset;}
+    .txt-banner_lft {margin: 0 15px;}
+    .year_list ul{width: 870px;}
+    .pic_ctnr .owl-dots.ng-star-inserted {bottom: 120px;}
+    .news-centre app-people-card .card-cont-ctn{width: 310px;}
+    .ftr_rht_ctn li:nth-child(3){border-right: 2px solid #fff !important;padding-right: 3px;}
+    .join-our-team app-people-card .card-blk{width: 100% !important; margin: 0px auto;}
+    body.our-board-of-directors app-related-pages .dot-ctn.ht-ft{height: 600px;}
+    .card-hld button {margin-right: 5px;}
+    .who-we-are app-people-card .flx-crd-ctn {margin-right: 0px !important;}
+    .prf-crd {width: 125px;height: 165px;}
+    .prf-crd img {width: 125px;height: 165px;}
+    .what-we-do app-people-card .wht-crd.wht-Do .prd-ctn{width: 280px;}
+    .what-we-do app-related-video .ht-ft {height: 585px;}
+}
+/*  iphone 5s landscape  */
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+    
+    body.empowering-communities app-people-card .img_lft-banner_ctn{width: 540px;margin: 0 auto;}
+    .who-we-are app-people-card .prf-crd {margin-right: 9px !important;}
+    .who-we-are app-people-card .prf-crd:nth-child(4){margin-right: 0px !important;}
+    .pic_ctnr .owl-dots.ng-star-inserted {bottom: 100px;}
+    .yr_lne {width: 95%;}
+    .news-centre .wht-Do .owl-carousel .owl-item:nth-child(even){margin: 0 auto;}
+    .news-centre app-people-card .wht-Do .owl-carousel .owl-item{margin-bottom: 20px !important;width: 310px !important;}
+    .news-centre app-people-card .owl-carousel .owl-stage-outer{overflow: unset;}
+    .news-centre app-people-card .wht-Do .owl-carousel .owl-stage{flex-direction: row;margin:0 auto}
+    .news-centre app-people-card .wht-Do .owl-carousel .owl-item .slide{margin:0 auto;}
+    .news-centre app-people-card .wht-Do .owl-carousel .owl-item {margin: 0 auto;}
+    body.our-board-of-directors app-related-pages .vd-pod{flex-direction: column;}
+    body.our-offices app-related-pages .video-ctn a {width: 100%;}
+    .what-we-do app-related-video .ht-ft {height: 1020px;}
+    .our-board-of-directors app-related-pages .video-ctn {margin-top: 230px !important;}
+}
+
+/* Android landscape  */
+  @media only screen 
+  and (min-device-width: 640px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    body.our-offices app-static-map .two-col-head_ctn {margin-bottom: 40px;}
+    body.our-commitment .container-fluid.mtb85i.nv-1 .overlap-cont {width: 540px;margin: 0 auto;}
+    body.our-commitment .container-fluid.mtb85i.nv-1 .img-banner_rht {margin-bottom: -15px;}
+    body.diversity-and-inclusion app-people-card .card-container{padding-top: 20px;}
+    body.creating-a-greener-future app-navigation .container-fluid:first-child .txt-banner_lft {height: 240px;}
+    body.creating-a-greener-future app-navigation .banner_text_pod{height: 240px;}
+    body.creating-a-greener-future .img-banner_rht .tab_video{height: 490px;}
+    body.diversity-and-inclusion .dot-ctn{width: 540px;margin: 0 auto;}
+    body.diversity-and-inclusion app-usp .bg-ctn{width: 540px;margin: 0 auto;}
+    body.diversity-and-inclusion app-usp .lft_flt_hd{width: 540px;}
+    body.diversity-and-inclusion app-join-our-team .container-fluid.mtb85i{width: 540px;text-align: center;}
+    body.diversity-and-inclusion app-people-card .bg-ctn.grey-bg.pdt85i.pdb115i{padding-top: 0px;}
+    body.diversity-and-inclusion app-navigation .container-fluid .banner_text_pod{height:270px}
+    body.our-commitment app-overview .container-fluid.mtb85i {margin-top: 0px !important;}
+    body.our-commitment app-overview .cont-overlap-ctn .img_lft-banner_ctn{width: 540px;margin: 0 auto;}
+    body.our-commitment app-navigation .cont-overlap-ctn .img_lft-banner_ctn{width: 540px;margin: 0 auto;}
+    body.our-commitment app-navigation .img-banner_rht{margin-bottom: -25px;}
+    body.our-commitment app-our-people .art-crd-ctn .slide{width: 340px;margin: 0 auto;}
+    body.empowering-communities app-people-card .img_lft-banner_ctn{width: 540px;margin: 0 auto;}
+    .empowering-communities .topic_paragraph {margin-top: 0px;}
+    .creating-a-greener-future app-related-pages .video-ctn:first-child .vd-pod.mr-20i {margin-bottom: 20px;}
+    .keeping-accountable app-related-pages .video-ctn:first-child .vd-pod.mr-20i {margin-bottom: 20px;}
+    body.diversity-and-inclusion app-related-pages .video-ctn:first-child .vd-pod.mr-20i {margin-bottom: 20px;}
+    .investing-in-our-people app-related-pages .video-ctn:first-child .vd-pod.mr-20i {margin-bottom: 20px;}
+    .empowering-communities app-related-pages .video-ctn:first-child .vd-pod.mr-20i {margin-bottom: 20px;}
+    .our-commitment app-related-pages .video-ctn:first-child .vd-pod.mr-20i {margin-bottom: 20px;}
+    body.creating-a-greener-future app-navigation .container-fluid:first-child .video_bx img {height: 100%;width: 100%;margin-top: 0px;margin-left: 0px;-o-object-fit: unset;object-fit: cover;}
+    body.creating-a-greener-future .txt_lft-banner_ctn {width: 540px;margin: 0 auto;}
+    body.sustainable-futures .img-banner_rht{margin-bottom: -50px;}
+    body.investing-in-our-people app-navigation .txt_lft-banner_ctn {width: 540px;margin: 0 auto;}
+    body.investing-in-our-people app-navigation .img-banner_rht{margin-bottom: -50px;}
+    body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(5) .card-blk img {margin-top: 0px;}
+    body.our-commitment app-navigation .container-fluid.mtb85i.nv-2{margin-top: 0px;margin-bottom: 0px;}
+       .our-commitment app-paragraph .bg-ctn {width: 100%;}
+       app-navigation .banner_text_pod h2 {font-size: 19px !important;padding-bottom: 10px;line-height: 30px;}
+       body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(1){width: 100% !important;height: 750px !important;margin-left: 0px !important;}
+       body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(2){width: 100% !important;height: 750px !important;margin-left: 0px !important;}
+       body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(3){width: 100% !important;height: 750px !important;margin-left: 0px !important;}
+       body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(4){width: 100% !important;height: 750px !important;margin-left: 0px !important;}
+       body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(5){width: 100% !important;height: 750px !important;margin-left: 0px !important;margin-top: 0px !important;}
+       body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(6){width: 100% !important;height: 750px !important;margin-left: 0px !important;margin-top: 0px !important;}
+       body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(7){width: 100% !important;height: 750px !important;margin-left: 0px !important;margin-top: 0px !important;}
+       body.keeping-accountable app-topic-image-card .owl-stage .owl-item:nth-child(8){width: 100% !important;height: 750px !important;margin-left: 0px !important;margin-top: 0px !important;}
+    body.keeping-accountable app-topic-image-card .wht-Do.add_On .owl-carousel .owl-stage{width: 540px !important;margin: 0 auto;}
+    body.keeping-accountable app-topic-image-card .tp-box__back {width: 93% !important;height: 340px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item .tp-box__back .card-cont-ctn{padding: 40px 30px 45px 30px;height: 340px !important;}
+    body.keeping-accountable app-topic-image-card .owl-stage .owl-item{height: 750px !important;}
+    .news-centre #articleLanding .carou-card-ctn{width: 420px;margin:0 auto;}
+    .keeping-accountable app-topic-image-card .owl-dots{display: none;}
+    app-related-pages .vid-txt-blk{width: 520px;}
+    .vd-pod {width: 520px;margin: 0 auto;}
+    .blog app-carousel .dot-ctn.ad_ht {height: 590px;}
+    app-carousel .cont-overlap-ctn{margin-top: 30px !important;}
+    app-carousel .ad_ht{height: 630px;}
+    app-carousel .two-col-head_ctn > p{bottom: -64px !important;}
+    .our-story-so-far .img-banner_rht{margin-bottom: -60px;}
+    
+    .our-people .pic_ctnr .owl-dots.ng-star-inserted{height: 25px;}
+    .our-people app-our-people .art-crd-blk{width: 540px;margin: 0 auto;}
+    .our-story-so-far app-navigation .txt_lft-banner_ctn{width: 420px;margin: 0 auto;}
+    body.our-values app-topic-image-card .tp-box__back{left: 0;right: 0;width: 380px !important;margin: 0 auto;}
+    
+    .our-offices app-static-map .bg-ctn p{text-indent: 0px;margin-top: 20px !important;}
+    .our-offices app-navigation .txt_lft-banner_ctn{width: 390px;margin: 0 auto;}
+    .our-offices app-overview .img_lft-banner_ctn {    width: 340px;
+        margin: 0 auto;}
+    .our-offices app-static-map .column-2{display: unset;}
+    body.our-values app-topic-image-card .tp-box__front{ width: 420px; margin: 0 auto;}
+    body.our-values app-topic-image-card .tp-box{margin:0 auto;}
+    .our-board-of-directors div#sshow {width: 420px;margin: 0 auto;right: 0;}
+    .our-board-of-directors .grey-bg #left,.our-board-of-directors .wht-bg #left{width: 380px;}
+    .our-board-of-directors .main-ctn{margin: 0 auto;}
+    .yr_lne {width: 95% !important;}
+    .news-centre .wht-Do .owl-carousel .owl-item:nth-child(even){margin: 0 auto;}
+    .news-centre app-people-card .wht-Do .owl-carousel .owl-item{margin-bottom: 20px !important;width: 310px !important;}
+    .news-centre app-people-card .owl-carousel .owl-stage-outer{overflow: unset;}
+    .news-centre app-people-card .wht-Do .owl-carousel .owl-stage{flex-direction: row;margin:0 auto}
+    .news-centre app-people-card .wht-Do .owl-carousel .owl-item .slide{margin:0 auto;}
+    .news-centre app-people-card .wht-Do .owl-carousel .owl-item {margin: 0 auto;}
+    body.our-board-of-directors app-related-pages .vd-pod{flex-direction: column;}
+    .ftr_rht_ctn li:nth-child(3){border-right: 2px solid #fff !important;padding-right: 3px;}
+    body.our-board-of-directors app-related-pages .video-ctn{height: unset;}
+    body.our-board-of-directors app-related-pages .dot-ctn.ht-ft {height: auto;}
+    body.our-board-of-directors .txt-banner_lft{width: 540px;padding: 0 20px;}
+    body.our-story-so-far .txt-banner_lft{width: 540px;padding: 0 20px;}
+    body.our-story-so-far .vd-pod.mr-20i a {width: 100%;}
+    body.our-story-so-far app-related-pages .video-ctn{height: unset;}
+    body.our-story-so-far app-related-pages .dot-ctn.ht-ft {height: auto;}
+    body.our-offices app-related-pages .video-ctn a{width: 100%;}
+    .what-we-do app-people-card .wht-crd.wht-Do .prd-blk img{
+        object-fit: contain;}
+        .our-board-of-directors #left{width: 94%;}
+       
+}
+/* jeevitha phone  */
+@media screen and (min-width: 360px) and (max-width: 640px){
+    .two-col-head_ctn .lft_flt_hd {width: 100%;}
+    .two-col-head_ctn .rht_flt_li {width: 30%;}
+    .two-col-head_ctn{height: 80px;display: inline-flex;width: 100%;}
+    .creating-a-greener-future app-related-pages .video-ctn:first-child .vd-pod.mr-20i {
+        margin-bottom: 20px;
+    }
+}
+
+    /* mobile device landscape video  */
+    @media only screen and (min-width:768px){
+        /* .overlay_ctn{height: auto;}
+        .hero-ctn{height: auto;}
+        .hero-ctn img, .hero-ctn video{height: auto;}
+        .hero_bann_ctn{height: auto;} */
+        .our-story-so-far app-navigation .nv-7 .txt-banner_lft{height: auto !important;}
+
+    }
+    @media only screen and (max-width:768px){
+        .our-board-of-directors .bg-ctn.bg-gry-dot-img{padding: 0;}
+        .our-board-of-directors .main-ctn {height: auto;}
+        .our-board-of-directors #main {height: auto;}
+        .wht-bg, .grey-bg {background-color: transparent;}
+        /* .pic_ctnr .owl-dots.ng-star-inserted{bottom: 0px;} */
+        
+        .img-banner_rht .tab_video{max-width: unset;}
+        .video_bx img{height: 100%;width: 100%;border-radius: 10px;object-fit: cover;}
+        .video_bx{height: auto;width: 100%;}
+        .img-banner_rht .tab_video{width: 100%;}
+        .txt-banner_lft{max-width: unset;}
+        .pic_ctnr .owl-dots.ng-star-inserted {bottom: 100px;}
+        .our-people .pic_ctnr .owl-dots.ng-star-inserted {bottom: 20px;}
+        .join-our-team app-people-card .wht-Do .owl-carousel .owl-stage {flex-direction: column;flex-wrap: wrap;margin: 0 auto;align-items: center;}
+    .join-our-team app-people-card .card-blk{width: 300px !important; margin: 0px auto;}
+    .join-our-team app-testimonial .carou-ctn {height: auto;}
+    .join-our-team app-people-card .wht-Do .owl-carousel .owl-item {margin-bottom: 20px;width: 100% !important;}
+    .who-we-are app-people-card .prf-crd{margin-right: 35px !important;}
+    .card-hld button {margin-right: 2px;}
+    .prf-crd {width: 125px !important;height: 165px !important;}
+    .prf-crd img {width: 125px;height: 165px;}
+    .flx-crd-ctn{justify-content: flex-start;}
+    
+    .what-we-do app-people-card .wht-crd.wht-Do .prd-ctn {width: 310px;margin: 10px auto !important;}
+    }
+        /* mobile device  */
+        @media only screen and (min-width: 320px) and (max-width: 767px) {
+            body.what-it-means-to-work-at-idp app-related-pages .video-ctn .vd-pod.mr-20i:nth-of-type(even) .vid-txt-blk {padding: 5px 20px;}
+            body.our-commitment app-navigation .banner_text_pod{height: 320px;}
+            body.our-commitment app-navigation .banner_text_pod p{height: 235px;}
+            body.diversity-and-inclusion app-navigation .container-fluid.mtb85i.nv-3 {margin-top: 0px;}
+            body.diversity-and-inclusion app-join-our-team .container-fluid.mtb85i{flex-direction: column;width: 100%;}
+            body.diversity-and-inclusion app-join-our-team .image_bann_ctn {height: unset;width: 100%;margin-bottom: 20px;min-height: unset;}
+            body.diversity-and-inclusion app-join-our-team .image_bann_ctn .banner_ctn p{display: block;}
+            body.diversity-and-inclusion app-join-our-team .image_bann_ctn .banner_ctn{padding: 15px 0;margin: 10px 0;background-color: transparent;}
+            body.diversity-and-inclusion app-join-our-team .image_bann_ctn_img{margin-bottom: 0px;}
+            body.diversity-and-inclusion app-usp ul{flex-direction: column;}
+            body.diversity-and-inclusion app-usp ul h3 {text-align: center;}
+            body.diversity-and-inclusion app-usp ul h3 span{display: block;}
+            body.diversity-and-inclusion app-usp ul li p{text-align: center;padding-top: 20px;padding-bottom:20px;border-bottom: 1px solid #dddddd}
+            body.diversity-and-inclusion app-people-card .card-hld {width: fit-content;overflow-x: auto;overflow-y: hidden;height: 30px;display: flex;flex-wrap: nowrap;margin-top: 0px;}
+            body.diversity-and-inclusion app-people-card .card-hld button{margin-right: 10px;}
+            body.diversity-and-inclusion app-people-card .two-col-head_ctn{margin-bottom: 0px;margin-top: 30px;}
+            body.diversity-and-inclusion app-navigation .container-fluid .banner_text_pod{height: 380px;}
+            body.diversity-and-inclusion app-people-card .card-hld button:last-child{margin-right: 0px;}
+            body.diversity-and-inclusion app-usp ul li{width: 100%;border-right: none;;}
+            /* body.creating-a-greener-future app-navigation .container-fluid:first-child .video_bx{overflow: hidden;} */
+            .our-story-so-far app-navigation .nv-7 .txt-banner_lft{width: 100% !important;height: 100% !important;}
+    
+            .news-centre #articleLanding .owl-carousel .owl-item{margin-right: 8px !important;margin-left: 8px !important;}
+            .news-centre app-carousel .dot-ctn.ad_ht {height: 660px;}
+            .empowering-communities app-people-card .card-hld{height: 150px;display: flex;flex-direction: column;}
+            .empowering-communities app-people-card .card-hld button {width: 100%;margin-right: 15px;margin-bottom: 10px;}
+            .empowering-communities app-people-card .bg-ctn.grey-bg.pdt85i.pdb115i{background-color: #f5f5f5;}
+            .legal-article .hero_bann_full_ctn {height: auto;}
+            .legal-article .br_cr{padding: 0 20px;}
+            .our-people app-related-pages .container-fluid.mtb85i.mtbt85i{padding: 15px 0;}
+            .video-blk{width: 100%;height: 100%;}
+            .blog .lft_auth {display: flex;width: 15%;}
+            app-carousel .cont-overlap-ctn{margin-top: 15px;}
+            #articleLanding{padding-top: 0px;}
+            .hero-ctn{height: 407px;}
+            app-herobanner .hero_bann_ctn{height:407px}
+            .our-story-so-far app-navigation .nv-5 .txt-banner_lft .banner_text_pod{height:auto;background-color:#f5f5f5 !important;padding: 20px !important;}
+            .our-story-so-far app-navigation .nv-6 .txt-banner_lft .banner_text_pod{height:auto;background-color:#fff !important;padding: 20px;}
+            .our-story-so-far app-navigation .nv-7 .txt-banner_lft .banner_text_pod{height:auto;background-color:#f5f5f5 !important;padding: 20px;}
+            .our-people app-our-people .wht-Do .owl-carousel .owl-item {margin: 0 5px;width: 100% !important;}
+            .our-people app-our-people .card-blk img{    width: 100% !important;height: 320px;}
+            .our-people app-our-people .card-cont-ctn { width: 100% !important;}
+            .our-people app-our-people .slide{width: 100% !important;}
+            app-leaders .owl-carousel .owl-stage-outer{width:100%;}
+        .rht-colmn{padding-left: 0px !important;}
+            app-paragraph .img_txt_lft-banner_ctn {padding: 20px 0;}
+            body.our-values app-topic-image-card .tp-box{box-shadow: unset !important;}
+            .our-values .br_frt_line_mid {display: none;}
+            .our-values .card-cont-ctn{padding:38px 20px 33px 20px;box-shadow: 0px 0px 4px #C4C4C480 !important;}
+            .our-values .wht-Do .owl-carousel .owl-item:last-child{margin-bottom: 0px;}
+    
+            body.our-values app-related-pages .container-fluid{padding-top: 40px;padding-bottom: 25px;}
+            app-related-pages .ht-ft {height: auto;}
+            .our-leaders app-overview .container-fluid.mtb85i{margin-top: -10px;}
+            app-leaders .bg-ctn.grey-bg.pdt85i.pdb115i {padding: 0}
+            .our-board-of-directors #divToScroll .container-fluid:first-child .bg-gry-dot-img{padding-top: 0px;margin-top: -10px;}
+            .our-board-of-directors .carou-bod .owl-theme {overflow: hidden;}
+            .our-story-so-far app-navigation .banner_text_pod p{height: auto !important;}
+            .our-story-so-far app-navigation .nv-5 .banner_text_pod p {height: auto !important;}
+            .our-story-so-far app-navigation .nv-5 .txt-banner_lft {width: 100% !important;}
+            .our-story-so-far app-navigation .nv-6 .txt-banner_lft {width: 100% !important;}
+            .our-board-of-directors .main-ctn{height: 775px;}
+            .our-board-of-directors .bg-wht-dot-img{padding: 0;}
+            .our-board-of-directors #sshow img{width: 100%;height: 100%;}
+            div#sshow{width: 100%;}
+            .our-board-of-directors .img_txt_lft-banner_ctn{margin: 0;}
+            .our-board-of-directors #left{width: 89%;padding: 0px;margin: 0 20px;padding-bottom: 20px;margin-bottom: 20px;height: auto;padding-bottom: 30px;}
+            .our-board-of-directors #ssholder {width: 100%;margin-right: 0;height: 390px;}
+            .our-board-of-directors div#sshow{height: 390px;top: 0;left: 0;width: 100%;}
+            .our-board-of-directors #left p{padding: 20px;height: 285px;overflow: hidden;}
+            .our-board-of-directors .rd_mor{color:#e43449;font-size: 16px;font-weight: 600;line-height: 22px;
+                font-family: 'BuenosAires-Regular';display: block;padding: 20px;position: relative;}
+                .our-board-of-directors .rd_mor span {background: url(/assets/images/svg/anc_red_rht_arw.svg)no-repeat;left: 112px;
+                    top: 22px;}
+            .our-board-of-directors app-directors .dot-ctn{height: auto;}
+            .our-board-of-directors .bg-wht-dot-img {padding: 40px 0;    margin: 40px 0;}
+            .our-board-of-directors #left{padding-top: 20px;}
+            .our-board-of-directors #left h3,.our-board-of-directors #left h5 {padding: 5px 20px 0px 20px;}
+            .our-board-of-directors #main {padding: 0;height: auto;}
+            .our-board-of-directors .bg-ctn.bg-gry-dot-img{padding: 0;}
+            #left{padding: 0;}
+            .our-board-of-directors .main-ctn{height: auto;overflow: unset;display: flex;flex-direction: column;}
+    .our-board-of-directors app-related-pages .dot-ctn.ht-ft{height: auto;}
+        .our-board-of-directors app-related-pages .video-ctn{margin-top: 46px !important;}
+            .our-story-so-far app-navigation .banner_text_pod h2{font-size: 19px !important;padding-bottom: 20px;}
+    .our-story-so-far app-navigation .nv-1 .video-pod{display: block !important;}
+    .our-story-so-far app-navigation .nv-5 .video-pod{display: block !important;}
+    .our-story-so-far app-navigation .nv-6 .video-pod{display: block !important;}
+    .our-board-of-directors #main{display: flex;flex-direction: column;columns: revert;}
+    .our-board-of-directors #ssholder{margin-bottom: -70px;}
+    .our-board-of-directors .wht-bg #left{margin: 0 20px;background-color: #fff;z-index: 2;border-radius: 10px;padding: 30px 20px;}
+    .our-board-of-directors .grey-bg #left{margin: 0 20px;background-color: #F5F5F5;z-index: 2;border-radius: 10px;padding: 30px 20px;}
+    /* .our-board-of-directors #divToScroll .container-fluid:nth-child(2) .wht-bg #left {background-color: #F5F5F5;} */
+            app-related-pages .vid-txt-blk {height: 60px;padding: 10px 20px;width: 100%;bottom: 5px;}
+            body.investing-in-our-people app-related-pages .vid-txt-blk {bottom: 7px;}
+            body.our-values app-related-pages .video-ctn .vd-pod.mr-20i:nth-of-type(even) .vid-txt-blk{padding: 15px 25px;}
+            body.investing-in-our-people .container-fluid.pdt85i.pdb30i .two-col-head_ctn {margin-bottom: 0px;} 
+            body.investing-in-our-people app-navigation .container-fluid.mtb85i.nv-1 .banner_text_pod {height: 320px;}
+    .who-we-are app-people-card .flx-crd-ctn{margin-right: 0px !important;}
+            .flx-crd-ctn{max-width: 100%;margin: 0 15px;justify-content:space-between;}
+            .mtbt85i{margin-bottom: 40px;}
+            
+        body.our-story-so-far app-related-pages .video-ctn{height: unset;}
+        body.our-story-so-far app-related-pages .dot-ctn.ht-ft {height: auto;}
+            .join-our-team app-people-card .cont-overlap-ctn .container {padding-left: unset;}
+            app-people-card .owl-carousel .owl-stage-outer {overflow-x: visible;overflow-y: clip;}
+            app-testimonial .owl-carousel .owl-stage-outer {overflow: hidden !important;}
+            .news-centre app-people-card .card-cont-ctn {width: 100%;}
+            .news-centre .owl-carousel .owl-stage-outer{overflow: unset;}
+            .news-centre .wht-Do .owl-carousel .owl-item:nth-child(even){margin-left: unset;}
+        .news-centre app-people-card .wht-Do .owl-carousel .owl-item{margin-bottom: 20px;width: 100% !important;}
+        .news-centre app-people-card .owl-carousel .owl-stage-outer{overflow: unset;}
+        .news-centre app-people-card .wht-Do .owl-carousel .owl-stage{flex-direction: column;margin:0 auto}
+        .news-centre app-people-card .wht-Do .owl-carousel .owl-item .slide{margin:0 auto;}
+            .sustainable-futures app-navigation .container-fluid:nth-of-type(even) .bg-ctn {padding-bottom: 0px;}
+            .life-at-idp app-navigation .txt-banner_lft {z-index: 1;}
+            .life-at-idp app-navigation .banner_text_pod {padding-left: 20px;}
+            .banner_text_pod {height: 270px;}
+            .our-leaders app-navigation .banner_text_pod {height: 340px;}
+            app-people-card .banner_text_pod.clone1 h2{padding-bottom: 10px;}
+            .wht-crd.wht-Do .owl-carousel .owl-item {width: 100% !important;}
+            .what-we-do app-people-card .wht-crd.wht-Do .prd-ctn {width: 100%;margin: 10px auto;}
+            .what-we-do app-people-card .wht-crd.wht-Do .prd-blk img{object-fit: fill;background-color: #fff;}
+            .what-we-do app-related-video .ht-ft{height: 700px;}
+            .what-we-do app-related-video .container-fluid{padding-top: 40px;padding-bottom: 20px;}
+            .what-we-do app-related-video .br_line_mid{margin-bottom: 30px;}
+            .wht-Do .owl-carousel .owl-item:nth-child(5){margin-left: 0px;}
+            .wht-Do .owl-carousel .owl-item:nth-child(6){margin-left: 0px;}
+        .year_list{overflow: scroll;margin-bottom: 30px;}
+            .grey-ctn{padding: 30px 10px 30px 10px;}
+            .no_pad_lft {padding-left: 3px;}
+            div#cdk-overlay-0 {max-width: 100% !important;margin: 0 20px;}
+            video.ng-star-inserted {width: 100%;}
+            .ftr_rht_ctn li:last-child {padding-right: 5px !important;}
+        /* relative-video */
+        .yr_lne{margin: 0;width: 91%;right: 49px;top: 42px;max-width: 100%;}
+        .year_list ul{margin-top: 13px;height: 50px;display: flex;justify-content: space-between;}
+        .prev_our_story{background: url(/assets/images/svg/our_story-nxt-arr.svg);background-repeat: no-repeat;width: 18px;margin-left: 15px;height: 18px;display: block;float: left;margin-top:34px;transform: rotate(270deg)}
+        .nxt_our_story{background: url(/assets/images/svg/our_story-prev-arr.svg);background-repeat: no-repeat;width: 18px;margin-top:34px;height: 18px;display: block;float: right;transform: rotate(90deg);position: relative;}
+        .nav_our_story{width: calc(100% - 16px);}
+    
+        .news-centre .wht-Do .owl-carousel .owl-item:nth-child(even){margin: 0px 10px;;}
+        .news-centre app-people-card .wht-Do .owl-carousel .owl-item{margin-bottom: 20px;width: 100% !important;}
+        .news-centre app-people-card .owl-carousel .owl-stage-outer{width: 100%;overflow: hidden;margin: 0 auto;}
+        .news-centre app-people-card .wht-Do .owl-carousel .owl-stage{flex-direction: row;margin:0 auto;flex-wrap: nowrap;}
+        .news-centre app-people-card .wht-Do .owl-carousel .owl-item .slide{margin:0 auto;}
+    
+        .video-ctn {flex-direction: column;height: auto;}
+        
+        .vd-pod{width:100%;position: relative;}
+        .video-blk img{width: 100%;height: auto;}
+        .vid-txt-blk{width: 100%;padding: 15px;}
+        .vid-txt-blk h2{font-size: 19px !important;padding-bottom: 0px;}
+        .vd-pod{margin-bottom: 20px;}
+        .ht-ft {height: 490px;}
+        .news-centre app-people-card .slide{margin: 0 auto !important;}
+        .news-centre app-people-card .card-blk img{width: 100% !important;}
+        .news-centre app-people-card .slide{width: 100% !important;}
+        .join-our-team app-people-card .card-blk{width: 100% !important;margin:0px;background-color: #FAFAFA;}
+        .join-our-team app-people-card h2{text-align: left;font-size: 19px;}
+        .join-our-team app-people-card .card-cont-ctn{padding-left: 0px;}
+        .join-our-team app-people-card .owl-theme .owl-nav.disabled+.owl-dots{display: none;}
+        .join-our-team .newsRe .carou-img-banner_lft{width: 125px;height: 125px;}
+        .join-our-team .newsRe .carou-txt-banner_rht {width: 100%;height: auto;padding-left: 0px;padding-right: 0px;}
+        .join-our-team .newsRe .mask_bx img {width: 130px;height: 130px;right: 0;bottom:0;margin: 0 auto;object-fit: cover;}
+        .join-our-team app-testimonial .carou-banner_text_pod h4 {text-align: center;}
+        .join-our-team app-testimonial .carou-banner_text_pod span{text-align: center;}
+        .join-our-team app-testimonial .carou-banner_text_pod p{text-align: center;}
+        
+        body.our-story-so-far .txt-banner_lft{width: 100%;padding: 0 20px;}
+        body.our-values app-topic-image-card .owl-carousel .owl-stage-outer {width: 100%;}
+        body.our-values app-topic-image-card .owl-stage .owl-item:nth-child(1) .tp-box__front .card-cont-ctn{display: none;}
+        body.our-values app-topic-image-card .owl-stage .owl-item .tp-box__back .card-cont-ctn{width: 100% !important;height: 100%;}
+        body.our-values app-topic-image-card .tp-box__side.tp-box__back .crd_hed {padding: 0px;height: 380px;overflow: hidden;}
+    
+    }
+
+    
+    @media screen and (device-aspect-ratio: 40/71) {
+        .card-hld button{font-size: 12px;}
+        .prf-crd{margin-right: 15px;width: 140px;}
+        .prf-crd img{width: 140px;height: 180px;}
+    }
+    @media only screen and (max-width:600px){
+        body.keeping-accountable app-topic-image-card .owl-stage .owl-item .tp-box__back .card-cont-ctn{height: 370px !important;}
+        
+    .container{width:100%}
+    h2{font:19px/32px 'BuenosAires-Light', serif;font-weight: 600;}
+    p{font:16px/24px 'BuenosAires-Light', serif;}
+    .owl-carousel .owl-stage{padding-left:0 !important; padding-right:0px !important;justify-content: start;margin-bottom:10px !important;margin-top:6px }
+    .owl-carousel .owl-item, .owl-carousel .owl-item:first-child{margin-left:10px}
+    .pic_ctnr .owl-carousel .owl-item, .owl-carousel .owl-item:first-child {margin-left: 0px;}
+    .owl-theme .owl-nav.disabled+.owl-dots{margin-top: 5px;margin-bottom: 5px;}
+    .owl-theme .owl-dots, .owl-theme .owl-nav{margin-top: 0;margin-bottom: 5px;}
+    .slide.ng-star-inserted{margin: 0 !important;}
+    .pic_ctnr .owl-carousel .owl-item,.pic_ctnr .owl-carousel .owl-item {max-width: 100%;width: 100%;}
+    .crd_hed{margin-bottom: 0px;}
+    }
+
+    @media only screen and (max-width:767px) and (min-width:320px){
+        body.life-at-idp app-navigation .banner_text_pod p {height: 210px;}
+        body.life-at-idp app-navigation .banner_text_pod{height: 295px;}
+        body.diversity-and-inclusion app-join-our-team .image_bann_ctn:nth-child(2) .rela-cont{height: 160px;}
+        body.our-commitment .container-fluid.mtb85i.nv-1 .img-banner_rht{margin-bottom: -110px;}
+        app-news .ngx-pagination .current span{padding: 10px 10px 4px 10px;}
+        app-news .ngx-pagination li{width: 45px;}
+        body.our-people app-related-pages .video-ctn .vd-pod.mr-20i:nth-of-type(even) .vid-txt-blk{    padding: 15px 4px !important;}
+        body.our-people app-related-pages .vid-txt-blk .blk-arrw{margin-left: 15px;}
+        .empowering-communities app-people-card .bg-ctn.grey-bg.pdt85i.pdb115i .banner_text_pod{height: 320px;}
+        
+        body.creating-a-greener-future .img-banner_rht .tab_video{height: 240px;}
+        .empowering-communities app-people-card .bg-ctn.grey-bg.pdt85i.pdb115i{padding-bottom: 0px;}
+        .empowering-communities app-people-card .two-col-head_ctn{margin-bottom: -40px;}
+        .empowering-communities .topic_paragraph {margin-top: -40px;}
+        body.our-commitment app-paragraph .crd_cont .table-container{flex-direction: column;}
+        body.our-commitment app-paragraph .crd_cont .ng-star-inserted .table-container .ng-star-inserted:nth-child(2){width: 100%;}
+        body.creating-a-greener-future app-navigation .container-fluid:first-child .video_bx img {height: 100%;width: 100%;margin-top: 0px;margin-left: 0px;-o-object-fit: unset;object-fit: unset;}
+        body.creating-a-greener-future app-navigation .banner_text_pod{height: 390px;padding: 30px 20px;}
+        body.creating-a-greener-future app-navigation .container-fluid:first-child .txt-banner_lft{    height: 420px;}
+        app-carousel .owl-carousel{width: 99%;}
+        app-carousel .two-col-head_ctn > p{bottom: -70px !important;}
+        app-carousel .card-blk img{width: 100% !important;}
+        app-carousel .tp-box__front .card-cont-ctn{width: 100%;}
+        app-carousel .tp-box{width: 100% !important;}
+        app-breadcrumb .container{margin-top: 40px;}
+        app-herobanner .overlay_ctn {height: 407px;}
+    
+        .main{display: block;}
+        .column-1{width: 100%;}
+        .column-2{width: 100%;padding: 0;height: 460px;}
+        .cookie-box{width:100%;}
+        .btm{bottom: 0 !important;position: relative;}
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 1023px) {
+        app-paragraph .two-col-head_ctn{margin-bottom: -70px;}
+        body.our-leaders.directors app-leaders .owl-theme .owl-nav.disabled+.owl-dots{margin-bottom: 25px;}
+        body.our-offices app-static-map .vertical-menu .mbl_title::before{position: absolute;background: url(/assets/images/svg/org-dwn.svg) 0 0/100% no-repeat;content: "";width: 15px;height: 20px;right: 50px;top: 30px;opacity: 0.8;}
+    
+        body.our-offices app-static-map .vertical-menu.active .mbl_title::before{transform: rotate(180deg);background: url(/assets/images/svg/org-dwn.svg) 0 0/100% no-repeat;}
+        body.creating-a-greener-future .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+        body.empowering-communities app-people-card .banner_text_pod.clone1 h2 {font-size: 19px;}
+        body.keeping-accountable .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+        body.our-leaders .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+        body.our-values .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+        .our-offices app-static-map .bg-ctn p{margin-top: 0px !important;}
+        body.our-offices .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+        body.our-offices app-static-map .two-col-head_ctn{margin-bottom: 0px;}
+        body.our-board-of-directors .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 10px;}
+        body.who-we-are app-people-card .card-hld{margin-top: 0px;}
+        body.who-we-are app-people-card .two-col-head_ctn{margin-bottom: 0px;}
+        .our-board-of-directors.directors .br_cr .bc-dir{display: unset;}
+        body.what-it-means-to-work-at-idp.directors .br_cr li:nth-child(3) {color: rgb(160, 160, 160);}
+        body.our-board-of-directors.directors .br_cr li:nth-child(3) {color: rgb(160, 160, 160);}
+        body.our-leaders.directors .br_cr li:nth-child(3) {color: rgb(160, 160, 160);}    
+        body.what-it-means-to-work-at-idp.directors .br_cr li:nth-child(3) a span{display: unset;}
+        body.our-board-of-directors.directors .br_cr li:nth-child(3) a span{display: unset;}
+        body.our-leaders.directors .br_cr li:nth-child(3) a span{display: unset;}
+        body.our-leaders.directors app-leaders .owl-carousel.owl-theme.owl-loaded.owl-responsive.owl-drag {margin-bottom: 40px;}
+        body.our-board-of-directors.directors .container-fluid.pdt85i.pdb30i .two-col-head_ctn{margin-bottom: 0px;}
+        .our-board-of-directors .carou-bod .owl-theme {overflow: hidden;margin-bottom: 40px;}
+        body.our-board-of-directors.directors app-leaders .owl-carousel.owl-theme.owl-loaded.owl-responsive.owl-drag {margin-bottom: 40px;}
+        body.diversity-and-inclusion app-people-card .video_bx {width: 100%;height: 100%;}
+        body.diversity-and-inclusion app-people-card .card-container{overflow: auto;}
+        body.diversity-and-inclusion app-people-card .bg-ctn.grey-bg.pdt85i.pdb115i{padding-bottom: 0px;}
+        body.diversity-and-inclusion app-usp ul{margin-top: -40px;}
+        body.diversity-and-inclusion app-join-our-team .container .two-col-head_ctn .lft_flt_hd{font-size: 19px !important;}
+        body.diversity-and-inclusion app-usp .lft_flt_hd h2{font-size: 19px;}
+        body.diversity-and-inclusion app-usp ul h3{font-size: 19px;}
+        body.diversity-and-inclusion app-people-card .bg-ctn.grey-bg.pdt85i.pdb115i{padding-top: 0px;}
+        body.diversity-and-inclusion app-join-our-team .nw_bg{padding-bottom: 40px;}
+        body.diversity-and-inclusion app-join-our-team .two-col-head_ctn{margin-bottom: 0px;}
+        body.diversity-and-inclusion app-overview .br_line_mid{display: none;}
+        body.diversity-and-inclusion app-people-card .img-banner_lft{padding-top: 0px;}
+        body.diversity-and-inclusion app-join-our-team {background-color: #F5F5F5;padding: 40px 0;}
+        body.diversity-and-inclusion app-usp .container-fluid.mtb85i.wht-Do{margin-bottom: 40px;}
+        body.diversity-and-inclusion app-overview .container-fluid.mtb85i{margin-top: -84px;}
+        body.our-commitment app-paragraph .crd_cont .ng-star-inserted .table-container .ng-star-inserted:nth-child(2){padding-right: 20px;}
+        body.home #articleLanding .two-col-head_ctn{margin-bottom: -20px;}
+        body.our-commitment app-overview .container-fluid.mtb85i{margin-top: -40px;margin-bottom: 40px;}
+        body.sustainable-futures .container-fluid.mtb85i.nv-4 {margin-top: 0px;margin-bottom: 40px;}
+        body.our-values app-related-pages .container-fluid .bg-ctn {background-color: #F5F5F5;padding-top: 40px;padding-bottom: 40px;}
+        .container-fluid.grey-bg.pdt85i.pdb64i.newsRe {padding-bottom: 40px;}
+        .our-story-so-far app-navigation .nv-7 .txt-banner_lft{height: auto !important;}
+        body.our-story-so-far app-related-pages .container-fluid .bg-ctn{padding: 40px 0px 20px 0px;}
+        .news-centre app-carousel .owl-carousel.owl-theme{overflow: hidden;}
+        body.creating-a-greener-future app-related-pages .container-fluid .bg-ctn{background-color: #F5F5F5;padding-top: 40px;padding-bottom: 20px;}
+        body.investing-in-our-people app-related-pages .container-fluid .bg-ctn{background-color: #F5F5F5;padding-top: 40px;padding-bottom: 20px;}
+        .our-commitment app-related-pages .container-fluid .bg-ctn{background-color: #F5F5F5;padding-top: 40px;padding-bottom: 20px;}
+        body.keeping-accountable app-topic-image-card .tp-box{box-shadow: none;}
+        .what-it-means-to-work-at-idp app-leaders .cont-overlap-ctn{margin-bottom: 30px;}
+        /* .what-it-means-to-work-at-idp app-leaders .owl-theme .owl-nav.disabled+.owl-dots{margin-top: -20px;} */
+        .blog app-paragraph .overlap-cont img{width: 100%;}
+        .blog app-paragraph .crd_hed{margin-bottom: 0px;}
+        .blog app-paragraph .bg-ctn{padding: 20px !important;}
+        .blog app-paragraph .card-cont-ctn{padding: 0;}
+        .blog app-paragraph .cont-overlap-ctn{flex-direction: column;padding: 0;}
+        app-author{width: 100%;}
+        .blog app-paragraph .bg-ctn{padding: 20px;}
+        .blog app-paragraph .bg-ctn{width: 100% !important;margin-bottom: 40px;}
+        .br_cr li {font-size: 14px;}
+        app-breadcrumb .container{padding: 0 20px;}
+        .our-people app-related-pages .container-fluid.mtb85i.mtbt85i .bg-ctn{background-color: #F5F5F5;padding: 40px 0px;}
+        .our-people app-img-banner .bg-ctn.grey-bg.pdt85i{background-color: #F5F5F5;padding: 40px 0px;}
+        app-leaders .flx-crd-ctn{max-width: 91%;}
+        app-leaders #ldr-crd .owl-carousel .owl-item {width: 100% !important;}
+        app-leaders .slide:hover{box-shadow: unset !important;}
+        .what-it-means-to-work-at-idp app-related-pages .container-fluid .bg-ctn{padding: 20px 0px;}
+        .empowering-communities app-related-pages .container-fluid .bg-ctn{padding: 40px 0px;}
+        app-leaders .owl-carousel .owl-stage{width: unset;}
+        iframe {width: 100%; object-position: center;}
+        app-leaders .prf_nme {display: none;}
+        app-leaders .prf_nme-ctn{display: unset;}
+        app-leaders .owl-item {width: 100% !important;}
+        app-leaders .flx-crd-ctn{width: 100% !important;width: 100% !important;overflow: hidden;display: block;}
+        app-leaders .prf-crd {width: 100% !important;height: 100% !important;display: flex;flex-direction: column;}
+        app-leaders .prf-crd img {width: 100% !important;height: 320px !important;margin-bottom: -45px;}
+        app-leaders #left{padding: 25px 20px 20px 20px;text-align: left;}
+        .our-leaders app-leaders #left{background-color: #ffffff;}
+        app-leaders #left h3 {font-size: 19px;font-family: 'BuenosAires-Regular';padding-bottom: 10px;color: #1C1F2A;}
+        app-leaders #left h5{font-size: 12px;font-family: 'BuenosAires-Light';padding-bottom: 25px;color: #1C1F2A;} 
+        app-leaders #left p{color: rgba(28,31,42,0.8);font-size: 15px;line-height: 25px;padding-bottom: 30px;height: 270px;overflow: hidden;}
+        .our-leaders app-leaders #left p {height: 240px;}
+        .our-leaders app-navigation .container-fluid.mtb85i.nv-1{margin-top: 0px;}
+        app-leaders .grey-bg {background-color: #F5F5F5;padding: 40px 0px;}
+        app-leaders .act_btn {border-top-right-radius: 10px;border-top-left-radius: 10px;}
+        app-leaders .act_btn{width: 90% !important; z-index: 22;height: 440px !important;position: unset !important;}
+        .our-leaders .rd_mor{color:#e43449;font-size: 16px;font-weight: 600;line-height: 22px;font-family: 'BuenosAires-Regular';display: block;padding: 20px 20px 20px 0px;position: relative;}
+        .our-leaders .rd_mor span {background: url(/assets/images/svg/anc_red_rht_arw.svg)no-repeat;left: 90px;top: 22px;}
+        app-leaders .prf-crd {background-color: transparent !important;box-shadow: 0 0 0px #c4c4c480 !important;}
+        .what-it-means-to-work-at-idp app-leaders .prf-crd {background-color: transparent !important;}
+        .what-it-means-to-work-at-idp app-leaders #ldr-crd .owl-carousel .slide {background-color: transparent !important;}
+        .what-it-means-to-work-at-idp app-leaders .prf-crd img{border-bottom-left-radius: 10px !important;border-bottom-right-radius: 10px !important;}
+        .prf_des {font-size: 10px;}
+        .act_btn{bottom: -1px;}
+        .who-we-are app-people-card .banner_text_pod{height: 340px;}
+        .who-we-are app-people-card .grey-bg, app-our-story .grey-bg{background-color: #f5f5f5 !important;}
+        .who-we-are app-people-card .img-banner_lft{margin-bottom: -25px;}
+        app-leaders .owl-carousel .owl-stage{flex-wrap: nowrap !important;}
+        .our-leaders app-navigation .container-fluid:nth-of-type(odd) .banner_text_pod{background-color: #F5F5F5;}
+        .our-leaders app-navigation .banner_text_pod p {height: auto;}
+        .our-leaders app-navigation .banner_text_pod{height: auto;}
+        .our-leaders app-navigation .container-fluid:nth-of-type(even) .bg-ctn{padding-bottom: 0px;}
+        .our-leaders .txt_lft-banner_ctn {min-height: unset;}
+        .our-offices app-static-map .container-fluid .bg-ctn,.our-offices app-related-pages .container-fluid .bg-ctn{padding: 40px 0px;}
+        .our-offices app-navigation .banner_text_pod{height: auto;}
+        body.our-values app-topic-image-card .tp-box__side.tp-box__front .card-cont-ctn{display: none;}
+        body.our-values .owl-theme .owl-dots,body.our-values .owl-theme .owl-nav{display: none;}
+        body.our-values app-related-pages .video-ctn{height: auto;}
+        /* body.our-values app-related-pages .vd-pod a {width: 420px;}
+        body.our-values app-related-pages .vid-txt-blk{width: 420px;} */
+        .year_heading h2{font-size: 19px;}
+        h2{font-size: 19px;}
+        body.legal-article .hero-content-ctn {display: none;}
+        body.legal-article .hero_bann_ctn {min-height: auto;}
+        body.legal-article .br_frt_line_mid{display: none;}
+        body.legal-article .gry-dwn-arw{margin-top: 10px;}
+        .img_txt_lft-banner_ctn .crd_hed .bk-hed h4{width: 100%;}
+        body.legal-article app-paragraph .crd_hed{height: auto;margin-bottom: 30px;}
+        
+        body.legal-article app-paragraph .bk-hed{width: 100%;}
+        body.legal-article app-paragraph .card-cont-ctn{padding: 20px 0px;}
+        body.our-board-of-directors app-related-pages .container-fluid {background-color: #F5F5F5;padding-top: 40px;padding-bottom: 20px;}
+        .join-our-team app-people-card .card-blk h2{font-size: 18px;line-height: 28px;}
+        .join-our-team app-testimonial .dot-ctn{background-color: #F5F5F5;margin-bottom: 40px;}
+        .join-our-team app-testimonial .cont-overlap-ctn {padding: 20px 20px 0px 20px;}
+        .our-board-of-directors .carou-bod #left p{height: auto;
+            overflow: unset;}
+        .our-board-of-directors .carou-bod #left a{display: none;}
+        .our-board-of-directors .carou-bod {display: block !important;margin: 0;}
+        .our-leaders.directors .carou-bod {display: block !important;margin: 0;}
+        .our-offices app-static-map .column-1{overflow: hidden;height: auto;z-index: 2;padding-bottom: 30px;}
+        
+    
+        
+        .our-offices app-static-map .vertical-menu li {height: auto !important;border-radius: 0px;}
+         .our-offices app-static-map .bg-ctn p {margin:30px 20px 30px 20px;}
+        .bg-ctn{width: 100%;}
+        .hero_bann_ctn{width: 100%;}
+     body.our-offices app-related-pages .dot-ctn.ht-ft {height: auto;}
+     body.our-offices app-related-pages .video-ctn{height: auto;}
+     
+     body.our-offices .txt-banner_lft {width: 100%;padding: 0 20px;}
+     body.our-board-of-directors app-related-pages .head_ctn {margin-bottom: 15px;}
+        body.our-board-of-directors .txt-banner_lft {width: 100%;padding: 0 20px;}
+        app-left-txt-banner .container-fluid:nth-of-type(even) .bg-ctn {padding-bottom: 40px;}
+        .wht-crd.wht-Do .prd-ctn{margin-bottom: 20px;}
+        .meMyTeam{background: #FC7906;}
+        .join-our-team app-testimonial .container-fluid.bg_wht{background-color: unset !important;padding-bottom: 0px;}
+        .ftr_rht_ctn li:last-child, .ftr_rht_ctn li:nth-child(3){border-right: 2px solid #fff;}
+        .join-our-team app-testimonial .carou-ctn {height: auto;}
+        .join-our-team .newsRe .carou-txt-banner_rht{height: 276px;}
+        .join-our-team .newsRe .mask_bx img{right: 0;margin: 0 auto;}
+        .join-our-team .newsRe .carou-banner_text_pod{text-align: center;padding-top: 20px;}
+        .join-our-team app-people-card .owl-carousel .owl-stage-outer{width: 100% !important;}
+        .join-our-team app-people-card .owl-theme .owl-dots,.join-our-team app-people-card .owl-theme .owl-nav {display: none;}
+        .join-our-team app-testimonial .slide.ng-star-inserted{margin: 0px !important;}
+        .carou-txt-banner_rht p {padding: 0 20px;}
+        li.nav-item.dropdown{margin-right: 0px;}
+        .menu_ctn_bx{margin-right: 8px !important;}
+        /* header  */
+        .wrpr{background-image: none;}
+        .container{width: 100%;}
+        .mainlogo img{width: 175px;height: 45px;margin-top: 35px;}
+        .wrpr{display: none;}
+        .header-ctn{height: 108px;padding: 0 20px;}
+        .social-icon-ctn{ margin-top: 43px;float: right;display: block;}
+        .logo{display: inline-block;}
+        .header-lft-ctn{display: inline-block;float: none;width: 100%;}
+        .social-icon-ctn .linkedin{background: url('/assets/icons/linkedIn-black.svg')no-repeat left top;height: 16px;width: 16px;margin-right: 12px;}
+        .social-icon-ctn .twitter{background: url('/assets/icons/twitter-black.svg')no-repeat left top;height: 16px;width: 16px;}
+        .who-we-are app-img-banner .mtb55i{margin-top: 40px;}
+    .mtb55i{margin-top: 10px;}
+        .social-icon-list{display: flex;flex-direction: row-reverse;}
+        .ftr_rht_ctn li:last-child,.ftr_rht_ctn li:nth-child(3){border: none !important;padding-right: 0px;}
+        .menu_open .header-rgt-ctn {display: block;height: 100%;position: fixed;margin: 0;overflow-y: auto;padding: 80px 20px 50px 20px;}
+        body.menu_open {overflow: hidden;}
+        li.nav-item.dropdown{padding-bottom: 15px;}
+        li.nav-item.dropdown.drop-open .dropdown_menu {display: block !important;}
+        li.nav-item.dropdown.drop-open > span {transform: rotate(0deg);}
+          .dropdown_menu::after{content: none;}
+          .header-rgt-ctn {display: none;position: absolute;background-color: #fff;z-index: 999;float: none;top:0px;width: 100%;padding: 0 20px;padding-top: 50px;left: 0;border-radius: 10px;height: fit-content;box-shadow: 0px 0px 8px #00000026;}
+          .who-we-are app-people-card .banner_text_pod.clone1{padding-left: 20px;}
+        .banner_text_pod.clone1{padding: 20px;}
+        .hero-ctn video {height: 407px;width: auto;}
+        .image_bann_ctn .banner_ctn p{display: none;}
+        .image_bann_ctn .banner_ctn a{margin: 0 auto;}
+        /* .header-rgt-ctn {display: block;position: absolute;background-color: #fff;z-index: 4;float: none;top:0px;width: 100%;padding: 0 20px;padding-top: 50px;left: 0;border-radius: 10px;height: fit-content;box-shadow: 0px 0px 8px #00000026;} */
+        /* .card-blk img{width: 100% !important;} */
+        li.nav-item.dropdown{display: block;}
+        .menu_ctn li{margin-bottom: 25px;font-family:"BuenosAires-Bold";}
+        .dropdown_menu{margin-top:30px;position: unset;width: 100%;padding: 0;box-shadow: unset;z-index: 0;}
+        .dropdown_menu a{margin-bottom: 30px;}
+        .menu_ctn_bx {margin: 0px 15px 0px 10px;padding-bottom: 0px;}
+        .social_ctn_box{padding-bottom: 50px;}
+        .social_ctn_box ul{border-top: 1px solid rgba(28,31,42,.5);}
+        .social_ctn_box ul li{margin:30px 15px 0px 10px;}
+        .social_ctn_box ul li a{text-align: left;font-family:"BuenosAires-Regular";font-size: 14px;letter-spacing: 0px;color: rgba(28,31,42,0.8); }
+        .social_ctn_box ul li a:hover{font-family:"BuenosAires-Bold";text-decoration: none;}
+        .menu_btn_a{right: 35px;bottom: 185px;position: fixed;z-index: 999;width: 50px;height: 50px;background: linear-gradient(90deg,#E11937,#FF8300,#FFD700);border-radius: 25px;}
+        .menu_btn_a .toggle_menu_btn{background: url(/assets/images/svg/toggle-menu.svg);background-repeat: no-repeat;width: 18px;height: 18px;display: block;position: absolute;top: 33%;left: 29%;cursor: pointer;}
+        .menu_btn_b{right: 10px;top: 10px;position: fixed;z-index: 999;width: 50px;height: 50px;}
+        .menu_btn_b .toggle_cls_btn{background: url(/assets/images/svg/wht_cls-btn.svg);background-repeat: no-repeat;width: 18px;height: 18px;display: block;position: absolute;top: 33%;left: 29%;}
+        .br_gr_line_mid{margin-top: 10px;}    
+        .pdb115i{padding-bottom: 40px;}
+        .menu_ctn_bx li:last-child{margin-right: 0px !important;}
+        .yrs-ctn img {padding-bottom: 0px;width: 100%;max-height: 240px;height: 100%;overflow-y: hidden;}
+        .year_heading{height: 25px;margin-bottom: 20px;}
+        .br_gr_line_mid{width: 75px;margin-top: 10px;}
+        .br_blu_line_mid{width: 75px;margin-top: 10px;}
+        .br_org_line_mid{width: 75px;margin-top: 10px;}
+        .nav-item.dropdown a:hover{color: #FE7E03;}
+    
+        .menu_arr{background: url(/assets/images/svg/chevron-down.svg);background-repeat: no-repeat;width: 18px;height: 18px;display: block;float: right;transform: rotate(180deg);}
+        .nav-mnu-item{color: rgb(0,0,0,0.8) !important;}
+        .header-rgt-ctn .menu_btn_a {top: 10px; right: 10px;}
+        .head_ctn {margin-bottom: 35px;}
+        .menu_open .menu_btn .mnu_ad{display:none;}
+        .txt_lft-banner_ctn {display: flex;flex-direction: column-reverse;width: 100%;}
+        /* heroBanner  */
+        .hero-ctn video{height: 100%;width:100%;object-fit: cover;}
+        h1{font-size: 19px;line-height: 23px;}
+        p{font-size: 15px !important;line-height: 24px !important;}
+        .hero-ctn img { height: 100%;width: 100%;object-fit: cover;}
+        .blog .br_cr {padding: 0 20px;}
+        .hero-overlay{background: transparent linear-gradient(270deg,rgba(28,31,42,.8) 45%,#8d8f91 65%,#d7d7d5 100%,#d9d9d6 0) 0 0 no-repeat padding-box;opacity: .55;width: 100%;height: 100%;top: 0;left: 0;position: absolute;z-index: 1;}
+        .hero-content{background-color: #fff;color: #000;padding: 20px;width: 100%;box-shadow: 50px 50px 99px #2222220f;border-radius: 10px;bottom: -130px;right: unset;min-height: 180px;}
+        .hero-content-ctn{margin:0 5%}
+        .our-leaders .container-fluid.mtb85i.nv-3 {margin-top: 40px;}
+        .mtb85i{margin-top: 40px;}
+        .mtb50i{margin-top: 20px;}
+        .image_bann_ctn .banner_ctn h1{text-align: center;  line-height: 23px;}
+        .menu_open .header-rgt-ctn .social_ctn_box{display: block;}
+    
+        .video_bx img{height: 100%;width: 100%;object-fit: cover;}
+        .img-banner_lft{width: 100%;float: unset;left: 0;display: flex;margin-bottom: -50px;min-height: auto;}
+        body.sustainable-futures app-overview .img-banner_lft{margin-bottom: -20px;}
+        body.sustainable-futures app-navigation .container-fluid:nth-of-type(odd) .banner_text_pod{height: 290px;}
+        body.sustainable-futures app-navigation .container-fluid:nth-of-type(odd) .banner_text_pod p{height: 210px;}
+        .txt-banner_rht{width: 90%;margin: 0 5%;min-width: unset;float: unset;display: flex;position: unset;}
+        .banner_text_pod{padding: 20px;}
+        .dot-ctn{width: 100%;height: auto;}
+        .bg-dot{display: none;}
+        .cont-overlap-ctn{left: 0;height: auto;}
+        .ad_ht{height: 610px;margin-top: 5px;}
+        app-carousel .ad_ht{height: 690px;}
+        .crd_hed h4{font-size: 19px !important;line-height: 25px;margin-top: 5px;}
+        .img-banner_rht .tab_video{height: 320px;overflow-y: hidden;border-radius: 10px;}
+        .video_bx{height: 320px;width: 100%;}
+        .img_lft-banner_ctn{display: flex;align-items: center;flex-direction: column;flex-wrap: nowrap;justify-content: space-around;width:100%;border-radius: 10px;}
+    /* join our team  */
+        span#vid_icon{width: 50px !important;height: 50px !important;}
+        span#vid_icon:before{background-size: 18px;}
+        .bg-covr{background-color: #F5F5F5;}
+        .banner-content-ctn {padding-bottom: 20px;}
+        .image_bann_ctn {height: 361px;}
+        .image_bann_ctn img{height: 267px;width: 100%;margin-top: 0px;}
+        .image_bann_ctn_img{height: 270px;margin-bottom: -50px;}
+        .btn_ctn a {background: #2630A8 !important;border-radius: 6px;}
+        .image_bann_ctn .banner_ctn{width: 100%;left: 0;bottom: -90px;height: 130px;position: unset;}
+        .rela-cont{margin: 0 5%;}
+        .image_bann_ctn{min-height: 330px;height: fit-content;}
+        .two-col-head_ctn{padding-left:20px;height: 50px;}
+        .head_ctn{margin-left: 20px;margin-right: 20px;}
+        .res-join-our{display: block;}
+        .image_bann_ctn .banner_ctn h1{margin-bottom: 17px;display: -webkit-box;overflow: hidden;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+        .image_bann_ctn .banner_ctn{background-color: rgba(245,245,245,1);}
+        .image_bann_ctn p{display: none;}
+        .image_bann_ctn .banner_ctn .btn_ctn{text-align: center;}
+        .image_bann_ctn .banner_ctn button:hover{background: url('/assets/images/svg/Green_btn.svg')no-repeat left top;}
+        .flx-crd-ctn_a{height: 390px;}
+        /* banner_image  */
+        .banner_text_pod p{margin-bottom: 20px;}
+        .cont-overlap-ctn {right: 0;height: auto;padding-left: 20px;padding-right: 20px;left: 0;position: unset;}
+        .txt-banner_lft{margin: 0 20px;position: unset;width: 90%;}
+        .img-banner_rht{width: 100%;position: unset;min-height: auto;margin-bottom: -110px;}
+        .image_bann_ctn1 .gallery_1, .image_bann_ctn_img img{margin-top: 0px;height: 270px;}
+        .image_bann_ctn1 .banner_ctn{width: 100%;right: 0;top: -50px;border-radius: 10px;margin: 0; min-height: max-content;position: unset;}
+        .image_bann_ctn1 h1{line-height: 23px;}
+        .banner-content-ctn h2{font-size: 20px;margin-bottom: 10px;}
+        app-img-banner .banner-content-ctn h3{font-size: 20px;padding-bottom: 10px;}
+        app-img-banner .banner-content-ctn {padding-bottom: 0px;}
+        /* .image_bann_ctn1{height: 350px;} */
+        .btn-nav{bottom: 130px;}
+        .rht_flt_li{margin-top: 6px;}
+        .pic_ctnr .owl-dots.ng-star-inserted{bottom: 60px;}
+        /* .pic_ctnr .owl-carousel .owl-stage-outer{height: 350px;} */
+        .image_bann_ctn1 .banner_ctn{background-color: rgba(245,245,245,1);text-align: center;width: 300px;
+            margin: 0 auto;}
+        .pic_ctnr .slide.ng-star-inserted{height: auto;}
+        .carou-ctn p{padding-bottom: 20px;}
+        
+        /* our-story  */
+        .yrs-ctn .owl-theme .owl-nav .disabled, .owl-theme .owl-nav .disabled:hover{background: url(/assets/images/svg/our_story-nxt-arr.svg);background-repeat: no-repeat;width: 18px;margin-left: -2px;height: 18px;display: block;float: left;transform: rotate(270deg)}
+        .image_bann_ctn1{margin-bottom: 10px;}
+        .yrs-ctn{height: auto;width: 100%;}
+        .yrs-ctn .slide{transition: all .2s;}
+        .yrs-ctn .slide:hover{transition: unset !important;}
+        .dis_ctn{display: flex;flex-direction: column;padding-bottom: 40px;}
+        .year_heading h1{font-size: 14px;}
+        .two-col{display: flex;flex-direction: column;margin: 0 20px;}
+        .rht-colmn{width:100%;padding: 27px 20px 0px 20px;}
+        .lft-colmn{width: 100%;height: 230px;}
+        .yr_or_dot{bottom: -16px;}
+        .who-we-are app-people-card .flx-crd-ctn{margin: 0;}
+        app-people-card .banner_text_pod.clone1 h2{font-size: 19px;}
+        .active .yr_or_dot{bottom: -17px;left: 13px;}
+        .pdt85i{padding-top: 50px;}
+        .two-col.yrs-cont-ctn .lft-img-ctn {height: 100%;width: 100%;}
+        .crd_hed{margin-bottom: 0px;}
+        .year_list li{margin-right: 8%;}
+        /* left-txt-banner */
+        .blu_anc {color: #2630A8 !important;}
+        .blu_anc .blu_rht_arw {background: url(/assets/images/svg/anc_blu_rht_arw.svg)no-repeat;}
+        /* left-txt-banner */
+        /* right-txt-banner */
+        .org_anc{color: #DF1834 !important;}
+        .org_anc .org_rht_arw {background: url(/assets/images/svg/anc_red_rht_arw.svg)no-repeat;}
+        /* right-txt-banner */
+        /* carousel */
+        .gre_anc{color: #03845E !important;}
+        .gre_anc .grn_rht_arw {background: url(/assets/images/svg/anc_grn_rht_arw.svg)no-repeat;}
+        /* carousel */
+        /* footer  */
+        .grey-ctn{width: 100%;background-color: #1c1f2a;display: flex;flex-direction: column;flex-wrap: nowrap;justify-content: center;align-items: center;height: 100%;padding: 30px 15px 30px 15px;}
+        .org-ctn{display: none;}
+        .blk{height: 146px;}
+        .ftr_rht_ctn {margin-top: 25px;}
+        .ftr_row a{border: none;padding: 0;line-height: 14px;}
+        .ftr_rht_lik{border-right: 2px solid #fff;padding: 0 5px 0 5px;}
+        .ftr_rht_ctn{text-align: center;line-height: 25px;}
+        .no_pad_rgt{padding-right: 0px;}
+        .no_pad_lft{padding-left: 10px;}
+        }

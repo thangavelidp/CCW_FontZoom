@@ -1,0 +1,27 @@
+<ng-container *ngIf="(homeDetails?.homeBanner | json) != '{}'">
+    <app-herobanner [banner]="homeDetails.homeBanner" [pageName]="pageName"></app-herobanner>
+</ng-container>
+<ng-container *ngIf="homeDetails?.homeOverview.length>0">
+    <app-overview [overviewPod]="homeDetails?.homeOverview"></app-overview>
+</ng-container>
+<ng-container *ngIf="homeDetails?.homeOverlayPod.length>0">
+    <app-navigation [overlayPod]="homeDetails?.homeOverlayPod"></app-navigation>
+</ng-container>
+<ng-container *ngIf="homeDetails?.homeFeaturette.length>0">
+    <app-join-our-team [featurette]="homeDetails?.homeFeaturette" [pageName]="pageName"></app-join-our-team>
+</ng-container>
+
+<ng-container *ngIf="(homeDetails?.homeOurStorySoFar | json) != '{}'">
+    <app-our-story [ourStroy]='homeDetails?.homeOurStorySoFar'></app-our-story>
+</ng-container>
+<ng-container *ngIf="homeDetails?.homerelatedImages.length > 0">
+    <app-img-banner [relatedImages]="homeDetails?.homerelatedImages"></app-img-banner>
+</ng-container>
+<ng-container *ngIf="homeDetails?.DynamicArticle.length > 0">
+    <div id="articleLanding">
+        <app-carousel [newsArticleList]="homeDetails?.DynamicArticle" [sectionTitle]="homeDetails?.homeLatestNews"></app-carousel>
+    </div>
+</ng-container>
+<ng-container *ngIf="pageNotFound">
+    <app-page-not-found></app-page-not-found>
+</ng-container>

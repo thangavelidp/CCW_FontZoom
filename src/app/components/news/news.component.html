@@ -1,0 +1,84 @@
+<div class="container">
+    <div class="dot-ctn ad_ht">
+        <div class="bg-dot">
+            <div class="bg-gr-dot-img"></div>
+        </div>
+
+        <div class="cont-overlap-ctn">
+            <div class="overlap-cont">
+                <div class="carou-ctn">
+
+                    <div class="carou-card-ctn">
+
+                        <ng-container
+                            *ngFor="let news of newsArticleList | paginate: { itemsPerPage: displayCount, currentPage: p, totalItems: totalRecords }">
+
+                            <div class="slide">
+                                <a class="crd-ctn">
+                                    <div class="card-blk">
+                                        <div class="tp-box" [@flipState]="news.flip">
+
+                                            <div class="tp-box__side tp-box__front" (click)="toggleFlip(news)">
+
+                                                <img [defaultImage]="defaultImage"
+                                                    [lazyLoad]="news?.image?.image?.imageUrl +'?fit=fill&w=320&h=230' + isWebpImage"
+                                                   [alt]="news?.image?.image?.imageAltText">
+
+
+                                                <!-- [width]="card.image.imageWidth"
+                                                                            [height]="card.image.imageHeight" -->
+                                                <div class="card-cont-ctn">
+
+                                                    <div class="crd_hed">
+                                                        <p class="date_hld">{{news.date | date: 'dd MMMM yyyy'}}</p>
+                                                        <h4> {{news.title}}</h4>
+                                                        <!-- <p class="st-de">{{news.shortDescription | slice:0:95}}
+                                                        </p> -->
+
+
+                                                        <a  class="rd_mor">Read more</a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="tp-box__side tp-box__back" (click)="toggleFlip(news)">
+                                                <div class="card-cont-ctn">
+
+                                                    <div class="crd_hed">
+                                                        <div class="bk-hed">
+                                                            <span class="br_frt_line_mid"></span>
+                                                            <h4> {{news.title}}</h4>
+                                                        </div>
+                                                        <p *ngIf="news?.shortDescription">
+                                                            {{news.shortDescription}}</p>
+                                                        <p *ngIf="news?.longDescription"
+                                                            [innerHtml]="news?.longDescription | safeHtml">
+                                                        </p>
+                                                        <a [href]="news?.url" class="rd_mor">Read
+                                                            more</a>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+                        </ng-container>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pg_no">
+            <pagination-controls (pageChange)="getPage($event)" [maxSize]="maxSize"></pagination-controls>
+        </div>
+
+    </div>
+</div>

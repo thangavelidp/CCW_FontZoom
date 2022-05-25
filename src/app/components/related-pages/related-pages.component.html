@@ -1,0 +1,62 @@
+<div class="container-fluid mtb85i mtbt85i">
+    <div class="bg-ctn">
+        <div class="container" *ngIf="relatedPagesTitle">
+            <div class="two-coloumn-pod">
+                <div class="head_ctn">
+                    <h2>{{relatedPagesTitle.title}}</h2>
+                    <span class="br_line_mid"></span>
+                </div>
+            </div>
+        </div>
+        <div class="dot-ctn ht-ft" *ngIf="relatedPages.length >0">
+            <div class="bg-dot">
+                <div class="bg-lft-dot-img" ></div>
+            </div>
+            <div class="cont-overlap-ctn">
+                <div class="overlap-cont">
+                <div class="container">
+                    <div class="video-ctn">
+                        <div class="vd-pod mr-20i" *ngFor="let pages of relatedPages | slice:0:2">
+                            <a [href]="pages.url" *ngIf="pages?.image?.image">
+                            <div class="video-blk" >
+                                <img [defaultImage]="defaultImage" [lazyLoad]="pages?.image?.image.imageUrl +  '?fit=fill&w=475&h=450' + isWebpImage" [alt]="pages?.image?.image?.imageAltText">
+                                <!-- <span tabindex="0" class="vid_icon" id="vid_icon"
+                                    (click)="toggleVideo(video.video.videoUrl)"
+                                    (keypress)="toggleVideo(video.video.videoUrl)" style="position: absolute;float: left;color: #fff;width: 50px;height: 50px;left: 45%;top: 45%;"></span> -->
+                                <!-- <img [src]="overview.video.videoThumbnailUrl" width="125%"> -->
+                            </div>
+                            <div class="vid-txt-blk">
+                                <h2>
+                                   {{pages.title}}
+                                </h2>
+                                <span class="blk-arrw"></span>
+                            </div>
+                        </a>
+                        <ng-container *ngIf="pages?.video">
+                        <div class="video-blk" *ngIf="pages?.video">
+                            <img [defaultImage]="defaultImage" [lazyLoad]="pages?.video?.videoThumbnailUrl +  '?fit=fill&w=475&h=450' + isWebpImage" alt="Video image">
+                            <!-- [width]="pages.video.videoThumbnailWidth" [height]="pages.video.videoThumbnailHeight" -->
+                            <span tabindex="0" class="vid_icon" id="vid_icon"
+                                (click)="toggleVideo(pages.video.videoUrl)"
+                                (keypress)="toggleVideo(pages.video.videoUrl)" style="position: absolute;float: left;color: #fff;width: 50px;height: 50px;left:43%;top:31%;"></span>                            
+                        </div>
+                      
+                        <div class="vid-txt-blk">
+                            <a [href]="pages.url">
+                            <h2>
+                               {{pages.title}}
+                            </h2>
+                            <span class="blk-arrw"></span>
+                        </a>
+                        </div>
+                    
+                    </ng-container>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

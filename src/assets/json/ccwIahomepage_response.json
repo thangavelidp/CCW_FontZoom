@@ -1,0 +1,1269 @@
+{
+    "sys": {
+        "type": "Array"
+    },
+    "total": 1,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8bbwomjfix8m"
+                    }
+                },
+                "id": "71qneZ8Sy4D5O3iNZeSa6o",
+                "type": "Entry",
+                "createdAt": "2021-10-08T11:26:00.787Z",
+                "updatedAt": "2021-10-21T12:49:48.855Z",
+                "environment": {
+                    "sys": {
+                        "id": "development",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 4,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "ccwIaHomePage"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "pageName": "Homepage - Global",
+                "pageTitle": "Reigniting our customers' ambitions",
+                "shortDescription": "We help people achieve their global study, work and migration goals, building a smarter world in the process.",
+                "urlSlug": "/home",
+                "robots": "index,follow",
+                "metaTitle": "IDP Education | Global leaders in international education services",
+                "metaDescription": "IDP Education is a global leader in international education services, helping students realise their dreams of studying abroad for over 50 years.",
+                "metaKeywords": "international education services, world education, international education",
+                "banner": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Entry",
+                        "id": "aPkVLxqz25bEbUHG201Ga"
+                    }
+                },
+                "overview": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "6W56dunAzCHtW5XzjbEmrG"
+                        }
+                    }
+                ],
+                "featurette": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "4fOzzlRQx9jRUP21rLxFid"
+                        }
+                    }
+                ],
+                "overlayPod": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "g7rIABiZ5Sg1nvonKnfMr"
+                        }
+                    }
+                ],
+                "ourStorySoFar": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Entry",
+                        "id": "6gNQYDLUHmUoZP45dlbZFt"
+                    }
+                },
+                "relatedImages": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "3l4yvO3ny8YOb46EgFfrE4"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "2RYV2iKGVHDAanFN0GwBhC"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "5owKhFltt2l1mpYDvYEI1G"
+                        }
+                    }
+                ],
+                "latestNews": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Entry",
+                        "id": "4JSc7IGERwZHY7ihMuoK8l"
+                    }
+                }
+            }
+        }
+    ],
+    "includes": {
+        "Entry": [
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "1s3QfyhWicRSLJJfRhOH5O",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:25:41.089Z",
+                    "updatedAt": "2021-10-21T12:52:19.925Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 3,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "Our story so far - 1981",
+                    "title": "Our story so far - 1981",
+                    "shortDescription": "IDP changes its name to the International Development Program (IDP) and opens an office in Jakarta. ",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "6ivaTNo1vaNmcx3LuzV8Xt"
+                        }
+                    },
+                    "year": 1981
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "2RYV2iKGVHDAanFN0GwBhC",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:30:45.865Z",
+                    "updatedAt": "2021-10-13T12:30:45.865Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "IA Homepage - Our offices 2",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "75DkOVhvUmzFvwiR5fENPI"
+                        }
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "3l4yvO3ny8YOb46EgFfrE4",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:30:11.924Z",
+                    "updatedAt": "2021-10-13T12:30:11.924Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "IA Homepage - our offices 1",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "7sdWTXqJ3zR4XCESlp4QoB"
+                        }
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "4JSc7IGERwZHY7ihMuoK8l",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:33:28.173Z",
+                    "updatedAt": "2021-10-13T12:33:28.173Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwSectionTitle"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "sectionTitleName": "IA Homepage - News",
+                    "sectionTitle": "News ",
+                    "sectionIntro": "As a global education leader, IDP has unique insights on the latest developments and news in world education. Learn more on other IDP initiatives here.",
+                    "ctaLabel": "View more"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "4UOYb85KntphXW55UM93lw",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:25:02.925Z",
+                    "updatedAt": "2021-10-21T05:00:37.141Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 3,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "Our story so far - 1969",
+                    "title": "Our story so far - 1969",
+                    "shortDescription": "IDP is established as the Australian Asian Universities Cooperation Scheme (AAUCS), delivering development assistance to universities in South-East Asia.",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "PrNnSdKJ0H5vgEomidG7h"
+                        }
+                    },
+                    "year": 1969
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "4fOzzlRQx9jRUP21rLxFid",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:15:55.699Z",
+                    "updatedAt": "2021-10-21T12:41:23.054Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 5,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "IA Homepage - Join the team ",
+                    "title": "Join the team ",
+                    "shortDescription": "Join our diverse team, united by a shared vision to change the world through global education.",
+                    "ctaLabel": "Join our team",
+                    "ctaUrl": "https://www.careers.idp.com/",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "1gxpmeJRT6Wsz2MZsUzmaK"
+                        }
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "5owKhFltt2l1mpYDvYEI1G",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:31:19.614Z",
+                    "updatedAt": "2021-10-13T12:31:19.614Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "IA Homepage - Our offices 3",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "2y1jWTcIUmREZJ8UnNiHcP"
+                        }
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "6W56dunAzCHtW5XzjbEmrG",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:13:15.951Z",
+                    "updatedAt": "2021-10-19T07:41:55.580Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "IA Homepage - Who we are ",
+                    "title": "Who we are ",
+                    "shortDescription": "IDP is an Australian-listed company with a global outlook, operating in more than 50 countries around the world. We are an international education services industry catering to several students across the globe.",
+                    "ctaLabel": "About us",
+                    "ctaUrl": "https://www.careers.idp.com/",
+                    "ctaTarget": "Open in new tab",
+                    "video": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "73jqiA7oDIpMbXDGmxHoBG"
+                        }
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "6gNQYDLUHmUoZP45dlbZFt",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:29:00.119Z",
+                    "updatedAt": "2021-10-13T12:29:00.119Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwOurStorySoFar"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "name": "IA Homepage - Our story so far ",
+                    "title": "Our story so far ",
+                    "stories": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "4UOYb85KntphXW55UM93lw"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "1s3QfyhWicRSLJJfRhOH5O"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "shmoaM7Xn2EZfJ4fR7CYs"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "vjNkJhKr0sI5LhvIS90SR"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "73jqiA7oDIpMbXDGmxHoBG",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T07:33:59.531Z",
+                    "updatedAt": "2021-10-19T07:34:17.626Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwVideo"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "videoName": "Overview - Global",
+                    "videoTitle": "Overview - video",
+                    "media": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "6zlUxO83m0nAxcFtBKJWzZ"
+                        }
+                    },
+                    "thumbnail": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "3s4WyXsXV5fR1FWyR1papn"
+                        }
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "aPkVLxqz25bEbUHG201Ga",
+                    "type": "Entry",
+                    "createdAt": "2021-10-08T10:55:11.232Z",
+                    "updatedAt": "2021-10-13T12:08:20.935Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 4,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "Home page banner",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "4Q8zA72NhIjWC0hiy623oO"
+                        }
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "g7rIABiZ5Sg1nvonKnfMr",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:16:56.247Z",
+                    "updatedAt": "2021-10-19T07:10:09.502Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "IA Homepage - What we do ",
+                    "title": "What we do ",
+                    "shortDescription": "Our services meet the needs of an increasingly global future. Through our innovative digital platform, we facilitate student placements, language learning, career development and the evolution of institutions around the world. ",
+                    "ctaLabel": "View more",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "367ixQrsaovgk8aFA40gDL"
+                        }
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "shmoaM7Xn2EZfJ4fR7CYs",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:27:42.524Z",
+                    "updatedAt": "2021-10-21T12:52:34.791Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 3,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "Our story so far - 1989",
+                    "title": "Our story so far - 1989",
+                    "shortDescription": "IDP launches IELTS (International English Language Testing System), along with the British Council and University of Cambridge ESOL Examinations.",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "oMG38gawJ4YVANoS83nI5"
+                        }
+                    },
+                    "year": 1989
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "vjNkJhKr0sI5LhvIS90SR",
+                    "type": "Entry",
+                    "createdAt": "2021-10-13T12:28:50.506Z",
+                    "updatedAt": "2021-10-21T12:53:43.305Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 3,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwStaticText"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "staticTextName": "Our story so far - 1996",
+                    "title": "Our story so far - 1996",
+                    "shortDescription": "IDP Education Australia Ltd becomes wholly owned by 38 Australian universities. ",
+                    "image": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "7sdWTXqJ3zR4XCESlp4QoB"
+                        }
+                    },
+                    "year": 1996
+                }
+            }
+        ],
+        "Asset": [
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "1gxpmeJRT6Wsz2MZsUzmaK",
+                    "type": "Asset",
+                    "createdAt": "2021-09-17T14:18:57.543Z",
+                    "updatedAt": "2021-09-17T14:18:57.543Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "UK",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/1gxpmeJRT6Wsz2MZsUzmaK/d08b131560f3db68fcddc9182f449d96/Search_result_UK.jpg",
+                        "details": {
+                            "size": 91857,
+                            "image": {
+                                "width": 640,
+                                "height": 420
+                            }
+                        },
+                        "fileName": "Search result_UK.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "2y1jWTcIUmREZJ8UnNiHcP",
+                    "type": "Asset",
+                    "createdAt": "2021-09-17T13:55:10.426Z",
+                    "updatedAt": "2021-09-17T13:55:10.426Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "CAN",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/2y1jWTcIUmREZJ8UnNiHcP/e9126e2370213c64adc997b2ab77cb10/Progress_tracker_CA.jpg",
+                        "details": {
+                            "size": 103155,
+                            "image": {
+                                "width": 640,
+                                "height": 420
+                            }
+                        },
+                        "fileName": "Progress tracker_CA.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "367ixQrsaovgk8aFA40gDL",
+                    "type": "Asset",
+                    "createdAt": "2021-09-17T13:56:52.143Z",
+                    "updatedAt": "2021-09-17T13:56:52.143Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "IRE",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/367ixQrsaovgk8aFA40gDL/d0e15e76a71f94885b54b227974b4016/progress_tracker_Ireland.jpg",
+                        "details": {
+                            "size": 93256,
+                            "image": {
+                                "width": 640,
+                                "height": 420
+                            }
+                        },
+                        "fileName": "progress tracker_Ireland.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "3s4WyXsXV5fR1FWyR1papn",
+                    "type": "Asset",
+                    "createdAt": "2021-09-17T14:12:31.810Z",
+                    "updatedAt": "2021-09-17T14:12:31.810Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "AUS",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/3s4WyXsXV5fR1FWyR1papn/02b20474b51c8dda5bd958e122417d9a/Search-result_AU.jpg",
+                        "details": {
+                            "size": 64769,
+                            "image": {
+                                "width": 640,
+                                "height": 420
+                            }
+                        },
+                        "fileName": "Search-result_AU.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "4Q8zA72NhIjWC0hiy623oO",
+                    "type": "Asset",
+                    "createdAt": "2020-09-10T09:08:35.412Z",
+                    "updatedAt": "2021-08-03T04:17:34.860Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 3,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Title  – English (United States)",
+                    "description": "Description– English (United States)",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/4Q8zA72NhIjWC0hiy623oO/f98200ae0a7931a76f86bfb2137ee239/farzana_image_sample.jpg",
+                        "details": {
+                            "size": 97628,
+                            "image": {
+                                "width": 1366,
+                                "height": 600
+                            }
+                        },
+                        "fileName": "farzana_image_sample.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "6ivaTNo1vaNmcx3LuzV8Xt",
+                    "type": "Asset",
+                    "createdAt": "2021-09-17T14:02:09.248Z",
+                    "updatedAt": "2021-09-17T14:02:09.248Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "UK",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/6ivaTNo1vaNmcx3LuzV8Xt/e92cdcf3abf353c7ecbbd92f261f091d/Progress_tracker_UK.jpg",
+                        "details": {
+                            "size": 96057,
+                            "image": {
+                                "width": 640,
+                                "height": 420
+                            }
+                        },
+                        "fileName": "Progress tracker_UK.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "6zlUxO83m0nAxcFtBKJWzZ",
+                    "type": "Asset",
+                    "createdAt": "2020-11-23T05:19:03.696Z",
+                    "updatedAt": "2020-11-23T05:19:03.696Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "farzana-test-video-sample",
+                    "description": "farzana-test-video-sample",
+                    "file": {
+                        "url": "//videos.ctfassets.net/8bbwomjfix8m/6zlUxO83m0nAxcFtBKJWzZ/46dce7346c9292da7a6e02af69578bb2/Silky_Blue_720P_Motion_Background_Loop.mp4",
+                        "details": {
+                            "size": 20999732
+                        },
+                        "fileName": "Silky_Blue_720P_Motion_Background_Loop.mp4",
+                        "contentType": "video/mp4"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "75DkOVhvUmzFvwiR5fENPI",
+                    "type": "Asset",
+                    "createdAt": "2021-09-17T14:10:43.079Z",
+                    "updatedAt": "2021-09-17T14:10:43.079Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "UK",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/75DkOVhvUmzFvwiR5fENPI/15c54d5753942a890403e75f6ede586c/Matched_courses_UK_faded.jpg",
+                        "details": {
+                            "size": 70010,
+                            "image": {
+                                "width": 640,
+                                "height": 420
+                            }
+                        },
+                        "fileName": "Matched courses_UK_faded.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "7sdWTXqJ3zR4XCESlp4QoB",
+                    "type": "Asset",
+                    "createdAt": "2021-09-17T14:05:10.998Z",
+                    "updatedAt": "2021-09-17T14:05:10.998Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "CAN",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/7sdWTXqJ3zR4XCESlp4QoB/e956c486edf051fe98b0211b9c0ef66c/Matched_courses_CA_faded.jpg",
+                        "details": {
+                            "size": 99071,
+                            "image": {
+                                "width": 640,
+                                "height": 376
+                            }
+                        },
+                        "fileName": "Matched courses_CA_faded.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "PrNnSdKJ0H5vgEomidG7h",
+                    "type": "Asset",
+                    "createdAt": "2021-09-17T14:17:51.496Z",
+                    "updatedAt": "2021-09-17T14:17:51.496Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "USA",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/PrNnSdKJ0H5vgEomidG7h/fbd7a4e9f99c1f0ec61efd062c823a72/Search_result_USA.jpg",
+                        "details": {
+                            "size": 59269,
+                            "image": {
+                                "width": 640,
+                                "height": 420
+                            }
+                        },
+                        "fileName": "Search result_USA.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "oMG38gawJ4YVANoS83nI5",
+                    "type": "Asset",
+                    "createdAt": "2021-09-17T14:03:50.105Z",
+                    "updatedAt": "2021-09-17T14:03:50.105Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "AUS",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/oMG38gawJ4YVANoS83nI5/084d3016cbf5f568165200ccfd2da3c0/Matched-courses_AU_faded.jpg",
+                        "details": {
+                            "size": 69932,
+                            "image": {
+                                "width": 640,
+                                "height": 420
+                            }
+                        },
+                        "fileName": "Matched-courses_AU_faded.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            }
+        ]
+    },
+    "status_code": 200
+}

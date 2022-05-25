@@ -1,0 +1,64 @@
+<div class="container-fluid grey-bg pdt85i pdb64i newsRe">
+    <div class="bg-ctn" *ngIf="testimonialsTitle.title">
+        <div class="container">
+            <div class="two-col-head_ctn">  
+                <div class="lft_flt_hd">                    
+                    <h2>{{testimonialsTitle.title}}</h2>
+                    <span class="br_line_mid"></span>                
+                </div>          
+                <div class="rht_flt_li" *ngIf="testimonialsTitle.ctaLabel">
+                    <a [href]="testimonialsTitle.ctaUrl" [target]="testimonialsTitle.ctaTarget" class="view_anc">{{testimonialsTitle.ctaLabel}}
+                        <span class="view_rht_arw"></span>
+                    </a>
+                </div>               
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg_wht pdb115i" *ngIf="testimonials.length > 0">
+      <div class="dot-ctn">
+        <div class="bg-dot">
+            <div class="bg-blu-rgt-dot-img"></div>
+        </div>
+        <div class="cont-overlap-ctn">
+          <div class="overlap-cont">
+            <div class="carou-ctn">
+                <div class="carou-card-ctn">
+                  <div class="image_bann_ctn1">
+                    <owl-carousel-o [options]="careersImageOptions">
+                        <ng-container *ngFor="let testimonial of testimonials">
+                          
+                            <ng-template carouselSlide>
+                                <div class="slide bg_wht">
+                                  <div class="img_lft-banner_ctn">
+                                    <div class="carou-img-banner_lft">
+                                        <div class="mask_bx">            
+                                          <img src="./assets/images/svg/wht_mask.svg" alt="img 3">
+                                         
+                                          <div class="mask_bx_ig">
+                                            <img [defaultImage]="defaultImage" [lazyLoad]="testimonial?.image?.imageUrl +  '?fit=fill&w=340&h=390' + isWebpImage" [alt]="testimonial?.image?.imageAltText">
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="carou-txt-banner_rht">
+                                        <div class="carou-banner_text_pod">
+                                            <h4>{{testimonial.title}}</h4>
+                                           
+                                            <span>{{testimonial.subTitle}}</span>
+                                            <p>{{testimonial.shortDescription}}</p>
+                                            <!-- <p>{{testimonial.longDescription}}</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </ng-template>
+                        </ng-container>
+            
+                    </owl-carousel-o>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>

@@ -1,0 +1,44 @@
+
+<ng-container *ngIf="(articleLandingDetails?.alBanner | json) != '{}'">
+    <app-herobanner [banner]="articleLandingDetails?.alBanner" [pageName]="pageName"></app-herobanner>
+</ng-container>
+<ng-container *ngIf="articleLandingDetails?.alBreadCrumb.length > 0">
+    <app-breadcrumb [breadCrumb]="articleLandingDetails?.alBreadCrumb"></app-breadcrumb>
+</ng-container>
+<div class="container-fluid pdt85i pdb30i" *ngIf="pageSectionTitle?.title">
+    <div class="bg-ctn" >
+        <div class="container">
+            <div class="two-col-head_ctn">
+                <div class="lft_flt_hd">
+                    <h2>{{pageSectionTitle.title}}</h2>
+                    <span class="br_line_mid"></span>
+                </div>
+                <div class="rht_flt_li" *ngIf="pageSectionTitle.ctaLabel">
+                    <a [href]="pageSectionTitle.ctaUrl" [target]="pageSectionTitle.ctaTarget"
+                        class="view_anc">{{pageSectionTitle.ctaLabel}}
+                        <span class="view_rht_arw"></span>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-container *ngIf="pageLongDescription">
+    <div class="bg-ctn" class="topic_paragraph pdb30i">
+        <div class="container">
+            <p *ngIf="pageLongDescription" [innerHtml]="pageLongDescription"></p>
+        </div>
+    </div>
+</ng-container>
+
+<ng-container *ngIf="articleLandingDetails?.DynamicArticle.length > 0">
+    <div  id="articleLanding">
+    <app-news [newsArticleList]="articleLandingDetails?.DynamicArticle" [displayCount]="articleLimit" [totalRecords]="totalRecords" (pageNumber)="getPageNumber($event)" ></app-news>   
+</div>
+</ng-container>
+
+<ng-container *ngIf="pageNotFound">
+    <app-page-not-found></app-page-not-found>
+</ng-container>

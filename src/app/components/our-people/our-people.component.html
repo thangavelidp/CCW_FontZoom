@@ -1,0 +1,85 @@
+<div class="container-fluid mtb85i mtbt85i wht-Do">
+    <div class="bg-ctn">
+        <div class="container" *ngIf="sectionTitle">
+            <div class="two-col-head_ctn">
+                <div class="lft_flt_hd">
+                    <h2><a>{{sectionTitle.title}}</a></h2>
+                    <span class="br_line_mid"></span>
+                    <p>{{sectionTitle.intro}}</p>
+                </div>
+                <div class="rht_flt_li" *ngIf="sectionTitle.ctaLabel">
+                    <a [href]="sectionTitle.ctaUrl" [target]="sectionTitle.ctaTarget"
+                        class="view_anc">{{sectionTitle.ctaLabel}}
+                        <span class="view_rht_arw"></span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="dot-ctn">
+            <div class="bg-dot">
+                <div class="bg-lft-dot-img"></div>
+            </div>
+            <div class="cont-overlap-ctn">
+                <div class="overlap-cont">
+                    <div class="container">
+                        <div class="art-crd-ctn">
+                            <div class="art-crd-blk">
+
+                                <ng-container *ngFor="let pcard of peopleCard">
+                                    <owl-carousel-o [options]="CarouCardOptions">
+                                        <ng-container *ngFor="let card of pcard.card">
+                                            <ng-template carouselSlide>
+                                                <div class="slide">
+                                                    <a class="crd-ctn">
+                                                        <div class="card-blk">
+                                                            <ng-container *ngIf="card?.image">
+                                                                <img [defaultImage]="defaultImage"
+                                                                    [lazyLoad]="card?.image?.imageUrl + '?fit=fill&w=320&h=225' + isWebpImage"
+                                                                    [alt]="card?.image?.imageAltText"
+                                                                    >
+                                                                    <!-- [width]="card.image.imageWidth"
+                                                                    [height]="card.image.imageHeight" -->
+                                                            </ng-container>
+                                                            <ng-container *ngIf="card?.video">
+                                                                <img [defaultImage]="defaultImage"
+                                                                    [lazyLoad]="card?.video?.videoThumbnailUrl +  '?fit=fill&w=475&h=450' + isWebpImage "
+                                                                    
+                                                                    [alt]="card.video.videoTitle">
+                                                                <!-- [width]="card.video.videoThumbnailWidth" [height]="card.video.videoThumbnailHeight" -->
+                                                                <span tabindex="0" class="vid_icon" id="vid_icon"
+                                                                    (click)="toggleVideo(card?.video?.videoUrl)"
+                                                                    (keypress)="toggleVideo(card?.video?.videoUrl)"
+                                                                    style="position: absolute;float: left;color: #fff;width: 50px;height: 50px;left: 45%;top: 35%;"></span>
+                                                                <!-- <img [src]="overview.video.videoThumbnailUrl" width="125%"> -->
+                                                            </ng-container>
+                                                            <div class="card-cont-ctn">
+                                                                <div class="date_hld">
+                                                                    {{card.date | date: 'd MMM y'}}
+                                                                </div>
+                                                                <div class="crd_hed">
+                                                                    <h4> {{card.title}}</h4>
+                                                                    <p>{{card.shortDescription | slice:0:95}}</p>
+                                                                </div>
+                                                                <div class="rd_more">
+                                                                    <a [href]="card.ctaUrl" [target]="card.ctaTarget"
+                                                                        class="rd_mor">{{card.ctaName}}</a>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </ng-template>
+                                        </ng-container>
+
+                                    </owl-carousel-o>
+                                </ng-container>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

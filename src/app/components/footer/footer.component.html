@@ -1,0 +1,18 @@
+<div class="container-fluid no_mar_bt">
+    <div class="goto-ctn"><span id="scrollTop" class="back-to-top" style="display: block;" (click)="gotoTop()"></span></div>
+    <div class="blk">
+        <div class="container">
+            <div class="row grey-ctn ftr_row">
+                <div class="ftr_lft_ctn">
+                    <p *ngFor="let footer of footerMenu | slice:0:1"><a  class="no_br" >{{footer.title}}</a></p>
+                </div>
+                <div class="ftr_rht_ctn">
+                    <ul>
+                        <li *ngFor="let footer of footerMenu | slice:1" class="ftr_rht_lik no_pad_lft"><a [href]="footer.url" [target]='footer.target'>{{footer.title}}</a></li>
+                        
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>

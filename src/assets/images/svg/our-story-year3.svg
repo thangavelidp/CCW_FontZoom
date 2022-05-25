@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="964.622" height="16.5" viewBox="0 0 964.622 16.5">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.551" x2="1" y2="0.554" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e11937"/>
+      <stop offset="1" stop-color="#ff8300"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_35916" data-name="Group 35916" transform="translate(-116 -3871.5)">
+    <rect id="Rectangle_6897" data-name="Rectangle 6897" width="943.453" height="1.25" transform="translate(131.326 3879.792)" fill="#f86a0d"/>
+    <rect id="Rectangle_6898" data-name="Rectangle 6898" width="128.588" height="1.25" transform="translate(129.816 3879.792)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_3089" data-name="Ellipse 3089" cx="8.25" cy="8.25" rx="8.25" ry="8.25" transform="translate(116 3871.5)" fill="#f86a0d"/>
+    <g id="Group_35799" data-name="Group 35799" transform="translate(379.5 3847)">
+      <ellipse id="Ellipse_1295" data-name="Ellipse 1295" cx="5.561" cy="5.561" rx="5.561" ry="5.561" transform="translate(12.5 27.188)" fill="#bdbdbd" stroke="#bdbdbd" stroke-width="1"/>
+    </g>
+    <g id="Group_35800" data-name="Group 35800" transform="translate(514.5 3847.813)">
+      <ellipse id="Ellipse_1296" data-name="Ellipse 1296" cx="5.561" cy="5.561" rx="5.561" ry="5.561" transform="translate(12.5 27.188)" fill="#bdbdbe" stroke="#bdbdbd" stroke-width="1"/>
+    </g>
+    <g id="Group_35801" data-name="Group 35801" transform="translate(650.5 3847.813)">
+      <ellipse id="Ellipse_1297" data-name="Ellipse 1297" cx="5.561" cy="5.561" rx="5.561" ry="5.561" transform="translate(12.5 27.188)" fill="#bdbdbd" stroke="#bdbdbd" stroke-width="1"/>
+    </g>
+    <g id="Group_35802" data-name="Group 35802" transform="translate(784.5 3847.813)">
+      <ellipse id="Ellipse_1298" data-name="Ellipse 1298" cx="5.561" cy="5.561" rx="5.561" ry="5.561" transform="translate(13.5 27.188)" fill="#bdbdbd" stroke="#bdbdbd" stroke-width="1"/>
+    </g>
+    <g id="Group_35803" data-name="Group 35803" transform="translate(920.574 3847.813)">
+      <ellipse id="Ellipse_1299" data-name="Ellipse 1299" cx="5.561" cy="5.561" rx="5.561" ry="5.561" transform="translate(12.426 27.188)" fill="#bdbdbd" stroke="#bdbdbd" stroke-width="1"/>
+    </g>
+    <g id="Group_35804" data-name="Group 35804" transform="translate(1050.5 3847.813)">
+      <ellipse id="Ellipse_1300" data-name="Ellipse 1300" cx="5.561" cy="5.561" rx="5.561" ry="5.561" transform="translate(18.5 27.188)" fill="#b4b5b5" stroke="#bdbdbd" stroke-width="1"/>
+    </g>
+    <ellipse id="Ellipse_3088" data-name="Ellipse 3088" cx="5.561" cy="5.561" rx="5.561" ry="5.561" transform="translate(256.5 3874.189)" fill="#bdbebd" stroke="#bdbdbd" stroke-width="1"/>
+  </g>
+</svg>

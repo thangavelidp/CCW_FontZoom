@@ -1,0 +1,144 @@
+<div id="divToScroll">
+    <ng-container *ngIf="mobileBod">
+        <div class="container-fluid mtb85i">
+          <div class="bg-ctn grey-bg pdt85i">
+            <div class="container" *ngIf="sectionTitle.title">
+    
+            <div class="two-col-head_ctn" *ngIf="sectionTitle">  
+              <div class="lft_flt_hd">
+                <h2><a>{{sectionTitle.title}}</a></h2>
+                <span class="br_line_mid"></span>
+              </div>
+              <div class="rht_flt_li" *ngIf="sectionTitle.ctaLabel">
+                <a [href]="sectionTitle.ctaUrl" [target]="sectionTitle.ctaTarget" class="org_anc">{{sectionTitle.ctaLabel}}
+                  <span class="org_rht_arw"></span>
+                </a>
+              </div>
+      
+            </div>
+          </div>
+          <div class="container">
+            <div class="card_wrapper">
+              <div class="flx-crd-ctn" id="ldr-crd">
+                      <owl-carousel-o [options]="CarouCardOptions">
+                          <ng-container
+                              *ngFor="let leaders of ourLeaders[0].card;let i = index">
+                              <ng-template carouselSlide>
+                                  <div class="slide">
+                                      <a class="crd-ctn">
+                                        <div class="prf-crd" (click)="toggleVideo(i)">
+                                          <!-- <img [defaultImage]="defaultImage" [lazyLoad]="card.image.imageUrl+ '?fit=fill&w=220&h=240'" [alt]="card.image.imageAltText"> -->
+                                         
+                                          <img [defaultImage]="defaultImage"
+                                              [lazyLoad]="leaders?.image?.imageUrl+ '?fit=fill&w=290&h=410' + isWebpImage"
+                                              [alt]="leaders?.image?.imageAltText">
+                                          <div class="act_btn">
+                                              <button class="prf_nme">
+                                                  <p class="prf_hdname">
+                                                    {{leaders.title}}</p>
+                                                  <span class="prf_des">{{leaders.subTitle}}</span>
+                                              </button>
+                                              <div class="prf_nme-ctn">
+                                                <div id="left">
+                                                  <h3>{{leaders.title}}</h3>
+                                                  <h5>{{leaders.subTitle}}</h5>
+                                                  <p *ngIf="leaders.longDescription" [innerHtml]="leaders.longDescription | safeHtml"></p>
+                                                  <a class="rd_mor" (click)="detectindex(i)">
+                                                      Read more
+                                                      <span class="view_rht_arw"></span>
+  
+                                                  </a>
+                                              </div>
+
+                                              </div>
+                    
+                                              <!-- <p>{{leaders.longDescription}}</p> -->
+                    
+                                              
+                                          </div>
+                                      </div>
+                                      </a>
+                                  </div>
+                              </ng-template>
+                          </ng-container>
+  
+                      </owl-carousel-o>
+              </div>
+          </div>
+          </div>
+    
+        </div>
+        </div>
+    </ng-container>
+  
+  
+    <div class="container-fluid #container mtb85i mtbt85i carou-bod" *ngIf="slideBod">
+        <div class="bg-ctn">
+            <div class="container">
+                <div class="two-col-head_ctn">
+                    <div class="lft_flt_hd">
+                        <h2><a href="">{{sectionTitle.title}}</a></h2>
+                        <span class="br_line_mid"></span>
+                    </div>
+  
+  
+                </div>
+            </div>
+            <div class="dot-ctn">
+                <div class="bg-dot">
+                    <div class="bg-grn-lft-dot-img"></div>
+                </div>
+                <div class="cont-overlap-ctn mmm">
+                    <div class="overlap-cont">
+                        <div class="container">
+                            <div class="art-crd-ctn">
+                                <div class="art-crd-blk">
+                                   
+                                    <ng-container>
+                                        <owl-carousel-o [options]="CarouCardOptions">
+                                            <ng-container
+                                                *ngFor="let leaders of ourLeaders[0].card;">
+                                                <ng-template carouselSlide>
+                                                    <div class="slide">
+                                                        <a class="crd-ctn">
+                                                            <div>
+                                                                <div class="img_txt_lft-banner_ctn">
+                                                                    <div id="main">
+                                                                        <div class="main-ctn">
+                                                                            <div id="ssholder"></div>
+                                                                            <div id="left">
+                                                                                <h3>{{leaders.title}}</h3>
+                                                                                <h5>{{leaders.subTitle}}</h5>
+                                                                                <p *ngIf="leaders.longDescription" [innerHtml]="leaders.longDescription | safeHtml"></p>
+                                                                                <a class="rd_mor">Read more
+                                                                                    <span class="view_rht_arw"></span>
+                                                                                </a>
+                                                                            </div>
+  
+                                                                            <div id="sshow">
+                                                                                <img [defaultImage]="defaultImage"
+                                                                                    [lazyLoad]="leaders?.image?.imageUrl +'?fit=fill&w=200&h=300'+ isWebpImage"
+                                                                                    [alt]="leaders?.image?.imageAltText">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </ng-template>
+                                            </ng-container>
+  
+                                        </owl-carousel-o>
+                                    </ng-container>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  </div>
+  

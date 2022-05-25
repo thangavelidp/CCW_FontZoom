@@ -1,0 +1,51 @@
+<div class="container-fluid mtb85i wht-Do" *ngIf="staticMap">
+    <div class="bg-ctn">
+        <div class="container" *ngIf="staticMap">
+            <div class="two-col-head_ctn">
+                <div class="lft_flt_hd">
+                    <h2><a>{{staticMap.title}}</a></h2>
+                    <span class="br_line_mid"></span>
+                </div>
+              
+            </div>
+
+            <p>{{staticMap.shortDescription}}</p>
+        </div>
+        <div class="dot-ctn">
+            <div class="container">
+                <div class="cookie-ctr">
+                    <div class="cookie-box">
+                        <div class="coo-ctr-box">
+                            <div class="main">
+                                <div class="column-1">
+                                    <ul class="vertical-menu" (click)="clickEvent()"  [ngClass]="status ? '' : 'active'" >
+                                        <li class="mbl_title">{{selectedTitle}}</li>
+                                       
+                                        <li *ngFor="let map of staticMap.mapTab; let i = index" 
+                                            [ngClass]="{'active': selectedItem == map}"
+                                            [ngClass]="{'active': currentIndex == i, 'list-group-item': true}"
+                                            (click)="listClick($event, map);selectTab(i)">
+                                            <span>{{map.title}}</span>
+                                        </li>
+
+                                      
+                                    </ul>
+                                </div>
+                                <div class="column-2" [ngSwitch]="viewMode">
+                                    <div class="map-ctn" *ngFor="let map of staticMap.mapTab; let i = index">
+                                        <span *ngIf="i==currentIndex && map.image">
+                                            <img [defaultImage]="defaultImage"
+                                                [lazyLoad]="map?.image?.imageUrl+'?fit=fill&w=1583&h=1055' + isWebpImage" 
+                                                [width]="map?.image?.imageWidth" [alt]="map?.image?.imageAltText">
+                                        </span>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

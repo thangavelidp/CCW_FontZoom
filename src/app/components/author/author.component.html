@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="auth_ctn">
+        <div class="author" *ngIf="authorDetails">   
+            <div class="lft_auth">
+                <div class="auth_img">
+                    <img [src]="authorDetails?.image?.imageUrl + '?fit=fill&w=100&h=100'" fallback="/assets/images/logo/logo-blog.svg"  [alt]="authorDetails?.image?.imageAltText">
+                </div> 
+            </div>
+            <div class="rgt_auth">
+                <h5>{{authorDetails.firstName}} {{authorDetails.lastName}}</h5>
+                <p>{{authorDetails.date | date: 'dd MMMM yyyy'}}</p>
+                <p>{{authorDetails.readTime}}</p>
+            </div>
+        </div>
+        <div class="br_line_mid"></div>
+    </div>
+</div>
+
+

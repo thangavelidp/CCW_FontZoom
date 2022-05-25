@@ -1,0 +1,98 @@
+
+<div class="container">
+    <div class="two-col-head_ctn" *ngIf="sectionTitle.title">  
+        
+        <div class="lft_flt_hd">                    
+            <h2>{{sectionTitle.title}}</h2>
+            <span class="br_line_mid"></span>                
+        </div>          
+        <div class="rht_flt_li" *ngIf="sectionTitle.ctaLabel">
+            <a [href]="sectionTitle.ctaUrl" [target]="sectionTitle.ctaTarget" class="view_anc">{{sectionTitle.ctaLabel}}
+                <span class="view_rht_arw"></span>
+            </a>
+        </div>             
+    </div>
+
+  <div class="dot-ctn ad_ht">
+
+      <div class="bg-dot">
+          <div class="bg-rgt-dot-img"></div>
+      </div>
+
+      <div class="cont-overlap-ctn">
+          <div class="overlap-cont">
+              <div class="carou-ctn">
+                
+                <p>{{sectionTitle.intro}}</p>  
+                  <div class="carou-card-ctn">
+                      <owl-carousel-o [options]="customOptions">
+                      <ng-container
+                          *ngFor="let news of newsArticleList">
+                          <ng-template carouselSlide>
+                          <div class="slide">
+                              <a class="crd-ctn">
+                                  <div class="card-blk">
+                                      <div class="tp-box"  [@flipState]="news.flip">
+
+                                          <div class="tp-box__side tp-box__front" (click)="toggleFlip(news)">
+
+                                              <img [defaultImage]="defaultImage" [lazyLoad]="news?.image?.image?.imageUrl +'?fit=fill&w=320&h=230' + isWebpImage"
+                                                 [alt]="news?.image?.image?.imageAltText">
+                                                 <!-- [fallback]="news.image.image.imageUrl +'?fit=fill&w=320&h=230'"  -->
+
+                                              <!-- [width]="card.image.imageWidth"
+                                                                          [height]="card.image.imageHeight" -->
+                                              <div class="card-cont-ctn">
+
+                                                  <div class="crd_hed">
+                                                      <p class="date_hld">{{news.date | date: 'dd MMMM yyyy'}}</p>
+                                                      <h4> {{news.title}}</h4>
+                                                      <!-- <p>{{news.shortDescription | slice:0:95}}
+                                                      </p> -->
+
+
+                                                      <a  class="rd_mor">Read more</a>
+                                                  </div>
+
+                                              </div>
+                                          </div>
+                                          <div class="tp-box__side tp-box__back" (click)="toggleFlip(news)">
+                                              <div class="card-cont-ctn">
+
+                                                  <div class="crd_hed">
+                                                      <div class="bk-hed">
+                                                          <span class="br_frt_line_mid"></span>
+                                                          <h4> {{news.title}}</h4>
+                                                      </div>
+                                                      <p *ngIf="news?.shortDescription">
+                                                          {{news.shortDescription}}</p>
+                                                      <p *ngIf="news?.longDescription" [innerHtml]="news?.longDescription | safeHtml">
+                                                         </p>
+                                                      <a [href]="news?.url" class="rd_mor">Read 
+                                                          more</a>
+                                                  </div>
+
+                                              </div>
+
+
+                                          </div>
+                                      </div>
+
+                                  </div>
+                              </a>
+                          </div>
+                          </ng-template>
+                      </ng-container>
+                      </owl-carousel-o>
+
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
+  </div>
+</div>

@@ -1,0 +1,101 @@
+<div class="container-fluid mtb85i wht-Do">
+    <div class="bg-ctn">
+        <div class="container" *ngIf="sectionTitle.title">
+            <div class="two-col-head_ctn">
+                <div class="lft_flt_hd">
+                    <h2><a>{{sectionTitle.title}}</a></h2>
+                    <span class="br_line_mid"></span>
+                   
+                </div>
+                <div class="rht_flt_li" *ngIf="sectionTitle.ctaLabel">
+                    <a [href]="sectionTitle.ctaUrl" [target]="sectionTitle.ctaTarget"
+                        class="view_anc">{{sectionTitle.ctaLabel}}
+                        <span class="view_rht_arw"></span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="dot-ctn ht-ft">
+            <div class="bg-dot">
+                <div class="bg-lft-dot-img"></div>
+            </div>
+            <div class="cont-overlap-ctn">
+                <div class="overlap-cont">
+                    <div class="container">
+                        <div class="art-crd-ctn">
+                            <div class="art-crd-blk" *ngIf="peopleCard">
+
+                               
+                                    <owl-carousel-o [options]="customOptions">
+
+                                        {{peopleCard | json}}
+                                            <ng-template carouselSlide>
+                                                <div class="slide">                                                    
+                                                    <a class="crd-ctn">
+                                                        <div class="card-blk">
+                                                            
+                                                            <div class="tp-box" (click)="toggleFlip(peopleCard)"
+                                                                [@flipState]="peopleCard.flip">
+                                                                
+                                                                <div class="tp-box__side tp-box__front"> <img
+                                                                        *ngIf="peopleCard?.image" [defaultImage]="defaultImage"
+                                                                        [lazyLoad]="peopleCard?.image?.imageUrl + '?fit=fill&w=640&h=225' + isWebpImage"                                                                      
+                                                                        [alt]="peopleCard?.image?.imageAltText"
+                                                                        >
+                                                                        <!-- [width]="card.image.imageWidth"
+                                                                        [height]="card.image.imageHeight" -->
+                                                                    <div class="card-cont-ctn">
+                                                                        <!-- <div class="date_hld">
+                                                                            {{peopleCard.date | date: 'd MMM y'}}
+                                                                        </div> -->
+                                                                        <div class="crd_hed">
+                                                                            <h4> {{peopleCard.title}}</h4>
+                                                                            <p>{{peopleCard.shortDescription | slice:0:95}}
+                                                                            </p>
+
+
+                                                                            <a [href]="peopleCard.ctaUrl"
+                                                                                [target]="peopleCard.ctaTarget"
+                                                                                class="rd_mor">{{peopleCard.ctaName}}</a>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="tp-box__side tp-box__back">
+                                                                    <div class="card-cont-ctn">
+
+                                                                        <div class="crd_hed">
+                                                                            <div class="bk-hed">
+                                                                                <span class="br_frt_line_mid"></span>
+                                                                            <h4> {{peopleCard.title}}</h4>
+                                                                        </div>
+                                                                            <p *ngIf="peopleCard.longDescription" [innerHtml]="peopleCard.longDescription | safeHtml">
+                                                                                </p>
+                                                                        </div>
+
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </ng-template>
+                                        
+
+
+                                
+
+                                    </owl-carousel-o>
+                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

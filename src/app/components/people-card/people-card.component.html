@@ -1,0 +1,574 @@
+<div class="container-fluid mtb85i" *ngIf="imageCardType == 'Who we are'">
+    <div class="bg-ctn grey-bg pdt85i pdb115i ">
+      <div class="container" *ngIf="sectionTitle.title">
+
+        <div class="two-col-head_ctn" *ngIf="sectionTitle">
+  
+          <div class="lft_flt_hd">
+            <h2><a>{{sectionTitle.title}}</a></h2>
+            <span class="br_line_mid"></span>
+          </div>
+          <div class="rht_flt_li" *ngIf="sectionTitle.ctaLabel">
+            <a [href]="sectionTitle.ctaUrl" [target]="sectionTitle.ctaTarget" class="org_anc">{{sectionTitle.ctaLabel}}
+              <span class="org_rht_arw"></span>
+            </a>
+          </div>
+  
+        </div>
+      </div>
+        <div class="dot-ctn">
+            <div class="bg-dot" [ngClass]="!ourBoard ? 'adj' : 'ht_adj'">
+                <div class="bg-or-dot-img"></div>
+            </div>
+            <div class="cont-overlap-ctn">
+                <div class="overlap-cont">
+                    <div class="cards-ctn">
+                        <div class="card-hld" >
+                         
+                            <button *ngFor="let title of peopleCard; let idx = index" 
+                            [ngClass]="{'active' : currentIndex == idx}" 
+                            (click)="ck_ourplr(idx);"
+                            type="button">{{title.title}}</button>
+                            <!-- <button (click)="ck_ourldr()" type="button">Our leaders</button>
+                        <button (click)="ck_ourbrd()" type="button">Our Board of Directors</button> -->
+                        </div>
+                        <div class="card_wrapper">
+                            <div *ngIf='ourPeople'>                              
+                              <ng-container *ngFor="let card of peopleCard[0].card">
+                                <div class="overlap-cont">
+                                  <div class="img_lft-banner_ctn">
+                                          <div class="img-banner_lft">
+                                              <div class="video_bx">
+                                                  <div class="flx-crd-ctn_a">
+                                                      <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl+ '?fit=fill&w=540&h=390' + isWebpImage" [alt]="card?.image?.imageAltText">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="txt-banner_rht mv_zidx">
+                                              <div class="banner_text_pod clone1">
+                                                  <h2>{{card.title}}</h2>
+                                                  <p>
+                                                      {{card.shortDescription}}
+                                                  </p>
+                                                  <a class="org_anc" *ngIf="card.ctaName" [href]="card.ctaUrl">{{card.ctaName}}
+                                                      <span class="org_rht_arw"></span>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                  </div>
+                                </div>
+                              </ng-container>
+                                <div class="meMyTeam_ctn" *ngIf="peopleCard[0].ctaName">
+                                  <!-- <button class="meMyTeam">{{title.ctaName}}</button> -->
+                                  <ng-container >
+                                      <a [href]="peopleCard[0].ctaUrl" class="meMyTeam"
+                                          [target]="peopleCard[0].ctaTarget">{{peopleCard[0].ctaName}}</a>
+                                  </ng-container>
+                              </div>
+
+                            </div>
+                            <div *ngIf='ourLeader'>
+                                <ng-container *ngFor="let card of peopleCard[1].card">
+                                    <div class="overlap-cont">
+                                        <div class="img_lft-banner_ctn">
+                                            <div class="img-banner_lft">
+                                                <div class="video_bx">
+                                                  <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl+ '?fit=fill&w=540&h=390' + isWebpImage"  [alt]="card?.image?.imageAltText">
+                                                    <button></button>
+                                                </div>
+                                            </div>
+                                            <div class="txt-banner_rht mv_zidx">
+                                                <div class="banner_text_pod clone1">
+                                                    <h2>{{card.title}}</h2>
+                                                    <p>
+                                                        {{card.shortDescription}}
+                                                    </p>
+                                                    <a class="org_anc" *ngIf="card.ctaName" [href]="card.ctaUrl">{{card.ctaName}}
+                                                        <span class="org_rht_arw"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ng-container>
+                                <div class="meMyTeam_ctn" *ngIf="peopleCard[1].ctaName">
+                                    <!-- <button class="meMyTeam">{{title.ctaName}}</button> -->
+                                    <ng-container >
+                                        <a [href]="peopleCard[1].ctaUrl" class="meMyTeam"
+                                            [target]="peopleCard[1].ctaTarget">{{peopleCard[1].ctaName}}</a>
+                                    </ng-container>
+                                </div>
+                            </div>
+                            <div *ngIf='ourBoard'>
+                                
+                                    <div class="flx-crd-ctn">
+                                        <ng-container *ngFor="let card of peopleCard[2].card">
+                                        <div class="prf-crd">
+                                            <!-- <img [defaultImage]="defaultImage" [lazyLoad]="card.image.imageUrl+ '?fit=fill&w=220&h=240'" [alt]="card.image.imageAltText"> -->
+                                            <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl+ '?fit=fill&w=220&h=240' + isWebpImage"   [alt]="card?.image?.imageAltText">
+                                            <div class="act_btn">
+                                                <button class="prf_nme">
+                                                    {{card.title}}
+                                                    <span class="prf_des">{{card.subTitle}}</span>
+                                                </button>
+                                                <div class="act_btn_bg"></div>
+                                            </div>
+                                        </div>
+                                    </ng-container>
+
+                                    </div>
+                                
+                                <div class="meMyTeam_ctn" *ngIf="peopleCard[2].ctaName">
+                                    <!-- <button class="meMyTeam">{{title.ctaName}}</button> -->
+                                    <ng-container >
+                                        <a [href]="peopleCard[2].ctaUrl" class="meMyTeam"
+                                            [target]="peopleCard[2].ctaTarget">{{peopleCard[2].ctaName}}</a>
+                                    </ng-container>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mtb85i" *ngIf="imageCardType == 'Empowering communities' || imageCardType == 'Diversity,inclusion and belonging'">
+  <div class="bg-ctn grey-bg pdt85i pdb115i ">
+    <div class="container" *ngIf="sectionTitle.title">
+
+      <div class="two-col-head_ctn" *ngIf="sectionTitle">
+
+        <div class="lft_flt_hd">
+          <h2><a>{{sectionTitle.title}}</a></h2>
+          <span class="br_line_mid"></span>
+        </div>
+        <div class="rht_flt_li" *ngIf="sectionTitle.ctaLabel">
+          <a [href]="sectionTitle.ctaUrl" [target]="sectionTitle.ctaTarget" class="org_anc">{{sectionTitle.ctaLabel}}
+            <span class="org_rht_arw"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+      <div class="dot-ctn">
+          <div class="bg-dot" [ngClass]="!ourBoard ? 'adj' : 'ht_adj'">
+              <div class="bg-or-dot-img"></div>
+          </div>
+          <div class="cont-overlap-ctn">
+              <div class="overlap-cont">
+                  <div class="cards-ctn">
+                    <div class="card-container">
+                      <div class="card-hld" >
+                          <button *ngFor="let title of peopleCard; let idx = index" 
+                          [ngClass]="{'active' : currentIndex == idx}" 
+                          (click)="ck_ourplr1(idx);"
+                          type="button">{{title.title}}</button>
+                          <!-- <button (click)="ck_ourldr()" type="button">Our leaders</button>
+                      <button (click)="ck_ourbrd()" type="button">Our Board of Directors</button> -->
+                      </div>
+                      
+                    </div>
+                      <div class="card_wrapper">
+                          <div *ngIf='GlobalExcellenceAwards '>                              
+                            <ng-container *ngFor="let card of peopleCard[0].card">
+                              <div class="overlap-cont">
+                                  <div class="img_lft-banner_ctn">
+                                      <div class="img-banner_lft">
+                                          <div class="video_bx">
+                                            <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl+ '?fit=fill&w=540&h=390'+ isWebpImage"  [alt]="card?.image?.imageAltText">
+                                              <button></button>
+                                          </div>
+                                      </div>
+                                      <div class="txt-banner_rht mv_zidx">
+                                          <div class="banner_text_pod clone1">
+                                              <h2>{{card.title}}</h2>
+                                              <p>
+                                                  {{card.shortDescription}}
+                                              </p>
+                                              <a class="org_anc" *ngIf="card.ctaName" [href]="card.ctaUrl">{{card.ctaName}}
+                                                  <span class="org_rht_arw"></span>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ng-container>
+                          </div>
+                          <div *ngIf='COVID19scholarships'>
+                              <ng-container *ngFor="let card of peopleCard[1].card">
+                                  <div class="overlap-cont">
+                                      <div class="img_lft-banner_ctn">
+                                          <div class="img-banner_lft">
+                                              <div class="video_bx">
+                                                <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl+ '?fit=fill&w=540&h=390' + isWebpImage"  [alt]="card?.image?.imageAltText">
+                                                  <button></button>
+                                              </div>
+                                          </div>
+                                          <div class="txt-banner_rht mv_zidx">
+                                              <div class="banner_text_pod clone1">
+                                                  <h2>{{card.title}}</h2>
+                                                  <p>
+                                                      {{card.shortDescription}}
+                                                  </p>
+                                                  <a class="org_anc" *ngIf="card.ctaName" [href]="card.ctaUrl">{{card.ctaName}}
+                                                      <span class="org_rht_arw"></span>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </ng-container>
+                          </div>
+                          <div *ngIf='COVID19studentsupport'>
+                            <ng-container *ngFor="let card of peopleCard[2].card">
+                              <div class="overlap-cont">
+                                  <div class="img_lft-banner_ctn">
+                                      <div class="img-banner_lft">
+                                          <div class="video_bx">
+                                            <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl+ '?fit=fill&w=540&h=390' + isWebpImage"  [alt]="card?.image?.imageAltText">
+                                              <button></button>
+                                          </div>
+                                      </div>
+                                      <div class="txt-banner_rht mv_zidx">
+                                          <div class="banner_text_pod clone1">
+                                              <h2>{{card.title}}</h2>
+                                              <p>
+                                                  {{card.shortDescription}}
+                                              </p>
+                                              <a class="org_anc" *ngIf="card.ctaName" [href]="card.ctaUrl">{{card.ctaName}}
+                                                  <span class="org_rht_arw"></span>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ng-container>
+                          </div>
+                          <div *ngIf='MelbourneCity '>
+                            <ng-container *ngFor="let card of peopleCard[3].card">
+                              <div class="overlap-cont">
+                                  <div class="img_lft-banner_ctn">
+                                      <div class="img-banner_lft">
+                                          <div class="video_bx">
+                                            <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl+ '?fit=fill&w=540&h=390' + isWebpImage"  [alt]="card?.image?.imageAltText">
+                                              <button></button>
+                                          </div>
+                                      </div>
+                                      <div class="txt-banner_rht mv_zidx">
+                                          <div class="banner_text_pod clone1">
+                                              <h2>{{card.title}}</h2>
+                                              <p>
+                                                  {{card.shortDescription}}
+                                              </p>
+                                              <a class="org_anc" *ngIf="card.ctaName" [href]="card.ctaUrl">{{card.ctaName}}
+                                                  <span class="org_rht_arw"></span>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ng-container>
+                          </div>
+                          <div *ngIf='HotcoursesFoundation'>
+                            <ng-container *ngFor="let card of peopleCard[4].card">
+                              <div class="overlap-cont">
+                                  <div class="img_lft-banner_ctn">
+                                      <div class="img-banner_lft">
+                                          <div class="video_bx">
+                                            <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl+ '?fit=fill&w=540&h=390' + isWebpImage" [alt]="card?.image?.imageAltText">
+                                              <button></button>
+                                          </div>
+                                      </div>
+                                      <div class="txt-banner_rht mv_zidx">
+                                          <div class="banner_text_pod clone1">
+                                              <h2>{{card.title}}</h2>
+                                              <p>
+                                                  {{card.shortDescription}}
+                                              </p>
+                                              <a class="org_anc" *ngIf="card.ctaName" [href]="card.ctaUrl">{{card.ctaName}}
+                                                  <span class="org_rht_arw"></span>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ng-container>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container-fluid mtb85i mtbt85i wht-Do wht-crd" *ngIf="imageCardType == 'What we do'">
+    <div class="bg-ctn">
+        <div class="container">
+            <div class="two-coloumn-pod">
+                <div class="head_ctn">
+                    <h2><a>What we do</a></h2>
+                    <span class="br_line_mid"></span>
+                </div>
+            </div>
+        </div>
+        <div class="dot-ctn ht-ft1">
+            <div class="bg-dot">
+                <div class="bg-rgt-dot-img"></div>
+            </div>
+            <div class="cont-overlap-ctn">
+                <div class="overlap-cont">
+                    <div class="container">
+                        <div class="art-crd-ctn">
+                            <div class="art-crd-blk">
+                                <ng-container *ngFor="let pcard of peopleCard">
+                                <owl-carousel-o [options]="customWhatweDoOptions">
+                                   
+                                        <ng-container *ngFor="let card of pcard.card">
+                                        <ng-template carouselSlide>
+
+                                            <div class="slide">
+                                                <a class="prd-ctn">
+                                                  <div class="prd-blk">
+                                                    <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl+ '?fit=pad&w=276&h=63' + isWebpImage"  [alt]="card?.image?.imageAltText"
+                                                   >
+                                                   <!--  [width]="card.image.imageWidth" [height]="card.image.imageHeight" -->
+                                                    <div class="prd-cont-ctn">
+                                                      <div class="prd_hed">
+                                                       
+                                                        <h4> {{card.title}}</h4>
+                                                        <p>{{card.shortDescription}}</p>
+                                                      
+                                                      <a [href]="card.ctaUrl" class="view_anc" [target]="card.ctaTarget">{{card.ctaName}}
+                                                        
+                                                    </a>
+                                                  </div>
+                                                    </div>
+                                                  </div>
+                                                </a>                            
+                                              </div>
+
+
+                                          
+                                        </ng-template>
+                                   
+                                    </ng-container>
+
+                                </owl-carousel-o>
+                            </ng-container>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mtb85i mtbt85i wht-Do" *ngIf="imageCardType == 'Careers'">
+    <div class="bg-ctn">
+      <div class="container" *ngIf="sectionTitle.title">
+
+        <div class="two-col-head_ctn" *ngIf="sectionTitle">
+  
+          <div class="lft_flt_hd">
+            <h2><a>{{sectionTitle.title}}</a></h2>
+            <span class="br_line_mid"></span>
+          </div>
+          <div class="rht_flt_li" *ngIf="sectionTitle.ctaLabel">
+            <a [href]="sectionTitle.ctaUrl" [target]="sectionTitle.ctaTarget" class="view_anc">{{sectionTitle.ctaLabel}}
+              <span class="view_rht_arw"></span>
+            </a>
+          </div>
+  
+        </div>
+      </div>
+        <div class="dot-ctn ht-ft">
+            <div class="bg-dot">
+                <div class="bg-blu-lft-dot-img" ></div>
+            </div>
+            <div class="cont-overlap-ctn">
+                <div class="overlap-cont">
+                    <div class="container">
+                        <div class="art-crd-ctn">
+                            <div class="art-crd-blk">
+                                
+                                <ng-container *ngFor="let pcard of peopleCard">
+                                    <owl-carousel-o [options]="customCardOptions">
+                                       
+                                            <ng-container *ngFor="let card of pcard.card">
+                                            <ng-template carouselSlide>
+                                  <div class="slide">
+                                    <a class="crd-ctn" [href]="card.ctaUrl" [target]="card.ctaTarget">
+                                      <div class="card-blk">
+                                        <h2> {{card.title}}</h2>
+                                        <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl + '?fit=fill&w=300&h=160' + isWebpImage"  [alt]="card?.image?.imageAltText"
+                                        [width]="card?.image?.imageWidth"
+                                        [height]="card?.image?.imageHeight">
+                                        <div class="card-cont-ctn">
+                                          <!-- <div class="date_hld">
+                                            June 16, 2021
+                                          </div> -->
+                                          <div class="crd_hed">                                            
+                                            <h3>{{card.shortDescription}}</h3>
+                                            <a [href]="card.ctaUrl" [target]="card.ctaTarget" class="rd_mor">{{card.ctaName}}</a>
+                                          </div>
+                                          
+                                        </div>
+                                      </div>
+                                    </a>                            
+                                  </div>
+                                </ng-template>
+                                </ng-container>
+                                                 
+                              </owl-carousel-o>
+                              </ng-container>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+</div>
+ <!-- careers Carousel -->
+
+<div class="container-fluid mtb85i mtbt85i wht-Do" *ngIf="imageCardType == 'News'">
+  <div class="bg-ctn">
+    <div class="container" *ngIf="sectionTitle">
+      <div class="two-col-head_ctn">
+        <div class="lft_flt_hd">
+          <h2><a>{{sectionTitle.title}}</a></h2>
+          <span class="br_line_mid"></span>
+
+          <p>{{sectionTitle.intro}}</p>
+        </div>
+        <div class="rht_flt_li" *ngIf="sectionTitle.ctaLabel">
+          <a [href]="sectionTitle.ctaUrl" [target]="sectionTitle.ctaTarget" class="view_anc">{{sectionTitle.ctaLabel}}
+            <span class="view_rht_arw"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+      <div class="dot-ctn">
+          <div class="bg-dot">
+              <div class="bg-grn-lft-dot-img" ></div>
+          </div>
+          <div class="cont-overlap-ctn">
+              <div class="overlap-cont">
+                  <div class="container">
+                      <div class="art-crd-ctn">
+                          <div class="art-crd-blk">
+                              
+                              <ng-container *ngFor="let pcard of peopleCard">
+                                  <owl-carousel-o [options]="CarouCardOptions">
+                                          <ng-container *ngFor="let card of pcard.card">
+                                          <ng-template carouselSlide>
+                                <div class="slide">
+                                  <a class="crd-ctn" [href]="card.ctaUrl" [target]="card.ctaTarget">
+                                    <div class="card-blk">
+                                      
+                                      <img [defaultImage]="defaultImage" *ngIf="card?.image" [lazyLoad]="card?.image?.imageUrl + '?fit=fill&w=320&h=225' + isWebpImage" [alt]="card?.image?.imageAltText"
+                                      [width]="card?.image?.imageWidth"
+                                      [height]="card?.image?.imageHeight">
+                                      <div class="card-cont-ctn">
+                                        <div class="date_hld">
+                                          {{card.date | date: 'd MMM y'}}
+                                        </div>
+                                        <div class="crd_hed">    
+                                          <h4> {{card.title}}</h4>                                        
+                                          <p>{{card.shortDescription | slice:0:95}}</p>
+                                        </div>
+                                        <div class="rd_more">
+                                          <a [href]="card.ctaUrl" [target]="card.ctaTarget" class="rd_mor">{{card.ctaName}}</a>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </a>                            
+                                </div>
+                              </ng-template>
+                              </ng-container>
+                                               
+                            </owl-carousel-o>
+                            </ng-container>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Our people  -->
+<div class="container-fluid mtb85i mtbt85i wht-Do" *ngIf="imageCardType == 'OurPeople'">
+  <div class="bg-ctn">
+    <div class="container" *ngIf="sectionTitle">
+      <div class="two-col-head_ctn">
+        <div class="lft_flt_hd">
+          <h2><a>{{sectionTitle.title}}</a></h2>
+          <span class="br_line_mid"></span>
+        </div>
+        <div class="rht_flt_li" *ngIf="sectionTitle.ctaLabel">
+          <a [href]="sectionTitle.ctaUrl" [target]="sectionTitle.ctaTarget" class="view_anc">{{sectionTitle.ctaLabel}}
+            <span class="view_rht_arw"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+      <div class="dot-ctn">
+          <div class="bg-dot">
+              <div class="bg-grn-lft-dot-img" ></div>
+          </div>
+          <div class="cont-overlap-ctn">
+              <div class="overlap-cont">
+                  <div class="container">
+                      <div class="art-crd-ctn">
+                          <div class="art-crd-blk">
+                              
+                              <ng-container *ngFor="let pcard of peopleCard">
+                                  <owl-carousel-o [options]="customCardOptions">
+                                          <ng-container *ngFor="let card of pcard.card">
+                                          <ng-template carouselSlide>
+                                <div class="slide">
+                                  <a class="crd-ctn">
+                                    <div class="card-blk">
+                                      
+                                      <img [defaultImage]="defaultImage" [lazyLoad]="card?.image?.imageUrl + '?fit=fill&w=320&h=225' + isWebpImage" [alt]="card?.image?.imageAltText"
+                                      [width]="card?.image?.imageWidth"
+                                      [height]="card?.image?.imageHeight">
+                                      <div class="card-cont-ctn">
+                                        <div class="date_hld">
+                                          {{card.date | date: 'd MMM y'}}
+                                        </div>
+                                        <div class="crd_hed">    
+                                          <h4> {{card.title}}</h4>                                        
+                                          <p>{{card.shortDescription | slice:0:95}}</p>
+                                        </div>
+                                        <div class="rd_more">
+                                          <a [href]="card.ctaUrl" [target]="card.ctaTarget" class="rd_mor">{{card.ctaName}}</a>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </a>                            
+                                </div>
+                              </ng-template>
+                              </ng-container>
+                                               
+                            </owl-carousel-o>
+                            </ng-container>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

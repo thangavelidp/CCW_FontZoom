@@ -1,0 +1,1131 @@
+{
+    "sys": {
+        "type": "Array"
+    },
+    "total": 1,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8bbwomjfix8m"
+                    }
+                },
+                "id": "1W0f4r1oacpeBaVXzb5bqb",
+                "type": "Entry",
+                "createdAt": "2021-10-19T08:00:48.629Z",
+                "updatedAt": "2021-10-19T09:39:03.375Z",
+                "environment": {
+                    "sys": {
+                        "id": "development",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 3,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "ccwHeaderAndFooter"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Global",
+                "headerLogo": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "1118E5baybw1OKQ9jeqHDt"
+                        }
+                    }
+                ],
+                "siteNavigation": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "4XdAGnHENXP4aMnTwTQp45"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "1W0NjeVRJcYhCaloTNv1oG"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "38OoFXcvqdj8mqnuIt1l0T"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "1lSZ8SHLmeCkK2jUIa6Gfl"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "6vSpuHukfKOxrjRB0Cb0gl"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "711dxm2jbuVPgALq5elRFy"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "1fWYdwBoFcL3afj0spdOsD"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "7oJvwupPQLoqxCUt1896pc"
+                        }
+                    }
+                ],
+                "social": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "ILiq5vSV85wjOeZP3dNEG"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "5twHGNsYRBga7ftIeE62iw"
+                        }
+                    }
+                ],
+                "footerBottomNavigation": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "3F0jXSG95dKg8lNr7jdnny"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "5smCz9MTVJ8Lu6vWLQW01F"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "2UYiVIJrcdVqGXPu5sORhI"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "4EP0pSMbQjQRXtG0jVt0pg"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "includes": {
+        "Entry": [
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "1CL0bL1HzcTygGEqcpkwiR",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:13:54.038Z",
+                    "updatedAt": "2021-10-19T09:13:54.038Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Diversity and inclusion - Global",
+                    "title": "Diversity and inclusion",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "1W0NjeVRJcYhCaloTNv1oG",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:19:42.236Z",
+                    "updatedAt": "2021-10-19T09:19:42.236Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Contact Us - Global",
+                    "title": "Contact Us",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "1dUmFzT5RyFSCAiJWvDBRQ",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:11:49.806Z",
+                    "updatedAt": "2021-10-19T09:11:49.806Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Student Placement - Global",
+                    "title": "Student Placement",
+                    "url": "https://careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "1fWYdwBoFcL3afj0spdOsD",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:16:39.116Z",
+                    "updatedAt": "2021-10-19T09:16:39.116Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Careers - Global",
+                    "title": "Careers",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "1lSZ8SHLmeCkK2jUIa6Gfl",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:11:57.216Z",
+                    "updatedAt": "2021-10-19T09:11:57.216Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Who we are - Global",
+                    "title": "Who we are ",
+                    "url": "https://www.careers.idp.com/",
+                    "childNavigation": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "5WAzvJEGICBI8HEI7NIoiw"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "1dUmFzT5RyFSCAiJWvDBRQ"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "2UYiVIJrcdVqGXPu5sORhI",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:37:11.506Z",
+                    "updatedAt": "2021-10-19T09:37:11.506Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Terms and conditions - Global",
+                    "title": "Terms and conditions",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "38OoFXcvqdj8mqnuIt1l0T",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T07:47:44.565Z",
+                    "updatedAt": "2021-10-19T09:12:08.427Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "What we do - Global",
+                    "title": "What we do",
+                    "url": "https://www.careers.idp.com/",
+                    "childNavigation": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "3K4e7ArwGi6XVFezG0U1gs"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "5n25kfVajQ1IrBRAOL6xLC"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "3F0jXSG95dKg8lNr7jdnny",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:38:51.005Z",
+                    "updatedAt": "2021-10-19T09:38:51.005Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Copyright - Global",
+                    "title": "Copyright {} IDP Education "
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "3K4e7ArwGi6XVFezG0U1gs",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:02:01.517Z",
+                    "updatedAt": "2021-10-19T09:02:01.517Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Our Digital Campus - Global",
+                    "title": "Our Digital Campus",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "4EP0pSMbQjQRXtG0jVt0pg",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:37:42.531Z",
+                    "updatedAt": "2021-10-19T09:37:42.531Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Investors - Global",
+                    "title": "Investors",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "4GXRLS1NW7MOJqS3ZtKJzT",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:14:26.107Z",
+                    "updatedAt": "2021-10-19T09:14:26.107Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Our People - Global",
+                    "title": "Our People",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "4OP33RFR1klNyapO0Aefox",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:15:39.415Z",
+                    "updatedAt": "2021-10-19T09:15:39.415Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Community - Global",
+                    "title": "Community",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "4XdAGnHENXP4aMnTwTQp45",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:19:19.606Z",
+                    "updatedAt": "2021-10-19T09:19:19.606Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Investor Site - Global",
+                    "title": "Investor Site",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "5H8HymsxZGJ3BD71TTvEoP",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:16:13.378Z",
+                    "updatedAt": "2021-10-19T09:16:13.378Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Social Impact - Global",
+                    "title": "Social Impact",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "5WAzvJEGICBI8HEI7NIoiw",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:11:13.402Z",
+                    "updatedAt": "2021-10-19T09:11:13.402Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "IELTS - Global",
+                    "title": "IELTS",
+                    "url": "http://careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "5n25kfVajQ1IrBRAOL6xLC",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:09:46.068Z",
+                    "updatedAt": "2021-10-19T09:09:46.068Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "English Language Testing - Global",
+                    "title": "English Language Testing",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "5smCz9MTVJ8Lu6vWLQW01F",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:36:43.716Z",
+                    "updatedAt": "2021-10-19T09:36:43.716Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Privacy Policy - Global",
+                    "title": "Privacy Policy",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "5twHGNsYRBga7ftIeE62iw",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:22:04.204Z",
+                    "updatedAt": "2021-10-19T09:24:19.844Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "LinkedIn - Global",
+                    "title": "LinkedIn",
+                    "url": "https://in.linkedin.com/company/idp-education-pty-ltd"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "6vSpuHukfKOxrjRB0Cb0gl",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:12:55.244Z",
+                    "updatedAt": "2021-10-19T09:14:29.958Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Life at IDP - Global ",
+                    "title": "Life at IDP",
+                    "url": "https://www.careers.idp.com/",
+                    "childNavigation": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "1CL0bL1HzcTygGEqcpkwiR"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "4GXRLS1NW7MOJqS3ZtKJzT"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "711dxm2jbuVPgALq5elRFy",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:14:58.018Z",
+                    "updatedAt": "2021-10-19T09:16:17.750Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Sustainable Future - Global ",
+                    "title": "Sustainable Future",
+                    "url": "https://www.careers.idp.com/",
+                    "childNavigation": [
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "4OP33RFR1klNyapO0Aefox"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "type": "Link",
+                                "linkType": "Entry",
+                                "id": "5H8HymsxZGJ3BD71TTvEoP"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "7oJvwupPQLoqxCUt1896pc",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:17:12.695Z",
+                    "updatedAt": "2021-10-19T09:17:36.417Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "News - Global",
+                    "title": "News ",
+                    "url": "https://www.careers.idp.com/"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "ILiq5vSV85wjOeZP3dNEG",
+                    "type": "Entry",
+                    "createdAt": "2021-10-19T09:21:41.669Z",
+                    "updatedAt": "2021-10-19T09:23:47.036Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "ccwNavigation"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "label": "Twitter - Global",
+                    "title": "Twitter",
+                    "url": "https://twitter.com/idpglobal?lang=en"
+                }
+            }
+        ],
+        "Asset": [
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8bbwomjfix8m"
+                        }
+                    },
+                    "id": "1118E5baybw1OKQ9jeqHDt",
+                    "type": "Asset",
+                    "createdAt": "2021-10-19T09:35:26.264Z",
+                    "updatedAt": "2021-10-19T09:35:26.264Z",
+                    "environment": {
+                        "sys": {
+                            "id": "development",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "idp-logo",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8bbwomjfix8m/1118E5baybw1OKQ9jeqHDt/ef07a28e02cfc969eb130df7d688181d/idp-logo.svg",
+                        "details": {
+                            "size": 6481,
+                            "image": {
+                                "width": 485,
+                                "height": 116
+                            }
+                        },
+                        "fileName": "idp-logo.svg",
+                        "contentType": "image/svg+xml"
+                    }
+                }
+            }
+        ]
+    },
+    "status_code": 200
+}

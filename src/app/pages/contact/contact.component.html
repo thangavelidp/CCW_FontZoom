@@ -1,0 +1,83 @@
+
+<ng-container *ngIf="(contactDetails?.contactBanner | json) != '{}'">
+    <app-herobanner [banner]="contactDetails?.contactBanner"></app-herobanner>
+</ng-container>
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm)">
+    <div>
+        <label>
+            First Name:
+            <input formControlName="firstname" placeholder="Your name">
+        </label>
+
+        <div *ngIf="contactForm.get('firstname').invalid && (contactForm.get('firstname').dirty || contactForm.get('firstname').touched)">
+            Please provide a name.
+        </div>
+    </div>
+    <div>
+        <label>
+            Last Name:
+            <input formControlName="lastname" placeholder="Your name">
+        </label>
+        <div *ngIf="contactForm.get('lastname').invalid && (contactForm.get('lastname').dirty || contactForm.get('lastname').touched)">
+            Please provide a name.
+        </div>
+    </div>
+    <div>
+        <label>
+            Email:
+            <input formControlName="email" placeholder="Your email">
+        </label>
+        <div *ngIf="(primEmail.invalid && primEmail.touched) || primEmail.dirty">
+            <small *ngIf="primEmail.errors?.required" class="text-danger">email is required</small>
+            <!--question mark(?) is a safe navigation operator-->
+            <small *ngIf="primEmail.errors?.pattern" class="text-danger">Please provide a valid email address</small>
+          </div>
+    </div>
+    <div>
+        <label>
+            Mobile number:
+            <select id="dialcode" formControlName="dialcode" (change)="changeDialCode($event)">
+                <option *ngFor="let dc of dialCodeDetails" [ngValue]="dc">{{dc}}</option>
+            </select>
+            <input formControlName="mobile" placeholder="Your Mobile">
+        </label>
+        <!-- <div *ngIf="contactForm.get('mobile').invalid && (contactForm.get('mobile').dirty || contactForm.get('mobile').touched)">
+            Please provide a name.
+        </div> -->
+
+        <div *ngIf="contactForm.get('mobile').touched && contactForm.get('mobile').invalid" class="alert alert-danger">  
+            <div *ngIf="contactForm.get('mobile').errors.required">Mobile Number is required.</div>  
+            <div *ngIf="contactForm.get('mobile').errors.pattern">Please, Enter 10 digit Mobile Number.</div>  
+        </div>  
+    </div>
+    <div>
+        <div>
+            <label>
+                Category:
+                <select id="category" formControlName="category" (change)="changeCategory($event)">
+                    <option *ngFor="let cat of categoryDetails" [ngValue]="cat">{{cat}}</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    <div>
+        <label>
+            Message:
+            <input formControlName="message" placeholder="Your message">
+        </label>
+        <div *ngIf="contactForm.get('message').invalid && (contactForm.get('message').dirty || contactForm.get('message').touched)">
+            Please provide a name.
+        </div>
+    </div>
+    <div class="form-group form-check">
+        <input type="checkbox" formControlName="acceptTerms1" id="acceptTerms" class="form-check-input" />
+        <label for="acceptTerms" class="form-check-label">Accept Terms & Conditions</label>
+        <!-- <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">Accept Ts & Cs is required</div> -->
+    </div>
+    <div class="form-group form-check">
+        <input type="checkbox" formControlName="acceptTerms2" id="acceptTerms2" class="form-check-input" />
+        <label for="acceptTerms2" class="form-check-label">Accept Terms & Conditions</label>
+        <!-- <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">Accept Ts & Cs is required</div> -->
+    </div>
+    <button type="submit">Send</button>
+</form>

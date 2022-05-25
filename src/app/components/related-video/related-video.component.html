@@ -1,0 +1,44 @@
+<div class="container-fluid mtb85i mtbt85i">
+    <div class="bg-ctn">
+        <div class="container" *ngIf="relatedVideoTitle">
+            <div class="two-coloumn-pod">
+                <div class="head_ctn">
+                    <h2><a [href]="relatedVideoTitle.ctaUrl" >{{relatedVideoTitle.title}}</a></h2>
+                    <span class="br_line_mid"></span>
+                </div>
+            </div>
+        </div>
+        <div class="dot-ctn ht-ft" *ngIf="relatedVideo.length >0">
+            <div class="bg-dot">
+                <div class="bg-lft-dot-img" ></div>
+            </div>
+            <div class="cont-overlap-ctn">
+                <div class="overlap-cont">
+                <div class="container">
+                    <div class="video-ctn">
+                        <div class="vd-pod mr-20i" *ngFor="let video of relatedVideo">
+                            <div class="video-blk">
+                                <img [defaultImage]="defaultImage" [lazyLoad]="video?.video?.videoThumbnailUrl +  '?fit=fill&w=475&h=450' + isWebpImage" alt="Video image"  >
+                                <!-- [width]="video?.video?.videoThumbnailWidth" [height]="video?.video?.videoThumbnailHeight" -->
+                                <span tabindex="0" class="vid_icon" id="vid_icon"
+                                    (click)="toggleVideo(video?.video?.videoUrl)"
+                                    (keypress)="toggleVideo(video?.video?.videoUrl)" style="position: absolute;float: left;color: #fff;width: 50px;height: 50px;left: 43%;top:30%;"></span>
+                                <!-- <img [src]="overview.video.videoThumbnailUrl" width="125%"> -->
+                            </div>
+                            <div class="vid-txt-blk">
+                                <h2>
+                                   {{video.title}}
+                                </h2>
+                                <p>
+                                   {{video.shortDescription}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

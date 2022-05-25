@@ -1,0 +1,63 @@
+<ng-container *ngIf="videoURL || youtubeUrl  else close">
+    <span class="videoclose" (click)="onConfirmClick()" mat-dialog-close alt="">
+    </span>
+    
+    </ng-container>
+    <ng-template #close>
+        <span class="close" (click)="onConfirmClick()" mat-dialog-close alt="">
+        </span>
+    </ng-template>
+    
+
+<div class="lb_con">
+    <ng-container *ngIf="videoURL">
+        <video width="850" controls='true' height="500" autoplay #videoPlayer>
+            <source [src]="videoURL" type="video/mp4" />
+            Your browser does not support HTML5 video.
+        </video>
+    </ng-container>
+
+
+    <ng-container *ngIf="youtubeUrl">
+        <div class="youtube_container">
+
+            <iframe width="850"  height="500"
+                [src]="youtubeUrl" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </ng-container>
+
+    <ng-container *ngIf="textBox?.length > 0">
+        <div class="carouselBox" style="width: 850px;">  
+        <owl-carousel-o [options]="careersImageOptions">
+            <ng-container *ngFor="let leaders of textBox; let i = index">
+                <ng-template carouselSlide>
+                    <div class="slide prf-crd">
+                        <div class="img_txt_lft-banner_ctn">
+                            <div id="main">
+                                <div class="main-ctn">
+                                    <div id="ssholder"></div>
+                                    <div id="left">
+                                        <h3><span class="br_frt_line_mid"></span>{{leaders.title}}</h3>
+                                        <h5>{{leaders.shortDescription}}</h5>
+                                        <p *ngIf="leaders.longDescription" [innerHtml]="leaders.longDescription | safeHtml"></p>
+                                    </div>
+
+                                    <div id="sshow">
+                                        <img [defaultImage]="defaultImage"
+                                            [lazyLoad]="leaders?.image?.imageUrl+ '?fit=fill&w=220&h=240' + isWebpImage" 
+                                            [alt]="leaders?.image?.imageAltText">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </ng-template>
+            </ng-container>
+        </owl-carousel-o>
+    </div>      
+    </ng-container>
+
+</div>

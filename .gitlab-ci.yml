@@ -1,0 +1,17 @@
+stages:
+  - compile
+  - deploy
+  - invalidate
+  
+include: 
+  - project: idp-education/career-corporate/angular/artifacts/angular-jobs
+    ref: main
+    file: angular-ccw-dev.yml  
+
+  - project: idp-education/career-corporate/angular/artifacts/angular-jobs
+    ref: main
+    file: angular-ccw-stg.yml         
+
+  - project: idp-education/career-corporate/angular/artifacts/angular-jobs
+    ref: main
+    file: angular-ccw-prd.yml          

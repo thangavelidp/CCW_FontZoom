@@ -1,0 +1,6 @@
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+.year_list ul{width: 100%;}
+a.nxt_our_story.disabled{background: url(/assets/images/svg/our_story-nxt-arr.svg);pointer-events: none;background-repeat: no-repeat;}
+a.prev_our_story.disabled{background: url(/assets/images/svg/our_story-nxt-arr.svg);pointer-events: none;background-repeat: no-repeat;}
+.prev_our_story{background: url(/assets/images/svg/our_story-prev-arr.svg);background-repeat: no-repeat;width: 18px;margin-left: 15px;height: 18px;display: block;float: left;margin-top: 34px;transform: rotate(270deg);}
+}

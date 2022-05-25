@@ -1,0 +1,46 @@
+<ng-container *ngIf="(hubDetails?.hubBanner | json) != '{}'">
+    <app-herobanner [banner]="hubDetails.hubBanner" [pageName]="pageName"></app-herobanner>
+</ng-container>
+<ng-container *ngIf="hubDetails?.hubBreadCrumb.length > 0">
+    <app-breadcrumb [breadCrumb]="hubDetails?.hubBreadCrumb"></app-breadcrumb>
+</ng-container>
+<ng-container *ngIf="hubDetails?.hubOverview.length>0">
+    <app-overview [overviewPod]="hubDetails?.hubOverview"></app-overview>
+</ng-container>
+<ng-container *ngIf="hubDetails?.hubImageContainer.length > 0">
+    <app-people-card [imageCardType]="imageCardType" [sectionTitle]="hubDetails?.hubImgContainerTitle"
+        [peopleCard]="hubDetails?.hubImageContainer"></app-people-card>
+</ng-container>
+<ng-container *ngIf="hubDetails?.hubFeaturette.length>0">
+    <app-join-our-team [featurette]="hubDetails?.hubFeaturette" [pageName]="pageName"></app-join-our-team>
+</ng-container>
+<ng-container *ngIf="hubDetails?.hubrelatedImages.length > 0">
+    <app-img-banner [relatedImagesTitle]='hubDetails?.hubRelatedImageTitle'
+        [relatedImages]="hubDetails?.hubrelatedImages"></app-img-banner>
+</ng-container>
+<ng-container *ngIf="(hubDetails?.hubOurStorySoFar | json) != '{}'">
+    <app-our-story [ourStroy]='hubDetails?.hubOurStorySoFar'></app-our-story>
+</ng-container>
+<ng-container *ngIf="hubDetails?.hubOverlayPod.length>0">
+    <app-navigation [overlayPod]="hubDetails?.hubOverlayPod"></app-navigation>
+</ng-container>
+
+
+<ng-container *ngIf="hubDetails?.hubRelatedVideos.length > 0">
+    <app-related-video [relatedVideoTitle]="hubDetails?.hubRelatedVideoTitle"
+        [relatedVideo]="hubDetails?.hubRelatedVideos"></app-related-video>
+</ng-container>
+
+<ng-container *ngIf="hubDetails?.hubTestimonials.length > 0">
+    <app-testimonial [testimonialsTitle]="hubDetails?.hubTestimonialSectionTitle"
+        [testimonials]="hubDetails?.hubTestimonials"></app-testimonial>
+</ng-container>
+<ng-container *ngIf="hubDetails?.DynamicArticle.length > 0 && imageCardType=='News'">
+    <div id="articleLanding">
+        <app-carousel [newsArticleList]="hubDetails?.DynamicArticle" [sectionTitle]="hubDetails?.hubLatestNews"></app-carousel>
+    </div>
+</ng-container>
+<!-- <app-wht-we-do></app-wht-we-do> -->
+<ng-container *ngIf="pageNotFound">
+    <app-page-not-found></app-page-not-found>
+</ng-container>

@@ -1,0 +1,48 @@
+service: careers-corporate
+
+plugins:
+  - serverless-apigw-binary
+  - serverless-offline
+  - serverless-api-compression
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  memorySize: 2048
+  timeout: 160
+  region: ap-southeast-1
+
+package:
+  excludeDevDependencies: false
+  exclude:
+   - src/**
+   - node_modules/**
+   - firebug-lite/**
+   - e2e/**
+   - coverage/**
+   - '!node_modules/aws-serverless-express/**'
+   - '!node_modules/binary-case/**'
+   - '!node_modules/type-is/**'
+   - '!node_modules/media-typer/**'
+   - '!node_modules/mime-types/**'
+   - '!node_modules/mime-db/**'
+   - '!node_modules/@vendia/**'
+
+custom:
+  contentCompression: 1024
+  apigwBinary:
+    types:
+      - '*/*'
+
+functions:
+  api:
+    handler: lambda.universal
+    events:
+      - http: 
+          path: /{proxy+}
+          method: ANY
+          cors: true
+      - http: 
+          path: /
+          method: ANY
+          cors: true

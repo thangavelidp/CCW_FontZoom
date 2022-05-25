@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="br_cr">
+        <ul itemscope="" itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item"
+                    itemprop="name" href="/">IDP Corporate<span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="1" />
+            </li>
+            <li *ngFor="let bc of breadCrumb; let i = index" itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item" itemprop="name"
+                    [href]="bc.url">{{bc.title}}<span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="{{i+2}}" />
+            </li>
+            <li class="bc-dir" *ngIf="topicBc" itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a>Get to know us</a>
+
+            </li>
+        </ul>
+    </div>
+</div>

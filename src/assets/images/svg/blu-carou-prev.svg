@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2630a8"/>
+      <stop offset="0.527" stop-color="#0086f8"/>
+      <stop offset="1" stop-color="#4cdfcb"/>
+    </linearGradient>
+  </defs>
+  <g id="Blue_arrow_left" data-name="Blue arrow left" transform="translate(38.349 38.349) rotate(180)">
+    <path id="Subtraction_2" data-name="Subtraction 2" d="M-2804.9,3669a15.9,15.9,0,0,1-11.314-4.686A15.9,15.9,0,0,1-2820.9,3653a15.9,15.9,0,0,1,4.686-11.314A15.9,15.9,0,0,1-2804.9,3637a15.894,15.894,0,0,1,11.314,4.687A15.9,15.9,0,0,1-2788.9,3653a15.9,15.9,0,0,1-4.686,11.313A15.9,15.9,0,0,1-2804.9,3669Zm.126-30.575a14.549,14.549,0,0,0-14.458,14.606,14.549,14.549,0,0,0,14.458,14.6,14.549,14.549,0,0,0,14.459-14.6A14.549,14.549,0,0,0-2804.77,3638.425Z" transform="translate(2827.245 -3630.651)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

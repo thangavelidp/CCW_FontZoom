@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="hero_bann_full_ctn">
+        <div class="hero_bann_ctn">
+            <div class="hero-ctn" *ngIf="banner.image">
+                <img [defaultImage]="defaultImage"
+                    [lazyLoad]="banner?.image?.imageUrl+ '?fit=fill&w=1200&h=490' + isWebpImage"
+                    [alt]="banner?.image?.imageAltText">
+            </div>
+            <div class="hero-ctn" *ngIf="banner.type == 'video'">
+                <!-- [poster]="banner.videoThumbnailUrl" -->
+                <video playsinline preload="none" autoplay="autoplay" loop="loop" id="vid" [muted]="'muted'">
+                    <source [src]="banner.videoUrl" type="video/mp4" />
+                    Your browser does not support HTML5 video.
+                </video>
+                <!-- <img [src]="banner.video.imageUrl" >           -->
+            </div>
+            <div class="overlay_ctn">
+                <div class="hero-overlay">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content-ctn">
+
+                <div class="hero-content">
+                    <h1>{{banner.title}}</h1>
+                    <p *ngIf="banner.shortDescription">{{banner.shortDescription}}</p>
+                    <a *ngIf="banner.ctaLabel" [href]="banner.ctaLink" [target]="banner.ctaTarget"
+                        (click)="bannerGtm(banner.ctaLabel)">{{banner.ctaLabel}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

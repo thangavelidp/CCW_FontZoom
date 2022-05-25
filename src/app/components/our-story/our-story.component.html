@@ -1,0 +1,60 @@
+<div class="container-fluid mtb85i yr-tg mtbt85i">
+    <div class="bg-ctn">
+        <div class=" grey-bg pdt85i ">
+        <div class="container">
+            
+            <div class="two-col-head_ctn">            
+                <div class="lft_flt_hd">                    
+                    <h2><a>{{ourStroy.title}}</a></h2>
+                    <span class="br_org_line_mid"></span>                
+                </div>          
+                <div class="rht_flt_li">
+                    <a [href]="ourStroy.ctaUrl" [target]="ourStroy.ctaTarget" class="view_anc">{{ourStroy.ctaLable}}
+                        <span class="view_rht_arw"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="yrs-ctn">
+                <div class="year_ctn">
+                    <div class="year_btn_ctn">
+                        <div class="nav_our_story">
+                            <a class="prev_our_story" (click)="prvArIcn()" [ngClass]="{'disabled':disablePrev}"></a>
+                            <a class="nxt_our_story" (click)="nxtArIcn()" [ngClass]="{'disabled':disableNext}"></a>
+                        </div>
+                        <div class="year_list">                    
+                            <div class="yr_lne"></div>
+                            <ul>
+                                <li class="slide"  [ngClass]="{'active': selectedItem == story}" (click)="listClick($event, story)"  *ngFor="let story of storyData; let i = index;"><a (click)="selectTab(i)" >{{story.year}}<span class="yr_or_dot"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="two-col yrs-cont-ctn" *ngFor="let story of storyData; let i = index">
+                    <div class="dis_ctn" *ngIf="i==currentIndex">
+                        <div class="lft-colmn">
+                            <div class="lft-img-ctn" *ngIf="story.image">
+                                <img [defaultImage]="defaultImage" [lazyLoad]="story?.image?.image?.imageUrl+'?fit=fill&w=540&h=390' + isWebpImage"  [alt]="story?.image?.image?.imageAltText">
+                                <!-- [width]="story.image.image.imageWidth" [height]="story.image.image.imageHeight" -->
+                            </div>
+                        </div>
+                        <div class="rht-colmn">
+                            <div class="cont-ctn">
+                                <div class="year_tag">
+                                    <p>{{story.year}}</p>
+                                </div>
+                                <div class="year_heading">
+                                    <h2>{{story.title}}</h2>
+                                </div>
+                                <div class="year_para">
+                                    <p>{{story.shortDescription}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

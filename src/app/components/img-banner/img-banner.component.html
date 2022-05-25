@@ -1,0 +1,46 @@
+<div class="container-fluid mtb55i pic_ctnr" >
+    <div class="bg-ctn grey-bg pdt85i" >
+        <div class="container" *ngIf="relatedImagesTitle">
+        <div class="two-col-head_ctn" >
+        
+                <div class="lft_flt_hd">
+                    <h2><a>{{relatedImagesTitle.title}}</a></h2>
+                    <span class="br_line_mid"></span>
+                </div>
+                <div class="rht_flt_li" *ngIf="relatedImagesTitle.ctaLabel">
+                    <a [href]="relatedImagesTitle.ctaUrl" class="view_anc">{{relatedImagesTitle.ctaLabel}}
+                        <span class="view_rht_arw"></span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="image_bann_ctn1">
+            
+            <owl-carousel-o [options]="customOptions">
+                
+                <ng-container *ngFor="let rimage of relatedImages">
+                    <ng-template carouselSlide>
+                        <div class="slide">
+                            <div class="image_bann_ctn_img">
+                                <img class="gallery_1" [defaultImage]="defaultImage" [lazyLoad]="rimage?.image?.imageUrl+'?fit=fill&w=1583&h=460' + isWebpImage" [alt]="rimage?.image?.imageAltText" >
+                                <!-- [width]="rimage.image.imageWidth" -->
+                            </div>
+                            <div class="container">
+                                <div class="rela-cont">
+                                    <div class="banner_ctn" *ngIf="rimage.title">
+                                        <div class="banner-overlay"></div>
+                                        <div class="banner-content-ctn">
+                                            <h3>{{rimage.title}}</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </ng-container>
+
+            </owl-carousel-o>
+        </div>
+    </div>
+</div>

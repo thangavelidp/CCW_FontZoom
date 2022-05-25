@@ -1,0 +1,84 @@
+<div class="container-fluid wht-Do grBg">
+    <ng-container *ngIf="(articleDetails?.articleBanner | json) != '{}'">
+        <app-herobanner [banner]="articleDetails.articleBanner" [pageName]="pageName"></app-herobanner>
+    </ng-container>
+    <div class="container">
+        <div class="container br_cr">
+            <ul *ngIf="articlePageTitle && articleType=='News'" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item"
+                itemprop="name" href="/">IDP Corporate<span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="1" />
+            </li>
+                <li itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item"
+                itemprop="name" href="/news-centre">News Centre <span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="2" />
+            </li>
+                <li itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item"
+                itemprop="name" href="/news">News <span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="3" />
+            </li>
+                <li itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item"
+                itemprop="name">{{articlePageTitle}}<span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="4" />
+            </li>
+            </ul>
+            <ul *ngIf="articlePageTitle && articleType=='Blogs'" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item"
+                itemprop="name" href="/">IDP Corporate<span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="1" />
+            </li>
+                <li itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item"
+                itemprop="name" href="/life-at-idp">Life at IDP <span class="view_rht_arw"></span> </a>
+                <meta itemprop="position" content="2" />
+            </li>
+                <li itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item"
+                itemprop="name" href="/life-at-idp/our-people">Our people<span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="3" />
+            </li>
+                <li itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item"
+                itemprop="name">{{articlePageTitle}}<span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="4" />
+            </li>
+            </ul>
+            <ul *ngIf="articlePageTitle && articleType=='Legal notices'" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item"
+                itemprop="name" href="/">IDP Corporate<span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="1" />
+            </li>
+                <li itemprop="itemListElement" itemscope
+                itemtype="http://schema.org/ListItem"><a itemprop="item"
+                itemprop="name">{{articlePageTitle}}<span class="view_rht_arw"></span></a>
+                <meta itemprop="position" content="2" />
+            </li>
+            </ul>
+        </div>
+        <ng-container *ngIf="schemaShow">
+            <ngx-json-ld [json]="schema"></ngx-json-ld>
+        </ng-container>
+        
+        <ng-container *ngIf="articleDetails?.articleParagraph.length > 0">
+            <app-paragraph [articleAuthorProfile]='articleDetails.articleAuthorProfile' [pageTitle]='articlePageTitle'
+                [articleType]="articleType" [paragraphContent]="articleDetails.articleParagraph"></app-paragraph>
+        </ng-container>
+    </div>
+
+    <ng-container *ngIf="articleDetails?.DynamicArticle.length > 0 && (articleType=='News' || articleType=='Blogs')" >
+        <div id="articleLanding">
+            <app-carousel [newsArticleList]="articleDetails?.DynamicArticle"
+                [sectionTitle]="articleDetails?.articleLatestNews"></app-carousel>
+        </div>
+    </ng-container>
+</div>
+
+<ng-container *ngIf="pageNotFound">
+    <app-page-not-found></app-page-not-found>
+</ng-container>

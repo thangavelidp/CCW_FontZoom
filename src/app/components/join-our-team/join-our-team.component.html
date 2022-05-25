@@ -1,0 +1,55 @@
+<div class="nw_bg">
+<div class="container" *ngIf="sectionTitle">
+    <div class="two-col-head_ctn" *ngIf="sectionTitle.title">
+        <div class="lft_flt_hd">
+            <h2><a>{{sectionTitle.title}}</a></h2>
+            <span class="br_line_mid"></span>
+            <p>{{sectionTitle.intro}}</p>
+        </div>
+        <div class="rht_flt_li" *ngIf="sectionTitle.ctaLabel">
+            <a [href]="sectionTitle.ctaUrl" [target]="sectionTitle.ctaTarget"
+                class="view_anc">{{sectionTitle.ctaLabel}}
+                <span class="view_rht_arw"></span>
+            </a>
+        </div>
+
+    </div>
+</div>
+<div class="container-fluid mtb85i">
+    <div class="image_bann_ctn"  *ngFor="let feature of featurette">
+        <div class="image_bann_ctn_img">
+            <ng-template *ngIf="youtubeUrlContainer; else imgCon">
+                <div class="youtube_container">
+                    <iframe width="650" height="315" [src]="youtubeUrl" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <img *ngIf="feature?.video" [defaultImage]="defaultImage" [lazyLoad]="feature?.video?.videoThumbnailUrl+'?fit=fill&w=1583&h=1055' + isWebpImage" alt="Video image">
+                <!--  -->
+                <button></button>
+            </ng-template>
+            <ng-template #imgCon>
+                <img *ngIf="feature?.image" [defaultImage]="defaultImage" [lazyLoad]="feature?.image?.image?.imageUrl+'?fit=fill&w=1900&h=460' + isWebpImage"  [alt]="feature?.image?.image?.imageAltText">
+                <!--  -->
+            </ng-template>
+        </div>
+        <div class="container">            
+            <div class="rela-cont">
+                <div class="banner_ctn">
+                    <div class="banner-overlay"></div>
+                    <div class="banner-content-ctn">
+                        <h2 class="web-join-our">{{feature.title}}</h2>
+                        <!-- <h2 class="res-join-our"><a href="#">{{feature.title}}</a></h2> -->
+                        <p *ngIf="feature.shortDescription">{{feature.shortDescription}} </p>
+                        <p *ngIf="feature.longDescription" [innerHtml]="feature.longDescription | safeHtml"></p>
+                        <div class="btn_ctn" *ngIf="feature.ctaLabel">
+                            <!-- <a (click)="gtmPush(feature.ctaLabel)">{{feature.ctaLabel}}</a> -->
+                            <a [href]="feature.ctaUrl" [target]="feature.ctaTarget" (click)="gtmPush(feature.ctaLabel)">{{feature.ctaLabel}}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
